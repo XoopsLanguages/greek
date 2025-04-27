@@ -1,75 +1,66 @@
 <div id="help-template" class="outer">
 
-    <h1 class="head">Help: Preferences</h1>
-    <h4 class="odd">Description</h4>
+    <h1 class="head">Βοήθεια: Προτιμήσεις</h1>
+    <h4 class="odd">Περιγραφή</h4>
 
     <p class="even">
-        The preference panels are where you configure your site-wide preferences. It is worth taking the time to work through them as some settings can have a significant impact on the performance, security and ease of use of your site.
+        Ο πίνακας προτιμήσεων είναι όπου ρυθμίζετε τις γενικές προτιμήσεις του ιστότοπού σας. Αξίζει να αφιερώσετε χρόνο για να τις επεξεργαστείτε, καθώς κάποιες ρυθμίσεις μπορεί να έχουν σημαντική επίδραση στην απόδοση, την ασφάλεια και την ευχρηστία του ιστότοπού σας.
     </p>
-    <h4 class="odd">General Settings</h4>
+    <h4 class="odd">Γενικές Ρυθμίσεις</h4>
 
     <p class="even">
-        These are the most important and most frequently accessed preferences. You will set the Site name and the Slogan for your Website. You'll also select the default Theme and Admin GUI. And if you need to work on your Website, you can close it for all users. You can also set Module-wide Cache
-        times.
-    </p>
-
-    <h4 class="odd">Meta Tags and Footer</h4>
-
-    <p class="even">
-        Meta tags provide information about your information – they describe the nature of your website. Their main use is to help search engines and their robots to index your website correctly, i.e. to help the right people find it. The information you supply is included in the header of each web
-        page. It should represent the content of the site as a whole - the meta information is the same on every page, it currently cannot be customised for different modules or pages.<br><br>
-
-        Be aware that the major search engines use different strategies for indexing websites. They may place different weightings on meta tags or even ignore them completely. Careful use of meta information may help your website to gain better search engine rankings, and it is useful to seek
-        information on the indexing strategies of your dominant referrers (see your website logfile). This may help you to optimise your meta information or other aspects of your site design and content to improve your rankings. <br><br>
-
-        Try to be accurate and honest in providing meta information. Don’t try to ‘<em>manipulate</em>’ search engines to gain a better ranking – they may recognise this behaviour and your site may be downgraded or blacklisted from their index.
-
-        <br><br>The <strong>Meta Copyright</strong> and <strong>Footer</strong> fields both support two substitution tags to simplify maintenance.
-        <br>&nbsp;- <strong>{X_SITEURL}</strong> will be replaced by the full URL to your site's main page.
-        <br>&nbsp;- <strong>{X_YEAR}</strong> will be replaced by the current four digit year. It eliminates the need to update the upper copyright date each year.
+        Αυτές είναι οι πιο σημαντικές και οι πιο συχνά προσβάσιμες ρυθμίσεις. Θα ρυθμίσετε το όνομα του ιστότοπου και το σύνθημα για την ιστοσελίδα σας. Θα επιλέξετε επίσης το προεπιλεγμένο θέμα και το GUI διαχειριστή. Αν χρειάζεστε να εργαστείτε στον ιστότοπό σας, μπορείτε να τον κλείσετε για όλους τους χρήστες. Μπορείτε επίσης να ορίσετε τους χρόνους προσωρινής μνήμης σε επίπεδο ενότητας.
     </p>
 
-    <h4 class="odd">Word Censoring Options</h4>
+    <h4 class="odd">Meta Tags και Υποσέλιδο</h4>
 
     <p class="even">
-        XOOPS can automatically censor undesirable words that may be posted by visitors to your site and replace them with a generic, alternative term of your choice. The censorship function does consume some system resources and may slow your site somewhat. It is disabled by default.<br><br>
+        Τα meta tags παρέχουν πληροφορίες σχετικά με τον ιστότοπό σας – περιγράφουν τη φύση του ιστότοπου. Η κύρια χρήση τους είναι να βοηθήσουν τις μηχανές αναζήτησης και τα ρομπότ τους να ευρετηριάσουν σωστά τον ιστότοπό σας, δηλαδή να βοηθήσουν τους σωστούς χρήστες να τον βρουν. Οι πληροφορίες που παρέχετε περιλαμβάνονται στην κεφαλίδα κάθε σελίδας του ιστότοπου. Θα πρέπει να αντιπροσωπεύουν το περιεχόμενο του ιστότοπου ως σύνολο – οι meta πληροφορίες είναι οι ίδιες σε κάθε σελίδα και αυτή τη στιγμή δεν μπορούν να εξατομικευτούν για διαφορετικές ενότητες ή σελίδες.<br><br>
 
-        To implement censorship on your site select the ‘<em>enable</em>’ radio button. You need to enter a list of unwanted words in the ‘<em>words to censor</em>’ box, separating them with the pipe character. This function is case-insensitive. Enter a suitable replacement term in the ‘<em>replace
-            bad words with</em>’ box. The default is #OOPS#.
+        Να είστε προσεκτικοί καθώς οι μεγάλες μηχανές αναζήτησης χρησιμοποιούν διαφορετικές στρατηγικές για την ευρετηρίαση ιστοσελίδων. Μπορεί να δώσουν διαφορετική βαρύτητα στα meta tags ή να τα αγνοήσουν εντελώς. Η προσεκτική χρήση των meta πληροφοριών μπορεί να βοηθήσει τον ιστότοπό σας να κατατάσσεται καλύτερα στις μηχανές αναζήτησης και είναι χρήσιμο να αναζητήσετε πληροφορίες για τις στρατηγικές ευρετηρίασης των κυριότερων παραπομπών σας (δείτε το αρχείο καταγραφής του ιστότοπού σας). Αυτό μπορεί να σας βοηθήσει να βελτιστοποιήσετε τις meta πληροφορίες ή άλλες πτυχές του σχεδιασμού και του περιεχομένου του ιστότοπού σας για να βελτιώσετε τις κατατάξεις σας.<br><br>
 
+        Προσπαθήστε να είστε ακριβείς και ειλικρινείς όταν παρέχετε meta πληροφορίες. Μην προσπαθήσετε να «<em>μανιπουλάρετε</em>» τις μηχανές αναζήτησης για να αποκτήσετε καλύτερη κατάταξη – μπορεί να αναγνωρίσουν αυτή τη συμπεριφορά και ο ιστότοπός σας να υποβαθμιστεί ή να αποκλειστεί από το ευρετήριο τους.<br><br>
+        Τα πεδία <strong>Meta Copyright</strong> και <strong>Υποσέλιδο</strong> υποστηρίζουν και τις δύο ετικέτες αντικατάστασης για να διευκολύνουν τη συντήρηση.
+        <br>&nbsp;- <strong>{X_SITEURL}</strong> θα αντικατασταθεί με τη πλήρη διεύθυνση URL της κύριας σελίδας του ιστότοπού σας.
+        <br>&nbsp;- <strong>{X_YEAR}</strong> θα αντικατασταθεί με το τρέχον έτος (τέσσερα ψηφία). Αυτό εξαλείφει την ανάγκη να ενημερώνετε την ημερομηνία πνευματικών δικαιωμάτων κάθε χρόνο.
     </p>
 
-    <h4 class="odd">Search Options</h4>
+    <h4 class="odd">Επιλογές Λογοκρισίας Λέξεων</h4>
 
     <p class="even">
-        The search facility is one of the most important tools for locating information in a portal website. The XOOPS search categorises results by module – records are identified as news items, downloads, links or other types as per the modules you have installed. <br><br>
+        Το XOOPS μπορεί αυτόματα να λογοκρίνει ανεπιθύμητες λέξεις που μπορεί να δημοσιεύσουν οι επισκέπτες στον ιστότοπό σας και να τις αντικαταστήσει με έναν γενικό, εναλλακτικό όρο της επιλογής σας. Η λειτουργία λογοκρισίας καταναλώνει πόρους του συστήματος και μπορεί να επιβραδύνει κάπως τον ιστότοπό σας. Ενεργοποιείται από προεπιλογή.<br><br>
 
-        Global searches of all resources on your site are enabled by default. If you disable global searches this facility will no longer be available and the search block will become non-functional.
-        The default minimum keyword length for searches is five characters. Any terms that are shorter will be ignored. This is useful for controlling the precision of searches, though not much use for terms like “site map”. Short keywords tend to be more common, so they tend to return a greater
-        number of records, many of which may be irrelevant. Longer keywords tend to retrieve fewer records but with a higher degree of precision.<br><br>
-
-        Searching is relatively expensive in computational terms and so excluding short terms will reduce the load on the server. However, bear in mind that sometimes it is useful to be able to search for a short term.
-
+        Για να ενεργοποιήσετε τη λογοκρισία στον ιστότοπό σας, επιλέξτε το κουμπί ‘<em>enable</em>’. Πρέπει να εισαγάγετε μια λίστα με τις ανεπιθύμητες λέξεις στο πλαίσιο ‘<em>words to censor</em>’, χωρίζοντας τις με τον χαρακτήρα σωλήνα. Αυτή η λειτουργία δεν διαφοροποιεί τα κεφαλαία από τα πεζά. Εισαγάγετε έναν κατάλληλο όρο αντικατάστασης στο πλαίσιο ‘<em>replace bad words with</em>’. Η προεπιλογή είναι #OOPS#.
     </p>
 
-    <h4 class="odd">Email Setup</h4>
+    <h4 class="odd">Επιλογές Αναζήτησης</h4>
 
     <p class="even">
-        This section of the control panel is used to configure your email for the system. It is recommended that you leave the Email Delivery Method on the default setting “PHP (mail)”. You do not need to fill in the Sendmail or SMTP fields unless you use an alternative email delivery option.
+        Η λειτουργία αναζήτησης είναι ένα από τα πιο σημαντικά εργαλεία για την εύρεση πληροφοριών σε έναν ιστότοπο πύλης. Η αναζήτηση στο XOOPS κατατάσσει τα αποτελέσματα κατά ενότητα – τα αρχεία αναγνωρίζονται ως άρθρα ειδήσεων, λήψεις, συνδέσμους ή άλλους τύπους σύμφωνα με τις ενότητες που έχετε εγκαταστήσει.<br><br>
+
+        Οι παγκόσμιες αναζητήσεις σε όλους τους πόρους του ιστότοπού σας είναι ενεργοποιημένες από προεπιλογή. Εάν απενεργοποιήσετε τις παγκόσμιες αναζητήσεις, αυτή η λειτουργία θα είναι πλέον μη διαθέσιμη και το μπλοκ αναζήτησης θα καταστεί μη λειτουργικό. Το ελάχιστο μήκος λέξης για τις αναζητήσεις είναι πέντε χαρακτήρες. Οποιεσδήποτε λέξεις είναι μικρότερες θα αγνοούνται. Αυτό είναι χρήσιμο για τον έλεγχο της ακρίβειας των αναζητήσεων, αν και δεν είναι πολύ χρήσιμο για όρους όπως «χάρτης ιστότοπου». Οι μικρές λέξεις-κλειδιά είναι πιο κοινές, επομένως συνήθως επιστρέφουν περισσότερα αποτελέσματα, πολλά από τα οποία μπορεί να είναι άσχετα. Οι μεγαλύτερες λέξεις-κλειδιά συνήθως επιστρέφουν λιγότερα αποτελέσματα αλλά με υψηλότερη ακρίβεια.<br><br>
+
+        Η αναζήτηση είναι σχετικά ακριβή σε υπολογιστικούς όρους, οπότε ο αποκλεισμός μικρών όρων θα μειώσει το φόρτο στον διακομιστή. Ωστόσο, να θυμάστε ότι μερικές φορές είναι χρήσιμο να μπορείτε να αναζητάτε για έναν μικρό όρο.
     </p>
 
-    <h4 class="odd">Authentication Options</h4>
+    <h4 class="odd">Ρυθμίσεις Email</h4>
 
     <p class="even">
-        Just leave it at Xoops Database and you can ignore all the other options in there.<br><br>
-
-        LDAP or Microsoft Active directory servers have been added for authentication as an alternate to the normal Xoops users. The reason is that in many company you already have a user database in ADS or LDAP, and they can use that to logon to XOOPS and don´t have to register yet another account.
+        Αυτό το τμήμα του πίνακα ελέγχου χρησιμοποιείται για τη διαμόρφωση του email για το σύστημα. Συνιστάται να αφήσετε τη μέθοδο παράδοσης του email στην προεπιλεγμένη ρύθμιση «PHP (mail)». Δεν χρειάζεται να συμπληρώσετε τα πεδία Sendmail ή SMTP εκτός αν χρησιμοποιείτε μια εναλλακτική μέθοδο παράδοσης email.
     </p>
 
-    <h4 class="odd">System Module Settings</h4>
+    <h4 class="odd">Επιλογές Επαλήθευσης</h4>
 
     <p class="even">
-        Here you can activate/deactivate each of the System sections, as well as specify system-wide defaults, e.g. for number of displayed avatars or images per page. You can also select a default editor for blocks, comments, and for all modules.
+        Αφήστε το στην προεπιλεγμένη ρύθμιση της βάσης δεδομένων XOOPS και μπορείτε να αγνοήσετε όλες τις άλλες επιλογές εκεί.<br><br>
+
+        Οι εξυπηρετητές LDAP ή Microsoft Active Directory έχουν προστεθεί για επαλήθευση ως εναλλακτική λύση στους κανονικούς χρήστες του XOOPS. Ο λόγος είναι ότι σε πολλές εταιρείες υπάρχει ήδη μια βάση δεδομένων χρηστών σε ADS ή LDAP, και αυτοί μπορούν να τη χρησιμοποιήσουν για να συνδεθούν στο XOOPS χωρίς να χρειάζεται να εγγραφούν με έναν ακόμη λογαριασμό.
+    </p>
+
+    <h4 class="odd">Ρυθμίσεις Συστημικής Ενότητας</h4>
+
+    <p class="even">
+        Εδώ μπορείτε να ενεργοποιήσετε/απενεργοποιήσετε κάθε τμήμα του Συστήματος, καθώς και να καθορίσετε τις προεπιλεγμένες ρυθμίσεις για το σύστημα, π.χ. για τον αριθμό των εμφανιζόμενων αβατάρ ή εικόνων ανά σελίδα. Μπορείτε επίσης να επιλέξετε έναν προεπιλεγμένο επεξεργαστή για τα μπλοκ, τα σχόλια και για όλες τις ενότητες.
     </p>
 
 </div>

@@ -1,8 +1,8 @@
 For XOOPS data
 
-1 For security considerations, you are strongly advised to move this folder out of the Document Root.
-2 Make this folder writable
-3 Make sure that the following subfolders are available and writable:
+1 Για λόγους ασφαλείας, συνιστάται ιδιαίτερα να μετακινήσετε αυτόν τον φάκελο εκτός του Document Root.
+2 Κάντε αυτόν τον φάκελο εγγράψιμο
+3 Βεβαιωθείτε ότι οι ακόλουθοι υποφάκελοι είναι διαθέσιμοι και εγγράψιμοι:
   configs/
   configs/captcha/
   configs/textsanizer/
@@ -13,8 +13,7 @@ For XOOPS data
   data/
   protector/
 
-Note: These directories should already exist, and should have been copied in from the installation archive. There are critical files included in that copy.
+Σημείωση: Αυτοί οι κατάλογοι θα πρέπει ήδη να υπάρχουν και θα έπρεπε να έχουν αντιγραφεί από το αρχείο εγκατάστασης. Περιλαμβάνονται κρίσιμα αρχεία σε αυτό το αντίγραφο.
 
-For full documentation on installing or upgrading XOOPS please see:
+Για πλήρη τεκμηρίωση σχετικά με την εγκατάσταση ή την αναβάθμιση του XOOPS, ανατρέξτε στη διεύθυνση:
 https://xoops.gitbook.io/xoops-install-upgrade/
-

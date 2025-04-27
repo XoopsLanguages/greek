@@ -1,12 +1,12 @@
-Hello {X_UNAME},
+Γειά σας {X_UNAME},
 
-Your new profile at {SITENAME} has been activated by the administrator.
+Ο νέος σας προφίλ στο {SITENAME} έχει ενεργοποιηθεί από τον διαχειριστή.
 
-You can now login from the following URL with the password you have submitted at registration.
+Μπορείτε τώρα να συνδεθείτε από την παρακάτω διεύθυνση URL χρησιμοποιώντας τον κωδικό που έχετε υποβάλει κατά την εγγραφή.
 
 {SITEURL}user.php
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+διαχειριστής
 {ADMINMAIL}

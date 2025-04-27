@@ -3,11 +3,11 @@
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_PM_AM_PRUNE', 'Prune');
-define('_PM_AM_PRUNEAFTER', 'Prune messages posted after this date (leave blank for no start date)');
-define('_PM_AM_PRUNEBEFORE', 'Prune messages posted before this date (leave blank for no end date)');
-define('_PM_AM_ONLYREADMESSAGES', 'Prune only read messages');
-define('_PM_AM_INCLUDESAVE', "Include messages in users' \"save\" folders");
-define('_PM_AM_NOTIFYUSERS', 'Notify affected users about the prune?');
-define('_PM_AM_MESSAGESPRUNED', '%u Messages Pruned');
-define('_PM_AM_ERRORWHILEPRUNING', 'An error occurred during prune');
+define('_PM_AM_PRUNE', 'Καθαρισμός');
+define('_PM_AM_PRUNEAFTER', 'Καθαρισμός μηνυμάτων που δημοσιεύτηκαν μετά από αυτήν την ημερομηνία (αφήστε κενό για καμία ημερομηνία έναρξης)');
+define('_PM_AM_PRUNEBEFORE', 'Καθαρισμός μηνυμάτων που δημοσιεύτηκαν πριν από αυτήν την ημερομηνία (αφήστε κενό για καμία ημερομηνία λήξης)');
+define('_PM_AM_ONLYREADMESSAGES', 'Καθαρισμός μόνο των αναγνωσμένων μηνυμάτων');
+define('_PM_AM_INCLUDESAVE', 'Συμπερίληψη μηνυμάτων στους φακέλους "αποθήκευση" των χρηστών');
+define('_PM_AM_NOTIFYUSERS', 'Ειδοποίηση των επηρεαζόμενων χρηστών για τον καθαρισμό;');
+define('_PM_AM_MESSAGESPRUNED', '%u Μηνύματα Καθαρίστηκαν');
+define('_PM_AM_ERRORWHILEPRUNING', 'Προέκυψε σφάλμα κατά τον καθαρισμό');

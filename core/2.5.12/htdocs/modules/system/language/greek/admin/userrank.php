@@ -6,30 +6,30 @@
  * _CHARSET     UTF-8
  */
 //Nav
-define('_AM_SYSTEM_USERRANK_NAV_MANAGER', 'Ranks Manager');
-define('_AM_SYSTEM_USERRANK_NAV_MAIN', 'Ranks list');
-define('_AM_SYSTEM_USERRANK_NAV_ADD', 'Add a new rank');
-define('_AM_SYSTEM_USERRANK_NAV_EDIT', 'Edit rank');
-define('_AM_SYSTEM_USERRANK_NAV_DELETE', 'Delete rank');
-define('_AM_SYSTEM_USERRANK_ACTION', 'Action');
-define('_AM_SYSTEM_USERRANK_ADD', 'Add a new rank');
-define('_AM_SYSTEM_USERRANK_DELETE', 'Delete rank');
-define('_AM_SYSTEM_USERRANK_EDIT', 'Edit rank');
-define('_AM_SYSTEM_USERRANK_IMAGE', 'Image');
-define('_AM_SYSTEM_USERRANK_IMAGE_PATH', 'Files exist in: %s');
-define('_AM_SYSTEM_USERRANK_MAXPOST', 'Max. Posts');
-define('_AM_SYSTEM_USERRANK_MINPOST', 'Min. Posts');
-define('_AM_SYSTEM_USERRANK_OFF', 'Special rank');
-define('_AM_SYSTEM_USERRANK_ON', 'No special rank');
+define('_AM_SYSTEM_USERRANK_NAV_MANAGER', 'Διαχειριστής Κατηγοριών Χρηστών');
+define('_AM_SYSTEM_USERRANK_NAV_MAIN', 'Λίστα Κατηγοριών');
+define('_AM_SYSTEM_USERRANK_NAV_ADD', 'Προσθήκη νέας κατηγορίας');
+define('_AM_SYSTEM_USERRANK_NAV_EDIT', 'Επεξεργασία κατηγορίας');
+define('_AM_SYSTEM_USERRANK_NAV_DELETE', 'Διαγραφή κατηγορίας');
+define('_AM_SYSTEM_USERRANK_ACTION', 'Ενέργεια');
+define('_AM_SYSTEM_USERRANK_ADD', 'Προσθήκη νέας κατηγορίας');
+define('_AM_SYSTEM_USERRANK_DELETE', 'Διαγραφή κατηγορίας');
+define('_AM_SYSTEM_USERRANK_EDIT', 'Επεξεργασία κατηγορίας');
+define('_AM_SYSTEM_USERRANK_IMAGE', 'Εικόνα');
+define('_AM_SYSTEM_USERRANK_IMAGE_PATH', 'Τα αρχεία υπάρχουν σε: %s');
+define('_AM_SYSTEM_USERRANK_MAXPOST', 'Μέγ. Δημοσιεύσεις');
+define('_AM_SYSTEM_USERRANK_MINPOST', 'Ελάχ. Δημοσιεύσεις');
+define('_AM_SYSTEM_USERRANK_OFF', 'Ειδική κατηγορία');
+define('_AM_SYSTEM_USERRANK_ON', 'Όχι ειδική κατηγορία');
 define('_AM_SYSTEM_USERRANK_SAVE', _AM_SYSTEM_DBUPDATED);
-define('_AM_SYSTEM_USERRANK_SPECIAL', 'Special Ranks');
-define('_AM_SYSTEM_USERRANK_SPECIAL_CAN', '(Special ranks can be assigned to users irrespective of the number of user posts)');
-define('_AM_SYSTEM_USERRANK_SUREDEL', 'Are you sure you want to delete this ranking?');
-define('_AM_SYSTEM_USERRANK_TITLE', 'Title');
-define('_AM_SYSTEM_USERRANK_UPLOAD', 'Upload');
+define('_AM_SYSTEM_USERRANK_SPECIAL', 'Ειδικές Κατηγορίες');
+define('_AM_SYSTEM_USERRANK_SPECIAL_CAN', '(Οι ειδικές κατηγορίες μπορούν να εκχωρηθούν σε χρήστες ανεξάρτητα από τον αριθμό των δημοσιεύσεων του χρήστη)');
+define('_AM_SYSTEM_USERRANK_SUREDEL', 'Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή την κατηγορία κατάταξης;');
+define('_AM_SYSTEM_USERRANK_TITLE', 'Τίτλος');
+define('_AM_SYSTEM_USERRANK_UPLOAD', 'Αποστολή');
 // Tips
-define('_AM_SYSTEM_USERRANK_TIPS', '<ul><li>Add, update or delete user rank</li></ul>');
-define('_AM_SYSTEM_USERRANK_TIPS_FORM1', '<ul><li>Authorized mime types: %s</li>');
-define('_AM_SYSTEM_USERRANK_TIPS_FORM2', '<li>Max uploaded files size: %s KB</li></ul>');
+define('_AM_SYSTEM_USERRANK_TIPS', '<ul><li>Προσθήκη, ενημέρωση ή διαγραφή κατηγορίας χρήστη</li></ul>');
+define('_AM_SYSTEM_USERRANK_TIPS_FORM1', '<ul><li>Επιτρεπόμενοι τύποι mime: %s</li>');
+define('_AM_SYSTEM_USERRANK_TIPS_FORM2', '<li>Μέγιστο μέγεθος αρχείων για αποστολή: %s KB</li></ul>');
 // Errors
-define('_AM_SYSTEM_USERRANK_ERROR', 'Errors');
+define('_AM_SYSTEM_USERRANK_ERROR', 'Σφάλματα');

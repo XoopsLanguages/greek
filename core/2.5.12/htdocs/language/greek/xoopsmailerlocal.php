@@ -18,29 +18,30 @@
  * @since               2.3.0
  * @author              Taiwen Jiang <phppp@users.sourceforge.net>
  */
-defined('XOOPS_ROOT_PATH') || exit('Restricted access');
+defined('XOOPS_ROOT_PATH') || exit('Περιορισμένη πρόσβαση');
+
 /**
- * Localize the mail functions
+ * Τοπικοποίηση των λειτουργιών αλληλογραφίας
  *
- * The English localization is solely for demonstration
+ * Η ελληνική τοπικοποίηση είναι αποκλειστικά για επίδειξη
  */
-// Do not change the class name
+// Μην αλλάξετε το όνομα της κλάσης
 class XoopsMailerLocal extends XoopsMailer
 {
     /**
-     * Constructor
+     * Κατασκευαστής
      */
     public function __construct()
     {
         parent::__construct();
-        // It is supposed no need to change the charset
+        // Υποτίθεται ότι δεν χρειάζεται να αλλάξει το σύνολο χαρακτήρων
         $this->charSet = strtolower(_CHARSET);
-        // You MUST specify the language code value so that the file exists: XOOPS_ROOT_PAT/class/mail/phpmailer/language/lang-["your-language-code"].php
-        $this->multimailer->setLanguage('en');
+        // ΠΡΕΠΕΙ να καθορίσετε την τιμή του κωδικού γλώσσας ώστε να υπάρχει το αρχείο: XOOPS_ROOT_PATH/class/mail/phpmailer/language/lang-["your-language-code"].php
+        $this->multimailer->setLanguage('el');
     }
 
     /**
-     * Multibyte languages are encouraged to make their proper method for encoding FromName
+     * Οι γλώσσες πολλαπλών bytes ενθαρρύνονται να δημιουργήσουν τη δική τους μέθοδο για την κωδικοποίηση του FromName
      *
      * @param $text
      *
@@ -48,14 +49,13 @@ class XoopsMailerLocal extends XoopsMailer
      */
     public function encodeFromName($text)
     {
-        // Activate the following line if needed
-        // $text = "=?{$this->charSet}?B?".base64_encode($text)."?=";
+        // Ενεργοποιήστε την παρακάτω γραμμή εάν χρειάζεται
+        $text = "=?{$this->charSet}?B?".base64_encode($text)."?=";
         return $text;
     }
 
-
     /**
-     * Multibyte languages are encouraged to make their proper method for encoding Subject
+     * Οι γλώσσες πολλαπλών bytes ενθαρρύνονται να δημιουργήσουν τη δική τους μέθοδο για την κωδικοποίηση του Θέματος
      *
      * @param $text
      *
@@ -63,8 +63,8 @@ class XoopsMailerLocal extends XoopsMailer
      */
     public function encodeSubject($text)
     {
-        // Activate the following line if needed
-        // $text = "=?{$this->charSet}?B?".base64_encode($text)."?=";
+        // Ενεργοποιήστε την παρακάτω γραμμή εάν χρειάζεται
+        $text = "=?{$this->charSet}?B?".base64_encode($text)."?=";
         return $text;
     }
 }

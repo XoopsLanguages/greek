@@ -1,10 +1,10 @@
-Hello {X_UNAME},
+Γειά σας {X_UNAME},
 
-You email address at {SITENAME} has been successfully changed. 
+Η διεύθυνση email σας στο {SITENAME} έχει αλλάξει με επιτυχία.
 
-If you have any question, please feel free to contact us.
+Αν έχετε οποιαδήποτε ερώτηση, παρακαλούμε μην διστάσετε να επικοινωνήσετε μαζί μας.
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+διαχειριστής
 {ADMINMAIL}

@@ -1,13 +1,13 @@
-Hello {X_UNAME},
+Γειά σας {X_UNAME},
 
-A web user from {IP} has just requested a new password for your profile at {SITENAME}.
-You can get your new password by clicking on the link below:
+Ένας χρήστης από το {IP} μόλις ζήτησε νέο κωδικό πρόσβασης για το προφίλ σας στο {SITENAME}.
+Μπορείτε να αποκτήσετε τον νέο σας κωδικό πρόσβασης κάνοντας κλικ στον παρακάτω σύνδεσμο:
 
 {NEWPWD_LINK}
 
-If you didn't ask for this, don't worry. Just delete this Email.
+Αν δεν ζητήσατε αυτό, μην ανησυχείτε. Απλώς διαγράψτε αυτό το μήνυμα.
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+διαχειριστής
 {ADMINMAIL}

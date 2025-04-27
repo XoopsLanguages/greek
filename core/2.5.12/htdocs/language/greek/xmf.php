@@ -1,8 +1,8 @@
 <?php
 
-define('_AM_XMF_MODULE_NOTFOUND','Please install or reactivate %1$s module. Minimum version required: %2$s');
-define('_AM_XMF_MODULE_VERSION','Minimum %1$s module version required: %2$s (your version is %3$s)');
-define('_AM_XMF_MODULE_INSTALLED', 'The module \'%s\' is installed!');
-define('_AM_XMF_MODULE_NOT_INSTALLED', 'The module \'%s\' is not installed!');
+define('_AM_XMF_MODULE_NOTFOUND','Παρακαλώ εγκαταστήστε ή επανενεργοποιήστε την ενότητα %1$s. Απαιτείται ελάχιστη έκδοση: %2$s');
+define('_AM_XMF_MODULE_VERSION','Απαιτείται ελάχιστη έκδοση της ενότητας %1$s: %2$s (η δική σας έκδοση είναι %3$s)');
+define('_AM_XMF_MODULE_INSTALLED', 'Η ενότητα \'%s\' είναι εγκατεστημένη!');
+define('_AM_XMF_MODULE_NOT_INSTALLED', 'Η ενότητα \'%s\' δεν είναι εγκατεστημένη!');
 
-define('_DB_XMF_TABLE_IS_NOT_DEFINED','Table is not defined');
+define('_DB_XMF_TABLE_IS_NOT_DEFINED','Ο πίνακας δεν έχει οριστεί');

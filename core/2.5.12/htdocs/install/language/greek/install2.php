@@ -4,52 +4,54 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 // License
-define('LICENSE_NOT_WRITEABLE', 'License is %s . <br><span style="color:#ff0000;">Make ../include/license.php Writable</span>');
-define('LICENSE_IS_WRITEABLE', 'License is %s');
-define('_INSTALL_WEBMASTER', 'Webmasters');
-define('_INSTALL_WEBMASTERD', 'Webmasters of this site');
-define('_INSTALL_REGUSERS', 'Registered Users');
-define('_INSTALL_REGUSERSD', 'Registered Users Group');
-define('_INSTALL_ANONUSERS', 'Anonymous Users');
-define('_INSTALL_ANONUSERSD', 'Anonymous Users Group');
+define('LICENSE_NOT_WRITEABLE', 'Η άδεια είναι %s . <br><span style="color:#ff0000;">Κάντε το ../include/license.php εγγράψιμο</span>');
+define('LICENSE_IS_WRITEABLE', 'Η άδεια είναι %s');
+define('_INSTALL_WEBMASTER', 'Διαχειριστές Ιστοσελίδων');
+define('_INSTALL_WEBMASTERD', 'Διαχειριστές αυτού του ιστότοπου');
+define('_INSTALL_REGUSERS', 'Εγγεγραμμένοι Χρήστες');
+define('_INSTALL_REGUSERSD', 'Ομάδα Εγγεγραμμένων Χρηστών');
+define('_INSTALL_ANONUSERS', 'Ανώνυμοι Χρήστες');
+define('_INSTALL_ANONUSERSD', 'Ομάδα Ανώνυμων Χρηστών');
+
 /**
- * New Group types
+ * Νέοι τύποι ομάδων
  */
-define('_INSTALL_BANNEDUSERS', 'Banned Users');
-define('_INSTALL_BANNEDUSERSD', 'Banned user group');
-define('_INSTALL_MODERATORUSERS', 'Moderators');
-define('_INSTALL_MODERATORUSERSD', 'These are Moderators for your website');
-define('_INSTALL_SUBMITTERUSERS', 'Submitters');
-define('_INSTALL_SUBMITTERUSERSD', 'This group can submit articles to your website');
-define('_INSTALL_DEVELOPEUSERS', 'Developer');
-define('_INSTALL_DEVELOPEUSERSD', 'This user has developer privileges and can see developer debugging messages.');
-define('_INSTALL_L165', 'The site is currently closed for maintenance. Please come back later.');
-define('_INSTALL_ANON', 'Anonymous');
-define('_INSTALL_DISCLMR', 'While the administrators and moderators of this site will attempt to remove
-or edit any generally objectionable material as quickly as possible, it is
-impossible to review every message. Therefore you acknowledge that all posts
-made to this site express the views and opinions of the author and not the
-administrators, moderators or webmaster (except for posts by these people)
-and hence will not be held liable.
+define('_INSTALL_BANNEDUSERS', 'Αποκλεισμένοι Χρήστες');
+define('_INSTALL_BANNEDUSERSD', 'Ομάδα αποκλεισμένων χρηστών');
+define('_INSTALL_MODERATORUSERS', 'Συντονιστές');
+define('_INSTALL_MODERATORUSERSD', 'Αυτοί είναι οι Συντονιστές για τον ιστότοπό σας');
+define('_INSTALL_SUBMITTERUSERS', 'Υποβάλλοντες');
+define('_INSTALL_SUBMITTERUSERSD', 'Αυτή η ομάδα μπορεί να υποβάλλει άρθρα στον ιστότοπό σας');
+define('_INSTALL_DEVELOPEUSERS', 'Προγραμματιστής');
+define('_INSTALL_DEVELOPEUSERSD', 'Αυτός ο χρήστης έχει προνόμια προγραμματιστή και μπορεί να βλέπει μηνύματα αποσφαλμάτωσης προγραμματιστών.');
+define('_INSTALL_L165', 'Ο ιστότοπος είναι προσωρινά κλειστός για συντήρηση. Παρακαλούμε επιστρέψτε αργότερα.');
+define('_INSTALL_ANON', 'Ανώνυμος');
+define('_INSTALL_DISCLMR', 'Ενώ οι διαχειριστές και οι συντονιστές αυτού του ιστότοπου θα προσπαθήσουν να αφαιρέσουν
+ή να επεξεργαστούν οποιοδήποτε γενικά απαράδεκτο υλικό το συντομότερο δυνατό, είναι
+αδύνατο να ελέγξουν κάθε μήνυμα. Επομένως, αναγνωρίζετε ότι όλες οι δημοσιεύσεις
+που γίνονται σε αυτόν τον ιστότοπο εκφράζουν τις απόψεις και τις γνώμες του συγγραφέα
+και όχι των διαχειριστών, συντονιστών ή διαχειριστή ιστοσελίδων (εκτός από τις δημοσιεύσεις
+αυτών των ατόμων) και συνεπώς δεν θα θεωρηθούν υπεύθυνοι.
 
-You agree not to post any abusive, obscene, vulgar, slanderous, hateful,
-threatening, sexually-orientated or any other material that may violate any
-applicable laws. Doing so may lead to you being immediately and permanently
-banned (and your service provider being informed). The IP address of all
-posts is recorded to aid in enforcing these conditions. Creating multiple
-accounts for a single user is not allowed. You agree that the webmaster,
-administrator and moderators of this site have the right to remove, edit,
-move or close any topic at any time should they see fit. As a user you agree
-to any information you have entered above being stored in a database. While
-this information will not be disclosed to any third party without your
-consent the webmaster, administrator and moderators cannot be held
-responsible for any hacking attempt that may lead to the data being
-compromised.
+Συμφωνείτε να μην δημοσιεύετε υλικό που είναι υβριστικό, άσεμνο, χυδαίο, συκοφαντικό,
+μίσους, απειλητικό, σεξουαλικού προσανατολισμού ή οποιοδήποτε άλλο υλικό που μπορεί να παραβιάζει
+οποιουσδήποτε ισχύοντες νόμους. Η παραβίαση αυτών μπορεί να οδηγήσει σε άμεσο και μόνιμο
+αποκλεισμό σας (και ενημέρωση του παρόχου υπηρεσιών σας). Η διεύθυνση IP όλων των
+δημοσιεύσεων καταγράφεται για να βοηθήσει στην επιβολή αυτών των συνθηκών. Η δημιουργία
+πολλαπλών λογαριασμών για έναν μόνο χρήστη δεν επιτρέπεται. Συμφωνείτε ότι ο διαχειριστής
+ιστοσελίδων, ο διαχειριστής και οι συντονιστές αυτού του ιστότοπου έχουν το δικαίωμα να
+αφαιρούν, επεξεργάζονται, μετακινούν ή κλείνουν οποιοδήποτε θέμα ανά πάσα στιγμή, εάν το
+κρίνουν κατάλληλο. Ως χρήστης, συμφωνείτε ότι οποιαδήποτε πληροφορία έχετε εισαγάγει
+παραπάνω θα αποθηκευτεί σε μια βάση δεδομένων. Ενώ αυτές οι πληροφορίες δεν θα
+αποκαλυφθούν σε τρίτους χωρίς τη συγκατάθεσή σας, ο διαχειριστής ιστοσελίδων, ο διαχειριστής
+και οι συντονιστές δεν μπορούν να θεωρηθούν υπεύθυνοι για οποιαδήποτε προσπάθεια
+υποκλοπής που μπορεί να οδηγήσει σε παραβίαση των δεδομένων.
 
-This site system uses cookies to store information on your local computer.
-These cookies do not contain any of the information you have entered above,
-they serve only to improve your viewing pleasure. The email address is used
-only for confirming your registration details and password (and for sending
-new passwords should you forget your current one).
+Αυτό το σύστημα ιστότοπου χρησιμοποιεί cookies για την αποθήκευση πληροφοριών στον τοπικό
+υπολογιστή σας. Αυτά τα cookies δεν περιέχουν καμία από τις πληροφορίες που έχετε εισαγάγει
+παραπάνω, εξυπηρετούν μόνο για τη βελτίωση της απόλαυσης της προβολής σας. Η διεύθυνση
+email χρησιμοποιείται μόνο για την επιβεβαίωση των στοιχείων εγγραφής σας και του κωδικού
+πρόσβασης (και για την αποστολή νέων κωδικών πρόσβασης σε περίπτωση που ξεχάσετε τον
+τρέχοντα).
 
-By clicking Register below you agree to be bound by these conditions.');
+Κάνοντας κλικ στο Εγγραφή παρακάτω, συμφωνείτε να δεσμεύεστε από αυτές τις συνθήκες.');

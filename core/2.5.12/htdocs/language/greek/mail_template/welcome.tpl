@@ -1,15 +1,14 @@
-Hello {X_UNAME},
+Γειά σας {X_UNAME},
 
-
-You have been successfully registered at {X_SITENAME} using user name of "{X_UNAME}".
-You are welcome to visit {X_SITENAME} at: {X_SITEURL}
+Έχετε εγγραφεί επιτυχώς στο {X_SITENAME} χρησιμοποιώντας το όνομα χρήστη "{X_UNAME}".
+Είστε ευπρόσδεκτοι να επισκεφτείτε το {X_SITENAME} στη διεύθυνση: {X_SITEURL}
 
 {TERMSOFUSE}
 
-In case you have any problem or inconvenience using "{X_SITENAME}", please feel free to contact us: {X_ADMINMAIL}
+Σε περίπτωση που έχετε οποιοδήποτε πρόβλημα ή δυσκολία κατά τη χρήση του "{X_SITENAME}", παρακαλούμε μη διστάσετε να επικοινωνήσετε μαζί μας: {X_ADMINMAIL}
 
-Best regards,
+Με εκτίμηση,
 
 -----------
-{X_SITENAME}: {X_SITEURL} 
-webmaster: {X_ADMINMAIL}
+{X_SITENAME}: {X_SITEURL}
+διαχειριστής: {X_ADMINMAIL}

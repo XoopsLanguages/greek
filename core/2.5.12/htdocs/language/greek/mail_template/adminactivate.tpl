@@ -1,11 +1,11 @@
-Hello {X_UNAME},
+Γειά σας {X_UNAME},
 
-A new user {USERNAME} ({USEREMAIL}) has just created a profile at {SITENAME}.
-Clicking on the link below will activate the profile of this user:
+Ένας νέος χρήστης {USERNAME} ({USEREMAIL}) μόλις δημιούργησε προφίλ στο {SITENAME}.
+Κάνοντας κλικ στον παρακάτω σύνδεσμο θα ενεργοποιηθεί το προφίλ αυτού του χρήστη:
 
 {USERACTLINK}
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+διαχειριστής
 {ADMINMAIL}

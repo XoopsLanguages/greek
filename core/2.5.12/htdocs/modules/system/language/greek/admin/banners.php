@@ -5,73 +5,73 @@
  * _LANGCODE    en
  * _CHARSET     UTF-8
  */
-//%%%%%%        Admin Module Name  Banners         %%%%%
+//%%%%%%        Όνομα Διαχειριστή Μονάδας  Διαφημίσεις         %%%%%
 define('_AM_SYSTEM_BANNERS_DBUPDATED', _AM_SYSTEM_DBUPDATED);
 //Nav
-define('_AM_SYSTEM_BANNERS_NAV_MANAGER', 'Banners Management');
-define('_AM_SYSTEM_BANNERS_NAV_MAIN', 'Banners and clients list');
-define('_AM_SYSTEM_BANNERS_NAV_EDITBNR', 'Edit banner');
-define('_AM_SYSTEM_BANNERS_NAV_DELETEBNR', 'Delete banner');
-define('_AM_SYSTEM_BANNERS_NAV_DELETEFINISHBNR', 'Delete finish banner');
-define('_AM_SYSTEM_BANNERS_NAV_ADDBNR', 'Add a New Banner');
-define('_AM_SYSTEM_BANNERS_NAV_EDITADVCLI', 'Edit Advertising Client');
-define('_AM_SYSTEM_BANNERS_NAV_ADDNWCLI', 'Add a New Client');
-define('_AM_SYSTEM_BANNERS_NAV_DELETECLI', 'Delete Client');
-define('_AM_SYSTEM_BANNERS_CURACTBNR', 'Current Active Banners');
-define('_AM_SYSTEM_BANNERS_BANNERID', 'Banner ID');
-define('_AM_SYSTEM_BANNERS_IMPRESION', 'Impressions');
-define('_AM_SYSTEM_BANNERS_IMPLEFT', 'Imp. Left');
-define('_AM_SYSTEM_BANNERS_CLICKS', 'Clicks');
-define('_AM_SYSTEM_BANNERS_NCLICKS', '% Clicks');
-define('_AM_SYSTEM_BANNERS_CLINAME', 'Client Name');
-define('_AM_SYSTEM_BANNERS_FUNCTION', 'Functions');
-define('_AM_SYSTEM_BANNERS_UNLIMIT', 'Unlimited');
-define('_AM_SYSTEM_BANNERS_VIEW', 'View banner');
-define('_AM_SYSTEM_BANNERS_EDIT', 'Edit');
-define('_AM_SYSTEM_BANNERS_DELETE', 'Delete');
-define('_AM_SYSTEM_BANNERS_FINISHBNR', 'Finished Banners');
-define('_AM_SYSTEM_BANNERS_IMPD', 'Imp.');
-define('_AM_SYSTEM_BANNERS_STARTDATE', 'Date Started');
-define('_AM_SYSTEM_BANNERS_ENDDATE', 'Date Ended');
-define('_AM_SYSTEM_BANNERS_ADVCLI', 'Advertising Clients');
-define('_AM_SYSTEM_BANNERS_ACTIVEBNR', 'Active Banners');
-define('_AM_SYSTEM_BANNERS_CONTNAME', 'Contact Name');
-define('_AM_SYSTEM_BANNERS_CONTMAIL', 'Contact Email');
-define('_AM_SYSTEM_BANNERS_CLINAMET', 'Client Name:');
-define('_AM_SYSTEM_BANNERS_ADDNWBNR', 'Add a New Banner');
-define('_AM_SYSTEM_BANNERS_IMPPURCHT', 'Impressions Purchased:');
-define('_AM_SYSTEM_BANNERS_IMGURLT', 'Image URL:');
-define('_AM_SYSTEM_BANNERS_CLICKURLT', 'Click URL:');
-define('_AM_SYSTEM_BANNERS_ADDBNR', 'Add Banner');
-define('_AM_SYSTEM_BANNERS_ADDNWCLI', 'Add a New Client');
-define('_AM_SYSTEM_BANNERS_CONTNAMET', 'Contact Name:');
-define('_AM_SYSTEM_BANNERS_CONTMAILT', 'Contact Email:');
-define('_AM_SYSTEM_BANNERS_CLILOGINT', 'Client Login:');
-define('_AM_SYSTEM_BANNERS_CLIPASST', 'Client Password:');
-define('_AM_SYSTEM_BANNERS_ADDCLI', 'Add Client');
-define('_AM_SYSTEM_BANNERS_DELEBNR', 'Delete Banner');
-define('_AM_SYSTEM_BANNERS_SUREDELE', 'Are you sure to delete this Banner?');
-define('_AM_SYSTEM_BANNERS_NO', 'No');
-define('_AM_SYSTEM_BANNERS_YES', 'Yes');
-define('_AM_SYSTEM_BANNERS_EDITBNR', 'Edit Banner');
-define('_AM_SYSTEM_BANNERS_ADDIMPT', 'Add More Impressions:');
-define('_AM_SYSTEM_BANNERS_PURCHT', 'Purchased:');
-define('_AM_SYSTEM_BANNERS_MADET', 'Made:');
-define('_AM_SYSTEM_BANNERS_CHGBNR', 'Change Banner');
-define('_AM_SYSTEM_BANNERS_DELEADC', 'Delete Advertising Client');
-define('_AM_SYSTEM_BANNERS_SUREDELCLI', 'You are about to delete client <strong>%s</strong> and all its Banners!!!');
-define('_AM_SYSTEM_BANNERS_NOBNRRUN', "The client doesn't have any banners running now.");
-define('_AM_SYSTEM_BANNERS_WARNING', 'WARNING!!!');
-define('_AM_SYSTEM_BANNERS_ACTBNRRUN', 'This client has the following ACTIVE BANNERS running on our site:');
-define('_AM_SYSTEM_BANNERS_SUREDELBNR', 'Are you sure you want to delete this Client and ALL its Banners?');
-define('_AM_SYSTEM_BANNERS_EDITADVCLI', 'Edit Advertising Client');
-define('_AM_SYSTEM_BANNERS_EXTINFO', 'Extra Info:');
-define('_AM_SYSTEM_BANNERS_CHGCLI', 'Change Client');
-define('_AM_SYSTEM_BANNERS_USEHTML', 'Use HTML code?');
-define('_AM_SYSTEM_BANNERS_CODEHTML', 'Enter HTML code:');
+define('_AM_SYSTEM_BANNERS_NAV_MANAGER', 'Διαχείριση Διαφημίσεων');
+define('_AM_SYSTEM_BANNERS_NAV_MAIN', 'Λίστα Διαφημίσεων και Πελατών');
+define('_AM_SYSTEM_BANNERS_NAV_EDITBNR', 'Επεξεργασία Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_NAV_DELETEBNR', 'Διαγραφή Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_NAV_DELETEFINISHBNR', 'Διαγραφή Ολοκληρωμένης Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_NAV_ADDBNR', 'Προσθήκη Νέας Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_NAV_EDITADVCLI', 'Επεξεργασία Πελάτη Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_NAV_ADDNWCLI', 'Προσθήκη Νέου Πελάτη');
+define('_AM_SYSTEM_BANNERS_NAV_DELETECLI', 'Διαγραφή Πελάτη');
+define('_AM_SYSTEM_BANNERS_CURACTBNR', 'Τρέχουσες Ενεργές Διαφημίσεις');
+define('_AM_SYSTEM_BANNERS_BANNERID', 'ID Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_IMPRESION', 'Εμφανίσεις');
+define('_AM_SYSTEM_BANNERS_IMPLEFT', 'Εμφανίσεις Απομένουσες');
+define('_AM_SYSTEM_BANNERS_CLICKS', 'Κλικ');
+define('_AM_SYSTEM_BANNERS_NCLICKS', '% Κλικ');
+define('_AM_SYSTEM_BANNERS_CLINAME', 'Όνομα Πελάτη');
+define('_AM_SYSTEM_BANNERS_FUNCTION', 'Λειτουργίες');
+define('_AM_SYSTEM_BANNERS_UNLIMIT', 'Απεριόριστο');
+define('_AM_SYSTEM_BANNERS_VIEW', 'Προβολή Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_EDIT', 'Επεξεργασία');
+define('_AM_SYSTEM_BANNERS_DELETE', 'Διαγραφή');
+define('_AM_SYSTEM_BANNERS_FINISHBNR', 'Ολοκληρωμένες Διαφημίσεις');
+define('_AM_SYSTEM_BANNERS_IMPD', 'Εμφανίσεις');
+define('_AM_SYSTEM_BANNERS_STARTDATE', 'Ημερομηνία Έναρξης');
+define('_AM_SYSTEM_BANNERS_ENDDATE', 'Ημερομηνία Λήξης');
+define('_AM_SYSTEM_BANNERS_ADVCLI', 'Πελάτες Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_ACTIVEBNR', 'Ενεργές Διαφημίσεις');
+define('_AM_SYSTEM_BANNERS_CONTNAME', 'Όνομα Επαφής');
+define('_AM_SYSTEM_BANNERS_CONTMAIL', 'Email Επαφής');
+define('_AM_SYSTEM_BANNERS_CLINAMET', 'Όνομα Πελάτη:');
+define('_AM_SYSTEM_BANNERS_ADDNWBNR', 'Προσθήκη Νέας Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_IMPPURCHT', 'Αγορασμένες Εμφανίσεις:');
+define('_AM_SYSTEM_BANNERS_IMGURLT', 'URL Εικόνας:');
+define('_AM_SYSTEM_BANNERS_CLICKURLT', 'URL Κλικ:');
+define('_AM_SYSTEM_BANNERS_ADDBNR', 'Προσθήκη Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_ADDNWCLI', 'Προσθήκη Νέου Πελάτη');
+define('_AM_SYSTEM_BANNERS_CONTNAMET', 'Όνομα Επαφής:');
+define('_AM_SYSTEM_BANNERS_CONTMAILT', 'Email Επαφής:');
+define('_AM_SYSTEM_BANNERS_CLILOGINT', 'Σύνδεση Πελάτη:');
+define('_AM_SYSTEM_BANNERS_CLIPASST', 'Κωδικός Πελάτη:');
+define('_AM_SYSTEM_BANNERS_ADDCLI', 'Προσθήκη Πελάτη');
+define('_AM_SYSTEM_BANNERS_DELEBNR', 'Διαγραφή Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_SUREDELE', 'Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή τη Διαφήμιση;');
+define('_AM_SYSTEM_BANNERS_NO', 'Όχι');
+define('_AM_SYSTEM_BANNERS_YES', 'Ναι');
+define('_AM_SYSTEM_BANNERS_EDITBNR', 'Επεξεργασία Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_ADDIMPT', 'Προσθήκη Περισσότερων Εμφανίσεων:');
+define('_AM_SYSTEM_BANNERS_PURCHT', 'Αγορασμένα:');
+define('_AM_SYSTEM_BANNERS_MADET', 'Δημιουργημένα:');
+define('_AM_SYSTEM_BANNERS_CHGBNR', 'Αλλαγή Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_DELEADC', 'Διαγραφή Πελάτη Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_SUREDELCLI', 'Πρόκειται να διαγράψετε τον πελάτη <strong>%s</strong> και όλες τις Διαφημίσεις του!!!');
+define('_AM_SYSTEM_BANNERS_NOBNRRUN', "Ο πελάτης δεν έχει καμία ενεργή διαφήμιση αυτή τη στιγμή.");
+define('_AM_SYSTEM_BANNERS_WARNING', 'ΠΡΟΕΙΔΟΠΟΙΗΣΗ!!!');
+define('_AM_SYSTEM_BANNERS_ACTBNRRUN', 'Αυτός ο πελάτης έχει τις ακόλουθες ΕΝΕΡΓΕΣ ΔΙΑΦΗΜΙΣΕΙΣ που τρέχουν στον ιστότοπό μας:');
+define('_AM_SYSTEM_BANNERS_SUREDELBNR', 'Είστε σίγουροι ότι θέλετε να διαγράψετε αυτόν τον Πελάτη και ΟΛΕΣ τις Διαφημίσεις του;');
+define('_AM_SYSTEM_BANNERS_EDITADVCLI', 'Επεξεργασία Πελάτη Διαφήμισης');
+define('_AM_SYSTEM_BANNERS_EXTINFO', 'Επιπλέον Πληροφορίες:');
+define('_AM_SYSTEM_BANNERS_CHGCLI', 'Αλλαγή Πελάτη');
+define('_AM_SYSTEM_BANNERS_USEHTML', 'Χρήση HTML κώδικα;');
+define('_AM_SYSTEM_BANNERS_CODEHTML', 'Εισάγετε τον HTML κώδικα:');
 // Tips
 define('_AM_SYSTEM_BANNERS_NAV_TIPS', '
 <ul>
-<li>Add, modify and update category, banners and client.</li>
+<li>Προσθέστε, τροποποιήστε και ενημερώστε κατηγορίες, διαφημίσεις και πελάτες.</li>
 </ul>
 ');

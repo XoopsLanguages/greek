@@ -4,132 +4,119 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 //%%%%%%        File Name user.php         %%%%%
-define('_US_NOTREGISTERED', 'Not registered?  Click <a href="register.php">here</a>.');
-define('_US_LOSTPASSWORD', 'Lost your Password?');
-define('_US_NOPROBLEM', 'No problem. Simply enter the e-mail address we have on file for your account.');
-define('_US_YOUREMAIL', 'Your Email: ');
-define('_US_SENDPASSWORD', 'Send Password');
-define('_US_LOGGEDOUT', 'You are now logged out');
-define('_US_THANKYOUFORVISIT', 'Thank you for your visit to our site!');
-define('_US_INCORRECTLOGIN', 'Incorrect Login!');
-define('_US_LOGGINGU', 'Thank you for logging in, %s.');
-// 2001-11-17 ADD
-define('_US_NOACTTPADM', 'The selected user has been deactivated or has not been activated yet.<br>Please contact the administrator for details.');
-define('_US_ACTKEYNOT', 'Activation key not correct!');
-define('_US_ACONTACT', 'Selected account is already activated!');
-define('_US_ACTLOGIN', 'Your account has been activated. Please login with the registered password.');
-define('_US_NOPERMISS', 'Sorry, you do not have the permission to perform this action!');
-define('_US_SURETODEL', 'Are you sure to delete your account?');
-define('_US_REMOVEINFO', 'This will remove all your info from our database.');
-define('_US_BEENDELED', 'Your account has been deleted.');
-define('_US_ACTFAILD', 'Activation failed!');
-//%%%%%%        File Name register.php         %%%%%
-define('_US_USERREG', 'User Registration');
-define('_US_NICKNAME', 'Username');
+define('_US_NOTREGISTERED', 'Δεν είστε εγγεγραμμένος; Κάντε κλικ <a href="register.php">εδώ</a>.');
+define('_US_LOSTPASSWORD', 'Χάσατε τον Κωδικό Πρόσβασης;');
+define('_US_NOPROBLEM', 'Κανένα πρόβλημα. Απλώς εισάγετε τη διεύθυνση email που έχουμε καταχωρήσει για τον λογαριασμό σας.');
+define('_US_YOUREMAIL', 'Το Email σας: ');
+define('_US_SENDPASSWORD', 'Αποστολή Κωδικού Πρόσβασης');
+define('_US_LOGGEDOUT', 'Τώρα έχετε αποσυνδεθεί');
+define('_US_THANKYOUFORVISIT', 'Ευχαριστούμε για την επίσκεψή σας στον ιστότοπό μας!');
+define('_US_INCORRECTLOGIN', 'Μη έγκυρη Σύνδεση!');
+define('_US_LOGGINGU', 'Ευχαριστούμε για τη σύνδεση, %s.');
+define('_US_NOACTTPADM', 'Ο επιλεγμένος χρήστης έχει απενεργοποιηθεί ή δεν έχει ενεργοποιηθεί ακόμα.<br>Παρακαλούμε επικοινωνήστε με τον διαχειριστή για λεπτομέρειες.');
+define('_US_ACTKEYNOT', 'Η κλειδαριά ενεργοποίησης δεν είναι σωστή!');
+define('_US_ACONTACT', 'Ο επιλεγμένος λογαριασμός έχει ήδη ενεργοποιηθεί!');
+define('_US_ACTLOGIN', 'Ο λογαριασμός σας έχει ενεργοποιηθεί. Παρακαλούμε συνδεθείτε με τον καταχωρημένο κωδικό πρόσβασης.');
+define('_US_NOPERMISS', 'Συγγνώμη, δεν έχετε την άδεια να εκτελέσετε αυτή τη δράση!');
+define('_US_SURETODEL', 'Είστε σίγουροι ότι θέλετε να διαγράψετε τον λογαριασμό σας;');
+define('_US_REMOVEINFO', 'Αυτό θα αφαιρέσει όλες τις πληροφορίες σας από τη βάση δεδομένων μας.');
+define('_US_BEENDELED', 'Ο λογαριασμός σας έχει διαγραφεί.');
+define('_US_ACTFAILD', 'Η ενεργοποίηση απέτυχε!');
+
+define('_US_USERREG', 'Εγγραφή Χρήστη');
+define('_US_NICKNAME', 'Όνομα Χρήστη');
 define('_US_EMAIL', 'Email');
-define('_US_ALLOWVIEWEMAIL', 'Allow other users to view my email address');
-define('_US_WEBSITE', 'Website');
-define('_US_TIMEZONE', 'Time Zone');
-define('_US_AVATAR', 'Avatar');
-define('_US_VERIFYPASS', 'Verify Password');
-define('_US_SUBMIT', 'Submit');
-define('_US_USERNAME', 'Username');
-define('_US_FINISH', 'Finish');
-define('_US_REGISTERNG', 'Could not register new user.');
-define('_US_MAILOK', 'Receive occasional email notices <br>from administrators and moderators?');
-define('_US_DISCLAIMER', 'Disclaimer');
-define('_US_IAGREE', 'I agree to the above');
-define('_US_UNEEDAGREE', 'Sorry, you have to agree to our disclaimer to get registered.');
-define('_US_NOREGISTER', 'Sorry, we are currently closed for new user registrations');
-// %s is username. This is a subject for email
-define('_US_USERKEYFOR', 'User activation key for %s');
-define('_US_YOURREGISTERED', 'You are now registered. An email containing an user activation key has been sent to the email account you provided. Please follow the instructions in the email to activate your account. ');
-define('_US_YOURREGMAILNG', 'You are now registered. However, we were unable to send the activation email to your email account due to an internal error that has occurred on our server. We are sorry for the inconvenience, please send the webmaster an email to notify them of the situation.');
-define('_US_YOURREGISTERED2', 'You are now registered.  Please wait for your account to be activated by the adminstrators.  You will receive an email once you are activated.  This could take a while so please be patient.');
-// %s is your site name
-define('_US_NEWUSERREGAT', 'New user registration at %s');
-// %s is a username
-define('_US_HASJUSTREG', '%s has just registered!');
-define('_US_INVALIDMAIL', 'ERROR: Invalid Email');
-define('_US_EMAILNOSPACES', 'ERROR: Email addresses do not contain spaces.');
-define('_US_INVALIDNICKNAME', 'ERROR: Invalid Username');
-define('_US_NICKNAMETOOLONG', 'Username is too long. It must be less than %s characters.');
-define('_US_NICKNAMETOOSHORT', 'Username is too short. It must be more than %s characters.');
-define('_US_NAMERESERVED', 'ERROR: Name is reserved.');
-define('_US_NICKNAMENOSPACES', 'There cannot be any spaces in the Username.');
-define('_US_NICKNAMETAKEN', 'ERROR: Username taken.');
-define('_US_EMAILTAKEN', 'ERROR: Email address already registered.');
-define('_US_ENTERPWD', 'ERROR: You must provide a password.');
-define('_US_SORRYNOTFOUND', 'Sorry, no corresponding user info was found.');
-// %s is your site name
-define('_US_NEWPWDREQ', 'New Password Request at %s');
-define('_US_YOURACCOUNT', 'Your account at %s');
-define('_US_MAILPWDNG', 'mail_password: could not update user entry. Contact the Administrator');
-// %s is a username
-define('_US_PWDMAILED', 'Password for %s mailed.');
-define('_US_CONFMAIL', 'Confirmation email for %s mailed.');
-define('_US_ACTVMAILNG', 'Failed sending notification email to %s');
-define('_US_ACTVMAILOK', 'Notification email to %s sent.');
-//%%%%%%        File Name userinfo.php         %%%%%
-define('_US_SELECTNG', 'No User Selected! Please go back and try again.');
+define('_US_ALLOWVIEWEMAIL', 'Επιτρέψτε στους άλλους χρήστες να δουν τη διεύθυνση email μου');
+define('_US_WEBSITE', 'Ιστοσελίδα');
+define('_US_TIMEZONE', 'Ζώνη Ώρας');
+define('_US_AVATAR', 'Άβαταρ');
+define('_US_VERIFYPASS', 'Επιβεβαίωση Κωδικού Πρόσβασης');
+define('_US_SUBMIT', 'Υποβολή');
+define('_US_USERNAME', 'Όνομα Χρήστη');
+define('_US_FINISH', 'Ολοκλήρωση');
+define('_US_REGISTERNG', 'Δεν ήταν δυνατή η εγγραφή νέου χρήστη.');
+define('_US_MAILOK', 'Λάβετε περιστασιακές ειδοποιήσεις μέσω email από τους διαχειριστές και συντονιστές;');
+define('_US_DISCLAIMER', 'Απαλλαγή από ευθύνη');
+define('_US_IAGREE', 'Συμφωνώ με τα παραπάνω');
+define('_US_UNEEDAGREE', 'Συγγνώμη, πρέπει να συμφωνήσετε με την απαλλαγή από ευθύνη για να εγγραφείτε.');
+define('_US_NOREGISTER', 'Συγγνώμη, η εγγραφή νέων χρηστών είναι κλειστή προς το παρόν.');
+
+define('_US_USERKEYFOR', 'Κλειδί ενεργοποίησης χρήστη για %s');
+define('_US_YOURREGISTERED', 'Έχετε εγγραφεί. Έχει σταλεί ένα email που περιέχει το κλειδί ενεργοποίησης του χρήστη στην διεύθυνση email που καταχωρήσατε. Παρακαλούμε ακολουθήστε τις οδηγίες στο email για να ενεργοποιήσετε τον λογαριασμό σας.');
+define('_US_YOURREGMAILNG', 'Εχετε εγγραφεί. Ωστόσο, δεν μπορέσαμε να στείλουμε το email ενεργοποίησης στον λογαριασμό σας λόγω ενός εσωτερικού σφάλματος στον διακομιστή μας. Ζητούμε συγγνώμη για την ταλαιπωρία, παρακαλούμε στείλτε email στον διαχειριστή για να τον ενημερώσετε για την κατάσταση.');
+define('_US_YOURREGISTERED2', 'Έχετε εγγραφεί. Παρακαλούμε περιμένετε να ενεργοποιηθεί ο λογαριασμός σας από τους διαχειριστές. Θα λάβετε ένα email μόλις ενεργοποιηθεί. Αυτό μπορεί να πάρει λίγο χρόνο, παρακαλούμε να είστε υπομονετικοί.');
+
+define('_US_NEWUSERREGAT', 'Νέα εγγραφή χρήστη στο %s');
+define('_US_HASJUSTREG', '%s μόλις εγγράφηκε!');
+define('_US_INVALIDMAIL', 'ΣΦΑΛΜΑ: Μη έγκυρο Email');
+define('_US_EMAILNOSPACES', 'ΣΦΑΛΜΑ: Οι διευθύνσεις email δεν περιέχουν κενά.');
+define('_US_INVALIDNICKNAME', 'ΣΦΑΛΜΑ: Μη έγκυρο Όνομα Χρήστη');
+define('_US_NICKNAMETOOLONG', 'Το όνομα χρήστη είναι πολύ μεγάλο. Πρέπει να είναι μικρότερο από %s χαρακτήρες.');
+define('_US_NICKNAMETOOSHORT', 'Το όνομα χρήστη είναι πολύ μικρό. Πρέπει να είναι μεγαλύτερο από %s χαρακτήρες.');
+define('_US_NAMERESERVED', 'ΣΦΑΛΜΑ: Το όνομα είναι κρατημένο.');
+define('_US_NICKNAMENOSPACES', 'Δεν επιτρέπονται κενά στο Όνομα Χρήστη.');
+define('_US_NICKNAMETAKEN', 'ΣΦΑΛΜΑ: Το όνομα χρήστη είναι ήδη κατειλημμένο.');
+define('_US_EMAILTAKEN', 'ΣΦΑΛΜΑ: Η διεύθυνση email είναι ήδη εγγεγραμμένη.');
+define('_US_ENTERPWD', 'ΣΦΑΛΜΑ: Πρέπει να παρέχετε έναν κωδικό πρόσβασης.');
+define('_US_SORRYNOTFOUND', 'Συγγνώμη, δεν βρέθηκαν αντίστοιχες πληροφορίες χρήστη.');
+
+define('_US_NEWPWDREQ', 'Αίτημα Νέου Κωδικού Πρόσβασης στο %s');
+define('_US_YOURACCOUNT', 'Ο λογαριασμός σας στο %s');
+define('_US_MAILPWDNG', 'mail_password: δεν ήταν δυνατή η ενημέρωση της εγγραφής χρήστη. Επικοινωνήστε με τον Διαχειριστή');
+
+define('_US_PWDMAILED', 'Ο κωδικός πρόσβασης για το %s στάλθηκε.');
+define('_US_CONFMAIL', 'Το email επιβεβαίωσης για το %s στάλθηκε.');
+define('_US_ACTVMAILNG', 'Απέτυχε η αποστολή του email ειδοποίησης για το %s');
+define('_US_ACTVMAILOK', 'Το email ειδοποίησης για το %s στάλθηκε.');
+
+define('_US_SELECTNG', 'Δεν επιλέχθηκε χρήστης! Παρακαλούμε επιστρέψτε και δοκιμάστε ξανά.');
 define('_US_PM', 'PM');
 define('_US_ICQ', 'ICQ');
 define('_US_AIM', 'AIM');
 define('_US_YIM', 'YIM');
 define('_US_MSNM', 'MSNM');
-define('_US_LOCATION', 'Location');
-define('_US_OCCUPATION', 'Occupation');
-define('_US_INTEREST', 'Interest');
-define('_US_SIGNATURE', 'Signature');
-define('_US_EXTRAINFO', 'Extra Info');
-define('_US_EDITPROFILE', 'Edit Profile');
-define('_US_LOGOUT', 'Logout');
-define('_US_INBOX', 'Inbox');
-define('_US_MEMBERSINCE', 'Member Since');
-define('_US_RANK', 'Rank');
-define('_US_POSTS', 'Comments/Posts');
-define('_US_LASTLOGIN', 'Last Login');
-define('_US_ALLABOUT', 'All about %s');
-define('_US_STATISTICS', 'Statistics');
-define('_US_MYINFO', 'My Info');
-define('_US_BASICINFO', 'Basic information');
-define('_US_MOREABOUT', 'More About Me');
-define('_US_SHOWALL', 'Show All');
-//%%%%%%        File Name edituser.php         %%%%%
-define('_US_PROFILE', 'Profile');
-define('_US_REALNAME', 'Real Name');
-define('_US_SHOWSIG', 'Always attach my signature');
-define('_US_CDISPLAYMODE', 'Comments Display Mode');
-define('_US_CSORTORDER', 'Comments Sort Order');
-define('_US_PASSWORD', 'Password');
-define('_US_TYPEPASSTWICE', '(type a new password twice to change it)');
-define('_US_SAVECHANGES', 'Save Changes');
-define('_US_NOEDITRIGHT', "Sorry, you don't have the right to edit this user's info.");
-define('_US_PASSNOTSAME', 'Both passwords are different. They must be identical.');
-define('_US_PWDTOOSHORT', 'Sorry, your password must be at least <strong>%s</strong> characters long.');
-define('_US_PROFUPDATED', 'Your Profile Updated!');
-// removed in 2.5.9 define('_US_USECOOKIE', 'Store my user name in a cookie for 1 year');
-define('_US_NO', 'No');
-define('_US_DELACCOUNT', 'Delete Account');
-define('_US_MYAVATAR', 'My Avatar');
-define('_US_UPLOADMYAVATAR', 'Upload Avatar');
-define('_US_MAXPIXEL', 'Max Pixels');
-define('_US_MAXIMGSZ', 'Max Image Size (Bytes)');
-define('_US_SELFILE', 'Select file');
-define('_US_OLDDELETED', 'Your old avatar will be deleted!');
-define('_US_CHOOSEAVT', 'Choose avatar from the available list');
-define('_US_PRESSLOGIN', 'Press the button below to login');
-define('_US_ADMINNO', 'User in the webmasters group cannot be removed');
-define('_US_GROUPS', 'User\'s Groups');
-define('_US_REMEMBERME', 'Remember me');
-// Welcoming emai/PM subject
-define('_US_WELCOME_SUBJECT', 'Welcome to %s');
+define('_US_LOCATION', 'Τοποθεσία');
+define('_US_OCCUPATION', 'Επάγγελμα');
+define('_US_INTEREST', 'Ενδιαφέρον');
+define('_US_SIGNATURE', 'Υπογραφή');
+define('_US_EXTRAINFO', 'Επιπλέον Πληροφορίες');
+define('_US_EDITPROFILE', 'Επεξεργασία Προφίλ');
+define('_US_LOGOUT', 'Αποσύνδεση');
+define('_US_INBOX', 'Εισερχόμενα');
+define('_US_MEMBERSINCE', 'Μέλος από');
+define('_US_RANK', 'Κατάταξη');
+define('_US_POSTS', 'Σχόλια/Δημοσιεύσεις');
+define('_US_LASTLOGIN', 'Τελευταία Σύνδεση');
+define('_US_ALLABOUT', 'Όλα για το %s');
+define('_US_STATISTICS', 'Στατιστικά');
+define('_US_MYINFO', 'Οι Πληροφορίες Μου');
+define('_US_BASICINFO', 'Βασικές πληροφορίες');
+define('_US_MOREABOUT', 'Περισσότερα για εμένα');
+define('_US_SHOWALL', 'Εμφάνιση Όλων');
 
-//XOOPS 2.5.4
-define('_US_SKYPE', 'Skype');
-define('_US_FACEBOOK', 'Facebook');
-//XOOPS 2.5.9
-define('_US_USERALREADYACTIVE', 'User already active');
-//XOOPS 2.5.11
-define('_US_DESCRIPTIONMIN', 'Minimum required length: %s');
-define('_US_DESCRIPTIONMAX', 'Maximum length: %s');
+define('_US_PROFILE', 'Προφίλ');
+define('_US_REALNAME', 'Πραγματικό Όνομα');
+define('_US_SHOWSIG', 'Πάντα να επισυνάπτεται η υπογραφή μου');
+define('_US_CDISPLAYMODE', 'Τρόπος Εμφάνισης Σχολίων');
+define('_US_CSORTORDER', 'Σειρά Σχολίων');
+define('_US_PASSWORD', 'Κωδικός Πρόσβασης');
+define('_US_TYPEPASSTWICE', '(εισάγετε τον νέο κωδικό πρόσβασης δύο φορές για να τον αλλάξετε)');
+define('_US_SAVECHANGES', 'Αποθήκευση Αλλαγών');
+define('_US_NOEDITRIGHT', "Συγγνώμη, δεν έχετε δικαίωμα να επεξεργαστείτε αυτές τις πληροφορίες χρήστη.");
+define('_US_PASSNOTSAME', 'Οι δύο κωδικοί πρόσβασης είναι διαφορετικοί. Πρέπει να είναι ταυτόσιμοι.');
+define('_US_PWDTOOSHORT', 'Συγγνώμη, ο κωδικός πρόσβασης πρέπει να είναι τουλάχιστον <strong>%s</strong> χαρακτήρες.');
+define('_US_PROFUPDATED', 'Το Προφίλ σας έχει ενημερωθεί!');
+
+define('_US_NO', 'Όχι');
+define('_US_DELACCOUNT', 'Διαγραφή Λογαριασμού');
+define('_US_MYAVATAR', 'Το Άβατάρ μου');
+define('_US_UPLOADMYAVATAR', 'Ανέβασμα Άβαταρ');
+define('_US_MAXPIXEL', 'Μέγιστες Διαστάσεις Εικόνας');
+define('_US_MAXIMGSZ', 'Μέγεθος Μέγιστης Εικόνας (Bytes)');
+define('_US_SELFILE', 'Επιλογή Αρχείου');
+define('_US_OLDDELETED', 'Το παλιό σας άβαταρ θα διαγραφεί!');
+define('_US_CHOOSEAVT', 'Επιλέξτε άβαταρ από τη διαθέσιμη λίστα');
+define('_US_PRESSLOGIN', 'Πατήστε το κουμπί παρακάτω για να συνδεθείτε');
+define('_US_ADMINNO', 'Ο χρήστης στην ομάδα webmasters δεν μπορεί να διαγραφεί');
+define('_US_GROUPS', 'Ομάδες Χρήστη');
+define('_US_REMEMBERME', 'Να με θυμάσαι');

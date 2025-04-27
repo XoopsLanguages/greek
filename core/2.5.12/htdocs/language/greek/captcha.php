@@ -3,19 +3,19 @@
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_CAPTCHA_CAPTION', 'Confirmation Code');
-define('_CAPTCHA_INVALID_CODE', 'Invalid confirmation code!');
-define('_CAPTCHA_TOOMANYATTEMPTS', 'Too many attempts!');
-define('_CAPTCHA_MAXATTEMPTS', 'Maximum attempts you can try: %d');
-// For image mode
-define('_CAPTCHA_RULE_IMAGE', 'Input letters in the image');
-define('_CAPTCHA_RULE_CASESENSITIVE', 'The code is case-sensitive');
-define('_CAPTCHA_RULE_CASEINSENSITIVE', 'The code is case-insensitive');
-define('_CAPTCHA_REFRESH', 'Click to refresh the image if it is not clear enough.');
-// For text mode
-define('_CAPTCHA_RULE_TEXT', 'Input the result from the expression');
+define('_CAPTCHA_CAPTION', 'Κωδικός Επιβεβαίωσης');
+define('_CAPTCHA_INVALID_CODE', 'Μη έγκυρος κωδικός επιβεβαίωσης!');
+define('_CAPTCHA_TOOMANYATTEMPTS', 'Πάρα πολλές προσπάθειες!');
+define('_CAPTCHA_MAXATTEMPTS', 'Μέγιστος αριθμός προσπαθειών που μπορείτε να δοκιμάσετε: %d');
+// Για τη λειτουργία εικόνας
+define('_CAPTCHA_RULE_IMAGE', 'Εισαγάγετε τα γράμματα στην εικόνα');
+define('_CAPTCHA_RULE_CASESENSITIVE', 'Ο κωδικός είναι ευαίσθητος σε πεζά-κεφαλαία');
+define('_CAPTCHA_RULE_CASEINSENSITIVE', 'Ο κωδικός δεν είναι ευαίσθητος σε πεζά-κεφαλαία');
+define('_CAPTCHA_REFRESH', 'Κάντε κλικ για να ανανεώσετε την εικόνα αν δεν είναι αρκετά καθαρή.');
+// Για τη λειτουργία κειμένου
+define('_CAPTCHA_RULE_TEXT', 'Εισαγάγετε το αποτέλεσμα από την έκφραση');
 
 /**
- * Error defines
+ * Ορισμοί σφαλμάτων
  */
-define('_CAPTCHA_LOADFILEERROR', 'Error: Could not load file %u in file %s at line %s. ');
+define('_CAPTCHA_LOADFILEERROR', 'Σφάλμα: Δεν ήταν δυνατή η φόρτωση του αρχείου %u στο αρχείο %s στη γραμμή %s. ');

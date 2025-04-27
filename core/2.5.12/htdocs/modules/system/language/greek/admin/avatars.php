@@ -6,26 +6,26 @@
  * _CHARSET     UTF-8
  */
 // Navigation
-define('_AM_SYSTEM_AVATAR_MANAGER', 'Avatars Management');
-define('_AM_SYSTEM_AVATAR_MAIN', 'Main');
-define('_AM_SYSTEM_AVATAR_SYSTEM', 'System Avatars');
-define('_AM_SYSTEM_AVATAR_CUSTOM', 'Custom Avatars');
-define('_AM_SYSTEM_AVATAR_ADD', 'Add Avatar');
-define('_AM_SYSTEM_AVATAR_EDIT', 'Edit Avatar');
-define('_AM_SYSTEM_AVATAR_DELETE', 'Delete Avatar');
-// Main
-define('_AM_SYSTEM_AVATAR_MULTIUPLOAD', 'Multi uploads');
-// Infos
-define('_AM_SYSTEM_AVATAR_ERROR', 'Errors');
-define('_AM_SYSTEM_AVATAR_USERS', 'Users using this avatar');
-define('_AM_SYSTEM_AVATAR_USE_FILE', 'Choose files in: %s');
-define('_AM_SYSTEM_AVATAR_UPLOAD', 'Upload:');
-// Messages
-define('_AM_SYSTEM_AVATAR_FAILDEL', 'Failed deleting avatar %s from the database');
-define('_AM_SYSTEM_AVATAR_SUREDEL', 'Are you sure to delete this avatar image?');
-// Tips
+define('_AM_SYSTEM_AVATAR_MANAGER', 'Διαχείριση Avatar');
+define('_AM_SYSTEM_AVATAR_MAIN', 'Κύριο');
+define('_AM_SYSTEM_AVATAR_SYSTEM', 'Avatar Συστήματος');
+define('_AM_SYSTEM_AVATAR_CUSTOM', 'Προσαρμοσμένα Avatar');
+define('_AM_SYSTEM_AVATAR_ADD', 'Προσθήκη Avatar');
+define('_AM_SYSTEM_AVATAR_EDIT', 'Επεξεργασία Avatar');
+define('_AM_SYSTEM_AVATAR_DELETE', 'Διαγραφή Avatar');
+// Κύριο
+define('_AM_SYSTEM_AVATAR_MULTIUPLOAD', 'Πολλαπλά ανεβάσματα');
+// Πληροφορίες
+define('_AM_SYSTEM_AVATAR_ERROR', 'Σφάλματα');
+define('_AM_SYSTEM_AVATAR_USERS', 'Χρήστες που χρησιμοποιούν αυτό το avatar');
+define('_AM_SYSTEM_AVATAR_USE_FILE', 'Επιλέξτε αρχεία σε: %s');
+define('_AM_SYSTEM_AVATAR_UPLOAD', 'Ανέβασμα:');
+// Μηνύματα
+define('_AM_SYSTEM_AVATAR_FAILDEL', 'Αποτυχία διαγραφής του avatar %s από τη βάση δεδομένων');
+define('_AM_SYSTEM_AVATAR_SUREDEL', 'Είστε σίγουροι ότι θέλετε να διαγράψετε αυτήν την εικόνα avatar;');
+// Συμβουλές
 define('_AM_SYSTEM_AVATAR_TIPS', "
 <ul id='newsticker' class='newsticker'>
-<li>Manage all System or Custom avatars</li>
-<li>Site members can optionally create their own online personality called avatars.<br>This option can be turned off from System User preferences.</li>
+<li>Διαχειριστείτε όλα τα Avatar του Συστήματος ή τα Προσαρμοσμένα Avatar</li>
+<li>Τα μέλη του ιστότοπου μπορούν προαιρετικά να δημιουργήσουν τη δική τους διαδικτυακή προσωπικότητα που ονομάζεται avatar.<br>Αυτή η επιλογή μπορεί να απενεργοποιηθεί από τις προτιμήσεις χρήστη του Συστήματος.</li>
 </ul>");

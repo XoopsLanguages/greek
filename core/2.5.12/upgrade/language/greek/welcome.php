@@ -10,18 +10,18 @@ define(
 <h2>XOOPS Upgrader</h2>
 
 <p>
-<em>Upgrade</em> will examine this XOOPS installation and apply any needed patches to make it compatible 
-with the new XOOPS code. Patches may include database changes, adding default settings for new
-configuration items, file and data updates, and more.
+Το <em>Upgrade</em> θα εξετάσει αυτή την εγκατάσταση XOOPS και θα εφαρμόσει τυχόν απαραίτητα patches για να την κάνει συμβατή
+με τον νέο κώδικα XOOPS. Τα patches μπορεί να περιλαμβάνουν αλλαγές στη βάση δεδομένων, προσθήκη προεπιλεγμένων ρυθμίσεων για νέα
+στοιχεία διαμόρφωσης, ενημερώσεις αρχείων και δεδομένων και πολλά άλλα.
 <p>
-After each patch, the upgrader will report the status, and wait for your input to continue. At the
-end of the upgrade, control will pass to the system module update function.
+Μετά από κάθε patch, το upgrader θα αναφέρει την κατάσταση και θα περιμένει την εισαγωγή σας για να συνεχίσει. Στο
+τέλος της αναβάθμισης, ο έλεγχος θα περάσει στη λειτουργία ενημέρωσης της ενότητας συστήματος.
 
 <div class="alert alert-warning">
-Once the upgrade is complete, don't forget to:
+Μόλις ολοκληρωθεί η αναβάθμιση, μην ξεχάσετε να:
 <ul class="fa-ul">
- <li><span class="fa-li fa-solid fa-folder-open"></span> delete the upgrade folder</li>
- <li><span class="fa-li fa-solid fa-arrows-rotate"></span> update any modules that have changed</li>
+ <li><span class="fa-li fa-solid fa-folder-open"></span> διαγράψετε τον φάκελο upgrade</li>
+ <li><span class="fa-li fa-solid fa-arrows-rotate"></span> ενημερώσετε τυχόν ενότητες που έχουν αλλάξει</li>
 </div>
 
 EOT,

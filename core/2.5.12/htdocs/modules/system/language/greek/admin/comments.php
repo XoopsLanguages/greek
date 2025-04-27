@@ -5,38 +5,38 @@
  * _LANGCODE    en
  * _CHARSET     UTF-8
  */
-// Manager
-define('_AM_SYSTEM_COMMENTS_NAV_MANAGER', 'Comment Management');
-define('_AM_SYSTEM_COMMENTS_NAV_MAIN', 'List');
-define('_AM_SYSTEM_COMMENTS_NAV_PURGE', 'Purge');
-// Nav
-define('_AM_SYSTEM_COMMENTS_MODULE_ADMIN', 'Modules Administration');
-// Tips
+// Διαχειριστής
+define('_AM_SYSTEM_COMMENTS_NAV_MANAGER', 'Διαχείριση Σχολίων');
+define('_AM_SYSTEM_COMMENTS_NAV_MAIN', 'Λίστα');
+define('_AM_SYSTEM_COMMENTS_NAV_PURGE', 'Καθαρισμός');
+// Πλοήγηση
+define('_AM_SYSTEM_COMMENTS_MODULE_ADMIN', 'Διαχείριση Modules');
+// Συμβουλές
 define('_AM_SYSTEM_COMMENTS_NAV_TIPS', '
 <ul>
-<li>Manage comments for all your modules.</li>
-<li>Delete comments easily with the purge.</li>
+<li>Διαχειριστείτε τα σχόλια για όλα τα modules σας.</li>
+<li>Διαγράψτε εύκολα τα σχόλια με τον καθαρισμό.</li>
 </ul>');
-// Form
-define('_AM_SYSTEM_COMMENTS_FORM_LIST_COMMENTS', 'List Comments');
-define('_AM_SYSTEM_COMMENTS_FORM_ALL_MODS', 'All modules');
-define('_AM_SYSTEM_COMMENTS_FORM_ALL_STATUS', 'Any status');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE', 'Purge');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_AFTER', 'After this date (leave empty for any date)');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_BEFORE', 'Before this date (leave empty for any date)');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS', 'Groups');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_USER', 'User name');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS', 'Status');
+// Φόρμα
+define('_AM_SYSTEM_COMMENTS_FORM_LIST_COMMENTS', 'Λίστα Σχολίων');
+define('_AM_SYSTEM_COMMENTS_FORM_ALL_MODS', 'Όλα τα modules');
+define('_AM_SYSTEM_COMMENTS_FORM_ALL_STATUS', 'Οποιαδήποτε κατάσταση');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE', 'Καθαρισμός');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_AFTER', 'Μετά από αυτήν την ημερομηνία (αφήστε κενό για οποιαδήποτε ημερομηνία)');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_BEFORE', 'Πριν από αυτήν την ημερομηνία (αφήστε κενό για οποιαδήποτε ημερομηνία)');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS', 'Ομάδες');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_USER', 'Όνομα χρήστη');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS', 'Κατάσταση');
 define('_AM_SYSTEM_COMMENTS_FORM_PURGE_MODULES', 'Modules');
-// Tab
-define('_AM_SYSTEM_COMMENTS_TITLE', 'Title');
-define('_AM_SYSTEM_COMMENTS_POSTED', 'Author');
+// Καρτέλα
+define('_AM_SYSTEM_COMMENTS_TITLE', 'Τίτλος');
+define('_AM_SYSTEM_COMMENTS_POSTED', 'Συγγραφέας');
 define('_AM_SYSTEM_COMMENTS_IP', 'IP');
 define('_AM_SYSTEM_COMMENTS_MODULE', 'Module');
-define('_AM_SYSTEM_COMMENTS_STATUS', 'Status');
-define('_AM_SYSTEM_COMMENTS_ACTION', 'Action');
-define('_AM_SYSTEM_COMMENTS_VIEW', 'See comment');
-define('_AM_SYSTEM_COMMENTS_NO_COMMENTS', 'No comments');
-define('_AM_SYSTEM_COMMENTS_COMMENTS_FOUND', '%s comment(s) found.');
+define('_AM_SYSTEM_COMMENTS_STATUS', 'Κατάσταση');
+define('_AM_SYSTEM_COMMENTS_ACTION', 'Ενέργεια');
+define('_AM_SYSTEM_COMMENTS_VIEW', 'Προβολή σχολίου');
+define('_AM_SYSTEM_COMMENTS_NO_COMMENTS', 'Δεν υπάρχουν σχόλια');
+define('_AM_SYSTEM_COMMENTS_COMMENTS_FOUND', 'Βρέθηκαν %s σχόλιο(-α).');
 //XOOPS 2.5.9
-define('_MP_DELETECOUNT', 'The number of members in the group is too big ( > 4,000) ');
+define('_MP_DELETECOUNT', 'Ο αριθμός των μελών στην ομάδα είναι πολύ μεγάλος ( > 4.000) ');

@@ -1,15 +1,15 @@
-Hello {X_UNAME},
+Γειά σας {X_UNAME},
 
-A web user from {IP} has just requested a new password.
-Here are your login details at {SITENAME}.
+Ένας χρήστης από το {IP} μόλις ζήτησε νέο κωδικό πρόσβασης.
+Ακολουθούν τα στοιχεία σύνδεσής σας στο {SITENAME}.
 
-Username: {X_UNAME}
-New Password: {NEWPWD}
+Όνομα χρήστη: {X_UNAME}
+Νέος Κωδικός Πρόσβασης: {NEWPWD}
 
-You can change it after you login at {SITEURL}user.php.
-If you didn't ask for this, don't worry. You are seeing this message, not 'them'. If this was an error, we are really sorry but please login with your new password.
+Μπορείτε να τον αλλάξετε αφού συνδεθείτε στο {SITEURL}user.php.
+Αν δεν ζητήσατε αυτό, μην ανησυχείτε. Βλέπετε αυτό το μήνυμα, όχι 'εκείνοι'. Αν αυτό ήταν λάθος, ζητάμε συγνώμη, αλλά παρακαλούμε συνδεθείτε με τον νέο σας κωδικό πρόσβασης.
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+διαχειριστής
 {ADMINMAIL}

@@ -1,3 +1,3 @@
-For XOOPS library
+// Για τη βιβλιοθήκη του XOOPS
 
-For security considerations, you are strongly advised to move this folder out of Document Root.
+Για λόγους ασφαλείας, συνιστάται έντονα να μετακινήσετε αυτόν τον φάκελο εκτός του Document Root.

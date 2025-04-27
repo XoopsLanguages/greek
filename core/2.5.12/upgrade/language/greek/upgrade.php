@@ -3,37 +3,37 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define('_XOOPS_UPGRADE', 'XOOPS System Upgrade');
-define('_CHECKING_APPLIED', 'Checking applied upgrades:');
-define('_SET_FILES_WRITABLE', 'Make the following files writable before proceeding:');
-define('_NO_NEED_UPGRADE', 'No upgrade necessary. Please %s and remove this folder from your server');
-define('_NEED_UPGRADE', 'Upgrade needed');
-define('_PROCEED_UPGRADE', 'Proceed to upgrade');
-define('_PERFORMING_UPGRADE', 'Applied patch %s');
+define('_XOOPS_UPGRADE', 'Αναβάθμιση Συστήματος XOOPS');
+define('_CHECKING_APPLIED', 'Έλεγχος εφαρμοσμένων αναβαθμίσεων:');
+define('_SET_FILES_WRITABLE', 'Κάντε τα παρακάτω αρχεία εγγράψιμα πριν προχωρήσετε:');
+define('_NO_NEED_UPGRADE', 'Δεν απαιτείται αναβάθμιση. Παρακαλώ %s και διαγράψτε αυτόν τον φάκελο από τον διακομιστή σας');
+define('_NEED_UPGRADE', 'Αναβάθμιση απαιτείται');
+define('_PROCEED_UPGRADE', 'Προχωρήστε στην αναβάθμιση');
+define('_PERFORMING_UPGRADE', 'Εφαρμογή διορθώσεων %s');
 
-define('_USER_LOGIN', 'Login Required');
+define('_USER_LOGIN', 'Απαιτείται σύνδεση');
 
-define('_MANUAL_INSTRUCTIONS', 'Manual installation instructions');
+define('_MANUAL_INSTRUCTIONS', 'Οδηγίες χειροκίνητης εγκατάστασης');
 
 // %s is filename
-define('_FAILED_PATCH', 'Failed to patch %s');
-define('_APPLY_NEXT', 'Apply next upgrade (%s)');
-define('_COPY_RED_LINES', 'Copy the following red lines to %s');
+define('_FAILED_PATCH', 'Αποτυχία εφαρμογής της διόρθωσης %s');
+define('_APPLY_NEXT', 'Εφαρμογή επόμενης αναβάθμισης (%s)');
+define('_COPY_RED_LINES', 'Αντιγράψτε τις παρακάτω κόκκινες γραμμές στο %s');
 
-define('_FINISH', 'Finish');
-define('_RELOAD', 'Reload');
+define('_FINISH', 'Ολοκλήρωση');
+define('_RELOAD', 'Επαναφόρτωση');
 
 define('_UPGRADE_CHARSET', 'UTF-8');
-define('_UPDATE_SYSTEM_MODULE', 'update system module');
+define('_UPDATE_SYSTEM_MODULE', 'Ενημέρωση συστήματος ενότητας');
 
-define('_LANGUAGE', 'Language');
-define('_SUPPORT', 'Support');
-define('_XOOPS_SOURCE_CODE', 'XOOPS on GitHub');
-define('_PATCH_COUNT', 'Patch Sets');
-define('_USERNAME_PLACEHOLDER', 'Your Username');
-define('_PASSWORD_PLACEHOLDER', 'Your Password');
-define('_CONTINUE', 'Continue');
+define('_LANGUAGE', 'Γλώσσα');
+define('_SUPPORT', 'Υποστήριξη');
+define('_XOOPS_SOURCE_CODE', 'XOOPS στο GitHub');
+define('_PATCH_COUNT', 'Σετ Διορθώσεων');
+define('_USERNAME_PLACEHOLDER', 'Το Όνομα Χρήστη σας');
+define('_PASSWORD_PLACEHOLDER', 'Ο Κωδικός σας');
+define('_CONTINUE', 'Συνέχεια');
 
-define('XOOPS_ERROR_ENCOUNTERED', 'Error');
-define('XOOPS_ERROR_SEE_BELOW', 'See below for messages.');
-define('_FILE_ACCESS_ERROR', 'Could not access the file %s');
+define('XOOPS_ERROR_ENCOUNTERED', 'Σφάλμα');
+define('XOOPS_ERROR_SEE_BELOW', 'Δείτε παρακάτω για τα μηνύματα.');
+define('_FILE_ACCESS_ERROR', 'Δεν ήταν δυνατή η πρόσβαση στο αρχείο %s');

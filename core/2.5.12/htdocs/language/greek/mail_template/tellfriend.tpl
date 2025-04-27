@@ -1,11 +1,11 @@
-Hello {FRIEND_NAME},
+Γειά σας {FRIEND_NAME},
 
-Your friend {YOUR_NAME} liked our site and wanted to show it to you.
+Ο φίλος σας {YOUR_NAME} άρεσε η ιστοσελίδα μας και ήθελε να σας την δείξει.
 
-Site Name: {SITENAME}
-Site URL:  {SITEURL}
+Όνομα Ιστοσελίδας: {SITENAME}
+URL Ιστοσελίδας: {SITEURL}
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+διαχειριστής
 {ADMINMAIL}

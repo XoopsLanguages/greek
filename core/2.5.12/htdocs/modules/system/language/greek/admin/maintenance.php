@@ -6,57 +6,57 @@
  * _CHARSET     UTF-8
  */
 //Nav
-define('_AM_SYSTEM_MAINTENANCE_NAV_MANAGER', 'Maintenance');
-define('_AM_SYSTEM_MAINTENANCE_NAV_LIST', 'All maintenance');
-define('_AM_SYSTEM_MAINTENANCE_NAV_DUMP', 'Dump');
-define('_AM_SYSTEM_MAINTENANCE_SESSION', 'Empty the sessions table');
-define('_AM_SYSTEM_MAINTENANCE_SESSION_OK', 'Session maintenance : OK');
-define('_AM_SYSTEM_MAINTENANCE_SESSION_NOTOK', 'Session maintenance : Error');
-define('_AM_SYSTEM_MAINTENANCE_AVATAR', 'Purge unused custom avatars');
-define('_AM_SYSTEM_MAINTENANCE_CACHE', 'Clean cache folder');
-define('_AM_SYSTEM_MAINTENANCE_CACHE_OK', 'Cache maintenance : OK');
-define('_AM_SYSTEM_MAINTENANCE_CACHE_NOTOK', 'Cache maintenance : Error');
-define('_AM_SYSTEM_MAINTENANCE_TABLES', 'Tables maintenance');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_OK', 'Tables maintenance : OK');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_NOTOK', 'Tables maintenance : Error');
-define('_AM_SYSTEM_MAINTENANCE_QUERY_DESC', 'Optimize, Check, Repair and Analyze your tables');
-define('_AM_SYSTEM_MAINTENANCE_QUERY_OK', 'Maintain database : OK');
-define('_AM_SYSTEM_MAINTENANCE_QUERY_NOTOK', 'Maintain database : Error');
-define('_AM_SYSTEM_MAINTENANCE_CHOICE1', 'Optimize table(s)');
-define('_AM_SYSTEM_MAINTENANCE_CHOICE2', 'Check table(s)');
-define('_AM_SYSTEM_MAINTENANCE_CHOICE3', 'Repair table(s)');
-define('_AM_SYSTEM_MAINTENANCE_CHOICE4', 'Analyze table(s)');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_DESC', 'ANALYZE TABLE analyzes and stores the key distribution for a table. During the analysis, the table is locked with a read lock.<br>
-CHECK TABLE checks a table or tables for errors.<br>
-OPTIMIZE TABLE to reclaim the unused space and to defragment the data file.<br>
-REPAIR TABLE repairs a possibly corrupted table.');
-define('_AM_SYSTEM_MAINTENANCE_RESULT', 'Result');
-define('_AM_SYSTEM_MAINTENANCE_RESULT_NO_RESULT', 'Not Result');
-define('_AM_SYSTEM_MAINTENANCE_RESULT_CACHE', 'Clean Cache task');
-define('_AM_SYSTEM_MAINTENANCE_RESULT_SESSION', 'Clean sessions table task');
-define('_AM_SYSTEM_MAINTENANCE_RESULT_QUERY', 'Database task');
-define('_AM_SYSTEM_MAINTENANCE_RESULT_AVATAR', 'Purge unused avatars task');
-define('_AM_SYSTEM_MAINTENANCE_ERROR_MAINTENANCE', 'No choice for maintenance');
-define('_AM_SYSTEM_MAINTENANCE_TABLES1', 'Tables');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_OPTIMIZE', 'Optimize');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_CHECK', 'Check');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_REPAIR', 'Repair');
-define('_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE', 'Analyze');
+define('_AM_SYSTEM_MAINTENANCE_NAV_MANAGER', 'Συντήρηση');
+define('_AM_SYSTEM_MAINTENANCE_NAV_LIST', 'Όλες οι συντηρήσεις');
+define('_AM_SYSTEM_MAINTENANCE_NAV_DUMP', 'Εξαγωγή');
+define('_AM_SYSTEM_MAINTENANCE_SESSION', 'Άδειασμα πίνακα συνεδριών');
+define('_AM_SYSTEM_MAINTENANCE_SESSION_OK', 'Συντήρηση συνεδρίας: Εντάξει');
+define('_AM_SYSTEM_MAINTENANCE_SESSION_NOTOK', 'Συντήρηση συνεδρίας: Σφάλμα');
+define('_AM_SYSTEM_MAINTENANCE_AVATAR', 'Καθαρισμός αχρησιμοποίητων προσαρμοσμένων άβαταρ');
+define('_AM_SYSTEM_MAINTENANCE_CACHE', 'Καθαρισμός φακέλου cache');
+define('_AM_SYSTEM_MAINTENANCE_CACHE_OK', 'Συντήρηση cache: Εντάξει');
+define('_AM_SYSTEM_MAINTENANCE_CACHE_NOTOK', 'Συντήρηση cache: Σφάλμα');
+define('_AM_SYSTEM_MAINTENANCE_TABLES', 'Συντήρηση πινάκων');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_OK', 'Συντήρηση πινάκων: Εντάξει');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_NOTOK', 'Συντήρηση πινάκων: Σφάλμα');
+define('_AM_SYSTEM_MAINTENANCE_QUERY_DESC', 'Βελτιστοποίηση, Έλεγχος, Επισκευή και Ανάλυση των πινάκων σας');
+define('_AM_SYSTEM_MAINTENANCE_QUERY_OK', 'Συντήρηση βάσης δεδομένων: Εντάξει');
+define('_AM_SYSTEM_MAINTENANCE_QUERY_NOTOK', 'Συντήρηση βάσης δεδομένων: Σφάλμα');
+define('_AM_SYSTEM_MAINTENANCE_CHOICE1', 'Βελτιστοποίηση πίνακα(ων)');
+define('_AM_SYSTEM_MAINTENANCE_CHOICE2', 'Έλεγχος πίνακα(ων)');
+define('_AM_SYSTEM_MAINTENANCE_CHOICE3', 'Επισκευή πίνακα(ων)');
+define('_AM_SYSTEM_MAINTENANCE_CHOICE4', 'Ανάλυση πίνακα(ων)');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_DESC', 'Η ΕΝΑΝΑΛΥΣΗ ΠΙΝΑΚΑ αναλύει και αποθηκεύει την κατανομή κλειδιών για έναν πίνακα. Κατά την ανάλυση, ο πίνακας κλειδώνεται με κλείδωμα ανάγνωσης.<br>
+Ο ΕΛΕΓΧΟΣ ΠΙΝΑΚΑ ελέγχει έναν ή περισσότερους πίνακες για σφάλματα.<br>
+Η ΒΕΛΤΙΣΤΟΠΟΙΗΣΗ ΠΙΝΑΚΑ ανακτά τον αχρησιμοποίητο χώρο και αποσυμπιέζει το αρχείο δεδομένων.<br>
+Η ΕΠΙΣΚΕΥΗ ΠΙΝΑΚΑ επισκευάζει έναν ενδεχομένως κατεστραμμένο πίνακα.');
+define('_AM_SYSTEM_MAINTENANCE_RESULT', 'Αποτέλεσμα');
+define('_AM_SYSTEM_MAINTENANCE_RESULT_NO_RESULT', 'Δεν υπήρξε αποτέλεσμα');
+define('_AM_SYSTEM_MAINTENANCE_RESULT_CACHE', 'Καθήκον Καθαρισμού Cache');
+define('_AM_SYSTEM_MAINTENANCE_RESULT_SESSION', 'Καθήκον Καθαρισμού Πίνακα Συνεδριών');
+define('_AM_SYSTEM_MAINTENANCE_RESULT_QUERY', 'Καθήκον Βάσης Δεδομένων');
+define('_AM_SYSTEM_MAINTENANCE_RESULT_AVATAR', 'Καθήκον Καθαρισμού Αχρησιμοποίητων Άβαταρ');
+define('_AM_SYSTEM_MAINTENANCE_ERROR_MAINTENANCE', 'Δεν επιλέξατε καμία συντήρηση');
+define('_AM_SYSTEM_MAINTENANCE_TABLES1', 'Πίνακες');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_OPTIMIZE', 'Βελτιστοποίηση');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_CHECK', 'Έλεγχος');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_REPAIR', 'Επισκευή');
+define('_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE', 'Ανάλυση');
 //Dump
-define('_AM_SYSTEM_MAINTENANCE_DUMP', 'Dump');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES', 'Select tables or modules');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_DROP', "Add command DROP TABLE IF EXISTS 'tables' in the dump");
-define('_AM_SYSTEM_MAINTENANCE_DUMP_OR', 'OR');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_AND', 'AND');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES', 'You must select the tables or modules');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES', 'No tables');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_TABLES', 'Tables');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES', 'Structures');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS', 'Numbers of records');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED', 'File created');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_RESULT', 'Result');
-define('_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS', 'record(s)');
+define('_AM_SYSTEM_MAINTENANCE_DUMP', 'Εξαγωγή');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES', 'Επιλέξτε πίνακες ή modules');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_DROP', "Προσθήκη εντολής DROP TABLE IF EXISTS 'tables' στην εξαγωγή");
+define('_AM_SYSTEM_MAINTENANCE_DUMP_OR', 'Ή');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_AND', 'Και');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES', 'Πρέπει να επιλέξετε πίνακες ή modules');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES', 'Δεν υπάρχουν πίνακες');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_TABLES', 'Πίνακες');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES', 'Δομές');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS', 'Αριθμός Εγγραφών');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED', 'Δημιουργήθηκε αρχείο');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_RESULT', 'Αποτέλεσμα');
+define('_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS', 'εγγραφή/εγγραφές');
 // Tips
 define('_AM_SYSTEM_MAINTENANCE_TIPS', '<ul>
-<li>You can do a simple maintenance of your XOOPS Installation: clear your cache and session table, and do maintenance of your tables</li>
+<li>Μπορείτε να εκτελέσετε μια απλή συντήρηση της εγκατάστασης XOOPS: καθαρίστε την cache και τον πίνακα συνεδριών, και κάντε συντήρηση των πινάκων σας</li>
 </ul>');

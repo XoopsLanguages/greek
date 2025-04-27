@@ -5,166 +5,166 @@
  * _LANGCODE    en
  * _CHARSET     UTF-8
  */
-// Navigation
-define('_AM_SYSTEM_MODULES_ADMIN', 'XOOPS Module Administration');
-define('_AM_SYSTEM_MODULES_LIST', 'Module List');
-define('_AM_SYSTEM_MODULES_TOINSTALL', 'Install module');
-define('_AM_SYSTEM_MODULES_VALIDATE', 'Validate changes');
-define('_AM_SYSTEM_MODULES_SUBMITRES', 'Submit Result');
-// Messages
-define('_AM_SYSTEM_MODULES_RUSUREINS', 'Press the button below to install this module');
-define('_AM_SYSTEM_MODULES_RUSUREUNINS', 'Are you sure you would like to uninstall this module?');
-define('_AM_SYSTEM_MODULES_RUSUREUPD', 'Press the button below to update this module');
-define('_AM_SYSTEM_MODULES_BTOMADMIN', 'XOOPS Module Administration');
-define('_AM_SYSTEM_MODULES_INSTALLING', 'Installing ');
-define('_AM_SYSTEM_MODULES_DEACTIVATE', 'Deactivate ');
-define('_AM_SYSTEM_MODULES_ACTIVATE', 'Activate ');
-define('_AM_SYSTEM_MODULES_UPDATING', 'Updating ');
-// Main
-define('_AM_SYSTEM_MODULES_INSTALL', 'Install');
-define('_AM_SYSTEM_MODULES_UNINSTALL', 'Uninstall');
-define('_AM_SYSTEM_MODULES_UPDATE', 'Update');
-define('_AM_SYSTEM_MODULES_VIEWLARGE', 'Large View');
-define('_AM_SYSTEM_MODULES_VIEWLINE', 'Line View');
-// %s represents module name
-define('_AM_SYSTEM_MODULES_FAILINS', 'Unable to install %s.');
-define('_AM_SYSTEM_MODULES_FAILACT', 'Unable to activate %s.');
-define('_AM_SYSTEM_MODULES_FAILDEACT', 'Unable to deactivate %s.');
-define('_AM_SYSTEM_MODULES_FAILUPD', 'Unable to update %s.');
-define('_AM_SYSTEM_MODULES_FAILUNINS', 'Unable to uninstall %s.');
-define('_AM_SYSTEM_MODULES_FAILORDER', 'Unable to reorder %s.');
-define('_AM_SYSTEM_MODULES_FAILWRITE', 'Unable to write to main menu.');
-define('_AM_SYSTEM_MODULES_ALEXISTS', 'Module %s already exists.');
-define('_AM_SYSTEM_MODULES_ERRORSC', 'Error(s):');
-define('_AM_SYSTEM_MODULES_OKINS', 'Module %s installed successfully.');
-define('_AM_SYSTEM_MODULES_OKACT', 'Module %s activated successfully.');
-define('_AM_SYSTEM_MODULES_OKDEACT', 'Module %s deactivated successfully.');
-define('_AM_SYSTEM_MODULES_OKUPD', 'Module %s updated successfully.');
-define('_AM_SYSTEM_MODULES_OKUNINS', 'Module %s uninstalled successfully.');
-define('_AM_SYSTEM_MODULES_OKORDER', 'Module %s changed successfully.');
+// Πλοήγηση
+define('_AM_SYSTEM_MODULES_ADMIN', 'Διαχείριση Module XOOPS');
+define('_AM_SYSTEM_MODULES_LIST', 'Λίστα Module');
+define('_AM_SYSTEM_MODULES_TOINSTALL', 'Εγκατάσταση module');
+define('_AM_SYSTEM_MODULES_VALIDATE', 'Επικύρωση αλλαγών');
+define('_AM_SYSTEM_MODULES_SUBMITRES', 'Υποβολή Αποτελέσματος');
+// Μηνύματα
+define('_AM_SYSTEM_MODULES_RUSUREINS', 'Πατήστε το κουμπί παρακάτω για να εγκαταστήσετε αυτό το module');
+define('_AM_SYSTEM_MODULES_RUSUREUNINS', 'Είστε σίγουροι ότι θέλετε να απεγκαταστήσετε αυτό το module;');
+define('_AM_SYSTEM_MODULES_RUSUREUPD', 'Πατήστε το κουμπί παρακάτω για να ενημερώσετε αυτό το module');
+define('_AM_SYSTEM_MODULES_BTOMADMIN', 'Διαχείριση Module XOOPS');
+define('_AM_SYSTEM_MODULES_INSTALLING', 'Εγκατάσταση ');
+define('_AM_SYSTEM_MODULES_DEACTIVATE', 'Απενεργοποίηση ');
+define('_AM_SYSTEM_MODULES_ACTIVATE', 'Ενεργοποίηση ');
+define('_AM_SYSTEM_MODULES_UPDATING', 'Ενημέρωση ');
+// Κύριο
+define('_AM_SYSTEM_MODULES_INSTALL', 'Εγκατάσταση');
+define('_AM_SYSTEM_MODULES_UNINSTALL', 'Απεγκατάσταση');
+define('_AM_SYSTEM_MODULES_UPDATE', 'Ενημέρωση');
+define('_AM_SYSTEM_MODULES_VIEWLARGE', 'Μεγάλη Προβολή');
+define('_AM_SYSTEM_MODULES_VIEWLINE', 'Προβολή Γραμμής');
+// %s αντιπροσωπεύει το όνομα του module
+define('_AM_SYSTEM_MODULES_FAILINS', 'Αδύνατη η εγκατάσταση του %s.');
+define('_AM_SYSTEM_MODULES_FAILACT', 'Αδύνατη η ενεργοποίηση του %s.');
+define('_AM_SYSTEM_MODULES_FAILDEACT', 'Αδύνατη η απενεργοποίηση του %s.');
+define('_AM_SYSTEM_MODULES_FAILUPD', 'Αδύνατη η ενημέρωση του %s.');
+define('_AM_SYSTEM_MODULES_FAILUNINS', 'Αδύνατη η απεγκατάσταση του %s.');
+define('_AM_SYSTEM_MODULES_FAILORDER', 'Αδύνατη η αναδιάταξη του %s.');
+define('_AM_SYSTEM_MODULES_FAILWRITE', 'Αδύνατη η εγγραφή στο κύριο μενού.');
+define('_AM_SYSTEM_MODULES_ALEXISTS', 'Το module %s υπάρχει ήδη.');
+define('_AM_SYSTEM_MODULES_ERRORSC', 'Σφάλμα(-τα):');
+define('_AM_SYSTEM_MODULES_OKINS', 'Το module %s εγκαταστάθηκε επιτυχώς.');
+define('_AM_SYSTEM_MODULES_OKACT', 'Το module %s ενεργοποιήθηκε επιτυχώς.');
+define('_AM_SYSTEM_MODULES_OKDEACT', 'Το module %s απενεργοποιήθηκε επιτυχώς.');
+define('_AM_SYSTEM_MODULES_OKUPD', 'Το module %s ενημερώθηκε επιτυχώς.');
+define('_AM_SYSTEM_MODULES_OKUNINS', 'Το module %s απεγκαταστάθηκε επιτυχώς.');
+define('_AM_SYSTEM_MODULES_OKORDER', 'Το module %s αλλάχθηκε επιτυχώς.');
 define('_AM_SYSTEM_MODULES_MODULE', 'Module');
-define('_AM_SYSTEM_MODULES_VERSION', 'Version');
-define('_AM_SYSTEM_MODULES_LASTUP', 'Last Update');
-define('_AM_SYSTEM_MODULES_DEACTIVATED', 'Deactivated');
-define('_AM_SYSTEM_MODULES_ACTION', 'Action');
-define('_AM_SYSTEM_MODULES_MENU', 'Menu');
-define('_AM_SYSTEM_MODULES_HIDE', 'Hide');
-define('_AM_SYSTEM_MODULES_SHOW', 'Show');
-define('_AM_SYSTEM_MODULES_DUPEN', 'Duplicate entry in modules table!');
-define('_AM_SYSTEM_MODULES_DEACTED', 'The selected module has been deactivated. You can now safely uninstall the module.');
-define('_AM_SYSTEM_MODULES_ACTED', 'The selected module has been activated!');
-define('_AM_SYSTEM_MODULES_UPDTED', 'The selected module has been updated!');
-define('_AM_SYSTEM_MODULES_SYSNO', 'System module cannot be deactivated.');
-define('_AM_SYSTEM_MODULES_STRTNO', 'This module is set as your default start page. Please change the start module to whatever suits your preferences.');
-define('_AM_SYSTEM_MODULES_ORDER', 'Order');
-define('_AM_SYSTEM_MODULES_ORDER0', '(0 = hide)');
-define('_AM_SYSTEM_MODULES_ACTIVE', 'Active');
-define('_AM_SYSTEM_MODULES_INACTIVE', 'Inactive');
-define('_AM_SYSTEM_MODULES_NOTINSTALLED', 'Not Installed');
-define('_AM_SYSTEM_MODULES_NOCHANGE', 'No Change');
-define('_AM_SYSTEM_MODULES_SUBMIT', 'Submit');
-define('_AM_SYSTEM_MODULES_CANCEL', 'Cancel');
+define('_AM_SYSTEM_MODULES_VERSION', 'Έκδοση');
+define('_AM_SYSTEM_MODULES_LASTUP', 'Τελευταία Ενημέρωση');
+define('_AM_SYSTEM_MODULES_DEACTIVATED', 'Απενεργοποιημένο');
+define('_AM_SYSTEM_MODULES_ACTION', 'Ενέργεια');
+define('_AM_SYSTEM_MODULES_MENU', 'Μενού');
+define('_AM_SYSTEM_MODULES_HIDE', 'Απόκρυψη');
+define('_AM_SYSTEM_MODULES_SHOW', 'Εμφάνιση');
+define('_AM_SYSTEM_MODULES_DUPEN', 'Διπλή καταχώριση στον πίνακα modules!');
+define('_AM_SYSTEM_MODULES_DEACTED', 'Το επιλεγμένο module έχει απενεργοποιηθεί. Μπορείτε τώρα να απεγκαταστήσετε το module με ασφάλεια.');
+define('_AM_SYSTEM_MODULES_ACTED', 'Το επιλεγμένο module έχει ενεργοποιηθεί!');
+define('_AM_SYSTEM_MODULES_UPDTED', 'Το επιλεγμένο module έχει ενημερωθεί!');
+define('_AM_SYSTEM_MODULES_SYSNO', 'Το module συστήματος δεν μπορεί να απενεργοποιηθεί.');
+define('_AM_SYSTEM_MODULES_STRTNO', 'Αυτό το module έχει οριστεί ως η προεπιλεγμένη αρχική σας σελίδα. Παρακαλούμε αλλάξτε το module εκκίνησης σε ό,τι ταιριάζει στις προτιμήσεις σας.');
+define('_AM_SYSTEM_MODULES_ORDER', 'Σειρά');
+define('_AM_SYSTEM_MODULES_ORDER0', '(0 = απόκρυψη)');
+define('_AM_SYSTEM_MODULES_ACTIVE', 'Ενεργό');
+define('_AM_SYSTEM_MODULES_INACTIVE', 'Ανενεργό');
+define('_AM_SYSTEM_MODULES_NOTINSTALLED', 'Μη Εγκατεστημένο');
+define('_AM_SYSTEM_MODULES_NOCHANGE', 'Καμία Αλλαγή');
+define('_AM_SYSTEM_MODULES_SUBMIT', 'Υποβολή');
+define('_AM_SYSTEM_MODULES_CANCEL', 'Ακύρωση');
 define('_AM_SYSTEM_MODULES_DBUPDATE', _AM_SYSTEM_DBUPDATED);
-define('_AM_SYSTEM_MODULES_LISTUPBLKS', 'The following blocks will be updated.<br>Select the blocks of which contents (template and options) may be overwritten.<br>');
-define('_AM_SYSTEM_MODULES_NEWBLKS', 'New Blocks');
-define('_AM_SYSTEM_MODULES_DEPREBLKS', 'Deprecated Blocks');
-// Logger
-define('_AM_SYSTEM_MODULES_TABLE_RESERVED', '%s is a reserved table!');
-define('_AM_SYSTEM_MODULES_CREATE_TABLES', 'Creating tables...');
-define('_AM_SYSTEM_MODULES_TABLE_CREATED', 'Table %s created');
-define('_AM_SYSTEM_MODULES_INSERT_DATA', '&nbsp;&nbsp; Data inserted to table %s');
-define('_AM_SYSTEM_MODULES_INSERT_DATA_FAILD', 'Could not insert %s to database.');
-define('_AM_SYSTEM_MODULES_INSERT_DATA_DONE', 'Module data inserted successfully.');
-define('_AM_SYSTEM_MODULES_MODULEID', ' Module ID: %s');
-define('_AM_SYSTEM_MODULES_SQL_FOUND', 'SQL file found at %s ');
-define('_AM_SYSTEM_MODULES_SQL_NOT_FOUND', 'SQL file not found at %s');
-define('_AM_SYSTEM_MODULES_SQL_NOT_CREATE', 'ERROR: Could not create %s ');
-define('_AM_SYSTEM_MODULES_SQL_NOT_VALID', '%s is not a valid SQL!');
-define('_AM_SYSTEM_MODULES_GROUP_ID', ' Group ID: %s ');
-define('_AM_SYSTEM_MODULES_NAME', ' Name: ');
-define('_AM_SYSTEM_MODULES_VALUE', ' Value: ');
-// Templates
-define('_AM_SYSTEM_MODULES_TEMPLATES_ADD', 'Adding templates...');
-define('_AM_SYSTEM_MODULES_TEMPLATES_DELETE', 'Deleting templates...');
-define('_AM_SYSTEM_MODULES_TEMPLATES_UPDATE', 'Updating templates...');
-define('_AM_SYSTEM_MODULES_TEMPLATE_ID', 'Template ID: %s ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_DATA', 'Template %s added to the database');
-define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_ERROR', 'ERROR: Could not insert template %s to the database.');
-define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED', 'Template %s compiled ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED_FAILED', 'ERROR: Failed compiling template %s ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA', 'Template %s deleted from the database. ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA_FAILD', 'ERROR: Could not delete template %s from the database. ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_INSERT_DATA', 'Template %s inserted to the database. ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE', 'Template %s recompiled');
-define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_FAILD', 'ERROR: Template %s recompile failed');
-define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_ERROR', 'ERROR: Could not recompile template %s ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_OLD_ERROR', 'ERROR: Could not delete old template %s. Aborting update of this file. ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE', 'Template %s updated. ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE_ERROR', 'ERROR: Could not update %s template. ');
-// Blocks
-define('_AM_SYSTEM_MODULES_BLOCKS_ADD', 'Adding blocks...');
-define('_AM_SYSTEM_MODULES_BLOCKS_DELETE', 'Deleting block...');
-define('_AM_SYSTEM_MODULES_BLOCKS_REBUILD', 'Rebuilding blocks...');
-define('_AM_SYSTEM_MODULES_BLOCK_ID', ' Block ID: %s ');
-define('_AM_SYSTEM_MODULES_BLOCK_ACCESS', 'Added block access right');
-define('_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR', 'ERROR: Could not add block access right');
-define('_AM_SYSTEM_MODULES_BLOCK_ADD', 'Block %s added ');
-define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR', 'ERROR: Could not add block %s to the database! ');
-define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR_DATABASE', 'Database error: %s ');
-define('_AM_SYSTEM_MODULES_BLOCK_CREATED', 'Block %s created ');
-define('_AM_SYSTEM_MODULES_BLOCK_DELETE', 'Block %s deleted. ');
-define('_AM_SYSTEM_MODULES_BLOCK_DELETE_DATA', 'Block template %s deleted from the database. ');
-define('_AM_SYSTEM_MODULES_BLOCK_DELETE_ERROR', 'ERROR: Could not delete block %s');
-define('_AM_SYSTEM_MODULES_BLOCK_DELETE_TEMPLATE_ERROR', 'ERROR: Could not delete block template %s from the database');
-define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED', 'Block template %s deprecated ');
-define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED_ERROR', 'ERROR: Could not remove deprecated block template.  ');
-define('_AM_SYSTEM_MODULES_BLOCK_UPDATE', 'Block %s updated. ');
-// Configs
-define('_AM_SYSTEM_MODULES_GONFIG_ID', 'Config ID: %s');
-define('_AM_SYSTEM_MODULES_MODULE_DATA_ADD', 'Adding module config data...');
-define('_AM_SYSTEM_MODULES_MODULE_DATA_DELETE', 'Deleting module config options...');
-define('_AM_SYSTEM_MODULES_MODULE_DATA_UPDATE', 'Module data updated.');
-define('_AM_SYSTEM_MODULES_CONFIG_ADD', ' Config option added');
-define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD', ' Config %s added to the database');
-define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD_ERROR', ' ERROR: Could not insert config %s to the database. ');
-define('_AM_SYSTEM_MODULES_GONFIG_DATA_DELETE', 'Config data deleted from the database. ');
-define('_AM_SYSTEM_MODULES_CONFIG_DATA_DELETE_ERROR', 'ERROR: Could not delete config data from the database');
-// Access
-define('_AM_SYSTEM_MODULES_GROUP_SETTINGS_ADD', 'Setting group rights...');
-define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETE_ERROR', 'ERROR: Could not delete group permissions ');
-define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETED', 'Group permissions deleted ');
-define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD', 'Added admin access right for Group ID %s');
-define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD_ERROR', 'ERROR: Could not add admin access right for Group ID %s');
-define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR', 'Added user access right for Group ID: %s');
-define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR_ERROR', 'ERROR: Could not add user access right for Group ID: %s');
-// execute module specific install script if any
-define('_AM_SYSTEM_MODULES_FAILED_EXECUTE', 'Failed to execute %s');
-define('_AM_SYSTEM_MODULES_FAILED_SUCESS', '%s executed successfully.');
-define('_AM_SYSTEM_MODULES_DELETE_ERROR', 'ERROR: Could not delete %s');
-define('_AM_SYSTEM_MODULES_UPDATE_ERROR', 'ERROR: Could not update %s');
-define('_AM_SYSTEM_MODULES_DELETE_MOD_TABLES', 'Deleting module tables...');
-define('_AM_SYSTEM_MODULES_COMMENTS_DELETE', 'Deleting comments...');
-define('_AM_SYSTEM_MODULES_COMMENTS_DELETE_ERROR', 'ERROR: Could not delete comments');
-define('_AM_SYSTEM_MODULES_COMMENTS_DELETED', 'Comments deleted');
-define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE', 'Deleting notifications...');
-define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR', 'ERROR: Could not delete notifications');
-define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED', 'Notifications deleted');
-define('_AM_SYSTEM_MODULES_TABLE_DROPPED', 'Table %s dropped!');
-define('_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR', 'ERROR: Could not drop table %s');
-define('_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED', 'ERROR: Not allowed to drop table %s !');
-// Tips
+define('_AM_SYSTEM_MODULES_LISTUPBLKS', 'Τα παρακάτω μπλοκ θα ενημερωθούν.<br>Επιλέξτε τα μπλοκ των οποίων το περιεχόμενο (πρότυπο και επιλογές) μπορεί να αντικατασταθεί.<br>');
+define('_AM_SYSTEM_MODULES_NEWBLKS', 'Νέα Μπλοκ');
+define('_AM_SYSTEM_MODULES_DEPREBLKS', 'Παρωχημένα Μπλοκ');
+// Καταγραφέας
+define('_AM_SYSTEM_MODULES_TABLE_RESERVED', 'Ο πίνακας %s είναι δεσμευμένος!');
+define('_AM_SYSTEM_MODULES_CREATE_TABLES', 'Δημιουργία πινάκων...');
+define('_AM_SYSTEM_MODULES_TABLE_CREATED', 'Ο πίνακας %s δημιουργήθηκε');
+define('_AM_SYSTEM_MODULES_INSERT_DATA', '   Τα δεδομένα εισήχθησαν στον πίνακα %s');
+define('_AM_SYSTEM_MODULES_INSERT_DATA_FAILD', 'Δεν ήταν δυνατή η εισαγωγή του %s στη βάση δεδομένων.');
+define('_AM_SYSTEM_MODULES_INSERT_DATA_DONE', 'Τα δεδομένα του module εισήχθησαν επιτυχώς.');
+define('_AM_SYSTEM_MODULES_MODULEID', ' ID Module: %s');
+define('_AM_SYSTEM_MODULES_SQL_FOUND', 'Το αρχείο SQL βρέθηκε στο %s ');
+define('_AM_SYSTEM_MODULES_SQL_NOT_FOUND', 'Το αρχείο SQL δεν βρέθηκε στο %s');
+define('_AM_SYSTEM_MODULES_SQL_NOT_CREATE', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η δημιουργία του %s ');
+define('_AM_SYSTEM_MODULES_SQL_NOT_VALID', 'Το %s δεν είναι έγκυρο SQL!');
+define('_AM_SYSTEM_MODULES_GROUP_ID', ' ID Ομάδας: %s ');
+define('_AM_SYSTEM_MODULES_NAME', ' Όνομα: ');
+define('_AM_SYSTEM_MODULES_VALUE', ' Τιμή: ');
+// Πρότυπα
+define('_AM_SYSTEM_MODULES_TEMPLATES_ADD', 'Προσθήκη προτύπων...');
+define('_AM_SYSTEM_MODULES_TEMPLATES_DELETE', 'Διαγραφή προτύπων...');
+define('_AM_SYSTEM_MODULES_TEMPLATES_UPDATE', 'Ενημέρωση προτύπων...');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ID', 'ID Προτύπου: %s ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_DATA', 'Το πρότυπο %s προστέθηκε στη βάση δεδομένων');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η εισαγωγή του προτύπου %s στη βάση δεδομένων.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED', 'Το πρότυπο %s μεταγλωττίστηκε ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED_FAILED', 'ΣΦΑΛΜΑ: Αποτυχία μεταγλώττισης του προτύπου %s ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA', 'Το πρότυπο %s διαγράφηκε από τη βάση δεδομένων. ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA_FAILD', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η διαγραφή του προτύπου %s από τη βάση δεδομένων. ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_INSERT_DATA', 'Το πρότυπο %s εισήχθη στη βάση δεδομένων. ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE', 'Το πρότυπο %s επαναμεταγλωττίστηκε');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_FAILD', 'ΣΦΑΛΜΑ: Η επαναμεταγλώττιση του προτύπου %s απέτυχε');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η επαναμεταγλώττιση του προτύπου %s ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_OLD_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η διαγραφή του παλιού προτύπου %s. Ματαίωση της ενημέρωσης αυτού του αρχείου. ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE', 'Το πρότυπο %s ενημερώθηκε. ');
+define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η ενημέρωση του προτύπου %s. ');
+// Μπλοκ
+define('_AM_SYSTEM_MODULES_BLOCKS_ADD', 'Προσθήκη μπλοκ...');
+define('_AM_SYSTEM_MODULES_BLOCKS_DELETE', 'Διαγραφή μπλοκ...');
+define('_AM_SYSTEM_MODULES_BLOCKS_REBUILD', 'Ανακατασκευή μπλοκ...');
+define('_AM_SYSTEM_MODULES_BLOCK_ID', ' ID Μπλοκ: %s ');
+define('_AM_SYSTEM_MODULES_BLOCK_ACCESS', 'Προστέθηκε δικαίωμα πρόσβασης μπλοκ');
+define('_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η προσθήκη δικαιώματος πρόσβασης μπλοκ');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD', 'Το μπλοκ %s προστέθηκε ');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η προσθήκη του μπλοκ %s στη βάση δεδομένων! ');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR_DATABASE', 'Σφάλμα βάσης δεδομένων: %s ');
+define('_AM_SYSTEM_MODULES_BLOCK_CREATED', 'Το μπλοκ %s δημιουργήθηκε ');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE', 'Το μπλοκ %s διαγράφηκε. ');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_DATA', 'Το πρότυπο μπλοκ %s διαγράφηκε από τη βάση δεδομένων. ');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η διαγραφή του μπλοκ %s');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_TEMPLATE_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η διαγραφή του προτύπου μπλοκ %s από τη βάση δεδομένων');
+define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED', 'Το πρότυπο μπλοκ %s καταργήθηκε ');
+define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η αφαίρεση του παρωχημένου προτύπου μπλοκ. ');
+define('_AM_SYSTEM_MODULES_BLOCK_UPDATE', 'Το μπλοκ %s ενημερώθηκε. ');
+// Ρυθμίσεις
+define('_AM_SYSTEM_MODULES_GONFIG_ID', 'ID Ρύθμισης: %s');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_ADD', 'Προσθήκη δεδομένων ρύθμισης module...');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_DELETE', 'Διαγραφή επιλογών ρύθμισης module...');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_UPDATE', 'Τα δεδομένα του module ενημερώθηκαν.');
+define('_AM_SYSTEM_MODULES_CONFIG_ADD', ' Προστέθηκε επιλογή ρύθμισης');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD', ' Η ρύθμιση %s προστέθηκε στη βάση δεδομένων');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD_ERROR', ' ΣΦΑΛΜΑ: Δεν ήταν δυνατή η εισαγωγή της ρύθμισης %s στη βάση δεδομένων. ');
+define('_AM_SYSTEM_MODULES_GONFIG_DATA_DELETE', 'Τα δεδομένα ρύθμισης διαγράφηκαν από τη βάση δεδομένων. ');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_DELETE_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η διαγραφή των δεδομένων ρύθμισης από τη βάση δεδομένων');
+// Πρόσβαση
+define('_AM_SYSTEM_MODULES_GROUP_SETTINGS_ADD', 'Ρύθμιση δικαιωμάτων ομάδας...');
+define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETE_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η διαγραφή των δικαιωμάτων ομάδας ');
+define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETED', 'Τα δικαιώματα ομάδας διαγράφηκαν ');
+define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD', 'Προστέθηκε δικαίωμα πρόσβασης διαχειριστή για το ID Ομάδας %s');
+define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η προσθήκη δικαιώματος πρόσβασης διαχειριστή για το ID Ομάδας %s');
+define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR', 'Προστέθηκε δικαίωμα πρόσβασης χρήστη για το ID Ομάδας: %s');
+define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η προσθήκη δικαιώματος πρόσβασης χρήστη για το ID Ομάδας: %s');
+// εκτέλεση ειδικού σεναρίου εγκατάστασης module, εάν υπάρχει
+define('_AM_SYSTEM_MODULES_FAILED_EXECUTE', 'Αποτυχία εκτέλεσης του %s');
+define('_AM_SYSTEM_MODULES_FAILED_SUCESS', 'Το %s εκτελέστηκε επιτυχώς.');
+define('_AM_SYSTEM_MODULES_DELETE_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η διαγραφή του %s');
+define('_AM_SYSTEM_MODULES_UPDATE_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η ενημέρωση του %s');
+define('_AM_SYSTEM_MODULES_DELETE_MOD_TABLES', 'Διαγραφή πινάκων module...');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETE', 'Διαγραφή σχολίων...');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETE_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η διαγραφή των σχολίων');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETED', 'Τα σχόλια διαγράφηκαν');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE', 'Διαγραφή ειδοποιήσεων...');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η διαγραφή των ειδοποιήσεων');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED', 'Οι ειδοποιήσεις διαγράφηκαν');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED', 'Ο πίνακας %s διαγράφηκε!');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR', 'ΣΦΑΛΜΑ: Δεν ήταν δυνατή η διαγραφή του πίνακα %s');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED', 'ΣΦΑΛΜΑ: Δεν επιτρέπεται η διαγραφή του πίνακα %s !');
+// Συμβουλές
 define('_AM_SYSTEM_MODULES_TIPS', '<ul>
-<li>If you install a new module, remember to set up module preferences, blocks and users permissions!</li>
-<li>For hide module into Main Menu block, set order to 0</li>
-<li>Delete unused module files from your server to avoid security issues and keep your website safe.</li>
-<li>To change order of modules (which will be reflected in the Menu), you just need to drag and drop the modules to the desired placement.</li>
+<li>Εάν εγκαταστήσετε ένα νέο module, θυμηθείτε να ρυθμίσετε τις προτιμήσεις του module, τα μπλοκ και τα δικαιώματα των χρηστών!</li>
+<li>Για να αποκρύψετε ένα module από το μπλοκ Κύριου Μενού, ορίστε τη σειρά σε 0</li>
+<li>Διαγράψτε τα αχρησιμοποίητα αρχεία module από τον διακομιστή σας για να αποφύγετε προβλήματα ασφαλείας και να διατηρήσετε τον ιστότοπό σας ασφαλή.</li>
+<li>Για να αλλάξετε τη σειρά των modules (που θα αντικατοπτρίζεται στο Μενού), απλώς σύρετε και αποθέστε τα modules στην επιθυμητή θέση.</li>
 </ul>');
 define('_AM_SYSTEM_MODULES_CONFIRM_TIPS', '<ul>
-<li>Check all modifications for validate.</li>
+<li>Ελέγξτε όλες τις τροποποιήσεις για επικύρωση.</li>
 </ul>');
 // 2.5.7
-define('_AM_SYSTEM_MODULES_INSTALL_TESTDATA', 'Add Test Data');
+define('_AM_SYSTEM_MODULES_INSTALL_TESTDATA', 'Προσθήκη Δοκιμαστικών Δεδομένων');
 // 2.5.8
-define('_AM_SYSTEM_MODULES_INSTALL_MORE', 'Install more modules');
+define('_AM_SYSTEM_MODULES_INSTALL_MORE', 'Εγκατάσταση περισσότερων modules');
 // 2.5.11
-define('_AM_SYSTEM_MODULES_INSTALL_THISMODULE', 'This Module Admin');
+define('_AM_SYSTEM_MODULES_INSTALL_THISMODULE', 'Διαχειριστής Αυτού του Module');

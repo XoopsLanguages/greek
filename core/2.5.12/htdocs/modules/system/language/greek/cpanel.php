@@ -3,20 +3,19 @@
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_MD_AM_VRSN', 'Version');
-define('_MD_AM_FINDUSER', 'Find Users');
-define('_MD_CPANEL_NEWS', 'News');
-define('_MD_CPANEL_NEWS_DESC', 'XOOPS development news');
-define('_MD_CPANEL_PROJECT', 'Project');
-define('_MD_CPANEL_PROJECT_DESC', 'XOOPS Project website');
-define('_MD_CPANEL_COMMUNITY', 'Community');
-define('_MD_CPANEL_COMMUNITY_DESC', 'XOOPS Official Community website');
-define('_MD_CPANEL_LOCAL', 'Local Support');
-define('_MD_CPANEL_LOCAL_DESC', 'XOOPS Certified Local Support websites');
-define('_MD_CPANEL_OVERVIEW', 'System Overview');
-define('_MD_CPANEL_PHPEXTENSIONS', 'Loaded PHP extensions');
-define('_MD_CPANEL_VERSION', '%s Version');
-define('_MD_CPANEL_QUICKLINKS', 'Quick links');
-define('_MD_CPANEL_SITE_ADMINISTRATION', '%s administration');
-// for help page
-define('_MD_CPANEL_HELPCENTER', 'Welcome to XOOPS Help Center');
+define('_MD_AM_VRSN', 'Έκδοση');
+define('_MD_AM_FINDUSER', 'Βρείτε Χρήστες');
+define('_MD_CPANEL_NEWS', 'Νέα');
+define('_MD_CPANEL_NEWS_DESC', 'Νέα ανάπτυξης XOOPS');
+define('_MD_CPANEL_PROJECT', 'Έργο');
+define('_MD_CPANEL_PROJECT_DESC', 'Ιστοσελίδα Έργου XOOPS');
+define('_MD_CPANEL_COMMUNITY', 'Κοινότητα');
+define('_MD_CPANEL_COMMUNITY_DESC', 'Επίσημη Ιστοσελίδα Κοινότητας XOOPS');
+define('_MD_CPANEL_LOCAL', 'Τοπική Υποστήριξη');
+define('_MD_CPANEL_LOCAL_DESC', 'Ιστοσελίδες Τοπικής Υποστήριξης με Πιστοποίηση XOOPS');
+define('_MD_CPANEL_OVERVIEW', 'Επισκόπηση Συστήματος');
+define('_MD_CPANEL_PHPEXTENSIONS', 'Φορτωμένα PHP επεκτάσεις');
+define('_MD_CPANEL_VERSION', 'Έκδοση %s');
+define('_MD_CPANEL_QUICKLINKS', 'Γρήγοροι σύνδεσμοι');
+define('_MD_CPANEL_SITE_ADMINISTRATION', 'Διαχείριση %s');
+define('_MD_CPANEL_HELPCENTER', 'Καλώς ήρθατε στο Κέντρο Βοήθειας XOOPS');

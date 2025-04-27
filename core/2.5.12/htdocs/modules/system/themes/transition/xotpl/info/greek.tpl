@@ -1,5 +1,4 @@
-<h3>Did you know?</h3>
+<h3>Το ήξερες;</h3>
 
-You can configure your preferred icons at any time by
-<a href="modules/system/admin.php?fct=preferences&op=showmod&mod=1">configuring system module</a> and selecting "transition" or "default"
-as your preferred icons.
+Μπορείτε να ρυθμίσετε τα εικονίδια που προτιμάτε οποιαδήποτε στιγμή, πηγαίνοντας στην
+<a href="modules/system/admin.php?fct=preferences&op=showmod&mod=1">ρύθμιση της συστημικής ενότητας</a> και επιλέγοντας "μετάβαση" ή "προεπιλογή" ως τα προτιμώμενα εικονίδιά σας.

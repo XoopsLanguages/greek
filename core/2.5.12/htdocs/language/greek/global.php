@@ -3,264 +3,260 @@
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_PLEASEWAIT', 'Please Wait');
-define('_FETCHING', 'Loading...');
-define('_TAKINGBACK', 'Taking you back to where you were....');
-define('_LOGOUT', 'Logout');
-define('_SUBJECT', 'Subject');
-define('_MESSAGEICON', 'Message Icon');
-define('_COMMENTS', 'Comments');
-define('_POSTANON', 'Post Anonymously');
-define('_DISABLESMILEY', 'Disable smiley');
-define('_DISABLEHTML', 'Disable HTML');
-define('_PREVIEW', 'Preview');
-define('_GO', 'Go!');
-define('_NESTED', 'Nested');
-define('_NOCOMMENTS', 'No Comments');
-define('_FLAT', 'Flat');
-define('_THREADED', 'Threaded');
-define('_OLDESTFIRST', 'Oldest First');
-define('_NEWESTFIRST', 'Newest First');
-define('_MORE', 'more...');
-define('_MULTIPAGE', 'To have your article span multiple pages, insert the word <span color=red>[pagebreak]</span> (with brackets) in the article.');
-define('_IFNOTRELOAD', 'If the page does not automatically reload, please click <a href=\'%s\'>here</a>');
-// Error messages issued by XoopsObject::cleanVars()
-define('_XOBJ_ERR_REQUIRED', '%s is required');
-define('_XOBJ_ERR_SHORTERTHAN', '%s must be shorter than %d characters.');
+define('_PLEASEWAIT', 'Παρακαλώ Περιμένετε');
+define('_FETCHING', 'Φόρτωση...');
+define('_TAKINGBACK', 'Σας επιστρέφουμε εκεί που ήσασταν....');
+define('_LOGOUT', 'Αποσύνδεση');
+define('_SUBJECT', 'Θέμα');
+define('_MESSAGEICON', 'Εικονίδιο Μηνύματος');
+define('_COMMENTS', 'Σχόλια');
+define('_POSTANON', 'Ανώνυμη Δημοσίευση');
+define('_DISABLESMILEY', 'Απενεργοποίηση Smiley');
+define('_DISABLEHTML', 'Απενεργοποίηση HTML');
+define('_PREVIEW', 'Προεπισκόπηση');
+define('_GO', 'Πάμε!');
+define('_NESTED', 'Ένθετο');
+define('_NOCOMMENTS', 'Χωρίς Σχόλια');
+define('_FLAT', 'Επίπεδο');
+define('_THREADED', 'Νηματώδες');
+define('_OLDESTFIRST', 'Παλαιότερο Πρώτο');
+define('_NEWESTFIRST', 'Νεότερο Πρώτο');
+define('_MORE', 'περισσότερα...');
+define('_MULTIPAGE', 'Για να χωριστεί το άρθρο σας σε πολλές σελίδες, εισαγάγετε τη λέξη <span color=red>[pagebreak]</span> (με αγκύλες) στο άρθρο.');
+define('_IFNOTRELOAD', 'Εάν η σελίδα δεν επαναφορτωθεί αυτόματα, παρακαλώ κάντε κλικ <a href=\'%s\'>εδώ</a>');
+// Μηνύματα σφαλμάτων από το XoopsObject::cleanVars()
+define('_XOBJ_ERR_REQUIRED', 'Το %s είναι υποχρεωτικό');
+define('_XOBJ_ERR_SHORTERTHAN', 'Το %s πρέπει να είναι μικρότερο από %d χαρακτήρες.');
 // %%%%%%    File Name themeuserpost.php     %%%%%
-define('_PROFILE', 'Profile');
-define('_POSTEDBY', 'Posted by');
-define('_VISITWEBSITE', 'Visit Website');
-define('_SENDPMTO', 'Send Private Message to %s');
-define('_SENDEMAILTO', 'Send Email to %s');
-define('_ADD', 'Add');
-define('_REPLY', 'Reply');
-define('_DATE', 'Date'); // Posted date
+define('_PROFILE', 'Προφίλ');
+define('_POSTEDBY', 'Δημοσιεύτηκε από');
+define('_VISITWEBSITE', 'Επίσκεψη Ιστοσελίδας');
+define('_SENDPMTO', 'Αποστολή Προσωπικού Μηνύματος στον %s');
+define('_SENDEMAILTO', 'Αποστολή Email στον %s');
+define('_ADD', 'Προσθήκη');
+define('_REPLY', 'Απάντηση');
+define('_DATE', 'Ημερομηνία'); // Ημερομηνία δημοσίευσης
 // %%%%%%    File Name admin_functions.php     %%%%%
-define('_MAIN', 'Main');
-define('_MANUAL', 'Manual');
-define('_INFO', 'Info');
-define('_CPHOME', 'Control Panel Home');
-define('_YOURHOME', 'Home Page');
+define('_MAIN', 'Κύριο');
+define('_MANUAL', 'Εγχειρίδιο');
+define('_INFO', 'Πληροφορίες');
+define('_CPHOME', 'Αρχική Σελίδα Πίνακα Ελέγχου');
+define('_YOURHOME', 'Αρχική Σελίδα');
 // %%%%%%    File Name misc.php (who's-online popup)    %%%%%
-define('_WHOSONLINE', 'Who\'s Online');
-define('_GUESTS', 'Guests');
-define('_MEMBERS', 'Members');
-define('_ONLINEPHRASE', '<strong>%s</strong> user(s) are online');
-define('_ONLINEPHRASEX', '<strong>%s</strong> user(s) are browsing <strong>%s</strong>');
-define('_CLOSE', 'Close'); // Close window
+define('_WHOSONLINE', 'Ποιος Είναι Συνδεδεμένος');
+define('_GUESTS', 'Επισκέπτες');
+define('_MEMBERS', 'Μέλη');
+define('_ONLINEPHRASE', '<strong>%s</strong> χρήστης(-ες) είναι συνδεδεμένοι');
+define('_ONLINEPHRASEX', '<strong>%s</strong> χρήστης(-ες) περιηγούνται στο <strong>%s</strong>');
+define('_CLOSE', 'Κλείσιμο'); // Κλείσιμο παραθύρου
 // %%%%%%    File Name module.textsanitizer.php     %%%%%
-define('_QUOTEC', 'Quote:');
+define('_QUOTEC', 'Παράθεση:');
 // %%%%%%    File Name admin.php     %%%%%
-define('_NOPERM', 'Sorry, you don\'t have the permission to access this area.');
+define('_NOPERM', 'Λυπούμαστε, δεν έχετε την άδεια πρόσβασης σε αυτήν την περιοχή.');
 // %%%%%        Common Phrases        %%%%%
-define('_NO', 'No');
-define('_YES', 'Yes');
-define('_EDIT', 'Edit');
-define('_DELETE', 'Delete');
-define('_SUBMIT', 'Submit');
-define('_MODULENOEXIST', 'Selected module does not exist!');
-define('_ALIGN', 'Align');
-define('_LEFT', 'Left');
-define('_CENTER', 'Center');
-define('_RIGHT', 'Right');
-define('_FORM_ENTER', 'Please enter %s');
-define('_MUSTWABLE', 'File %s must be writable by the server!'); // %s represents file name
+define('_NO', 'Όχι');
+define('_YES', 'Ναι');
+define('_EDIT', 'Επεξεργασία');
+define('_DELETE', 'Διαγραφή');
+define('_SUBMIT', 'Υποβολή');
+define('_MODULENOEXIST', 'Το επιλεγμένο module δεν υπάρχει!');
+define('_ALIGN', 'Στοίχιση');
+define('_LEFT', 'Αριστερά');
+define('_CENTER', 'Κέντρο');
+define('_RIGHT', 'Δεξιά');
+define('_FORM_ENTER', 'Παρακαλώ εισαγάγετε %s');
+define('_MUSTWABLE', 'Το αρχείο %s πρέπει να είναι εγγράψιμο από τον διακομιστή!'); // %s αντιπροσωπεύει το όνομα του αρχείου
 // Module info
-define('_PREFERENCES', 'Preferences');
-define('_VERSION', 'Version');
-define('_DESCRIPTION', 'Description');
-define('_AUTHOR', 'Author');
-define('_CREDITS', 'Credits');
-define('_LICENCE', 'Licence');
-define('_ERRORS', 'Errors');
-define('_NONE', 'None');
-define('_ON', 'On');
-define('_READS', 'reads');
-define('_WELCOMETO', 'Welcome to %s');
-define('_SEARCH', 'Search');
-define('_ALL', 'All');
-define('_TITLE', 'Title');
-define('_OPTIONS', 'Options');
-define('_QUOTE', 'Quote');
-define('_LIST', 'List');
-define('_LOGIN', 'User Login');
-define('_USERNAME', 'Username: ');
-define('_PASSWORD', 'Password: ');
-define('_SELECT', 'Select');
-define('_IMAGE', 'Image');
-define('_SEND', 'Send');
-define('_CANCEL', 'Cancel');
-define('_ASCENDING', 'Ascending order');
-define('_DESCENDING', 'Descending order');
-define('_BACK', 'Back');
-define('_NOTITLE', 'No title');
+define('_PREFERENCES', 'Προτιμήσεις');
+define('_VERSION', 'Έκδοση');
+define('_DESCRIPTION', 'Περιγραφή');
+define('_AUTHOR', 'Συγγραφέας');
+define('_CREDITS', 'Αναγνωρίσεις');
+define('_LICENCE', 'Άδεια');
+define('_ERRORS', 'Σφάλματα');
+define('_NONE', 'Κανένα');
+define('_ON', 'Ενεργό');
+define('_READS', 'αναγνώσεις');
+define('_WELCOMETO', 'Καλώς ήρθατε στο %s');
+define('_SEARCH', 'Αναζήτηση');
+define('_ALL', 'Όλα');
+define('_TITLE', 'Τίτλος');
+define('_OPTIONS', 'Επιλογές');
+define('_QUOTE', 'Παράθεση');
+define('_LIST', 'Λίστα');
+define('_LOGIN', 'Είσοδος Χρήστη');
+define('_USERNAME', 'Όνομα Χρήστη: ');
+define('_PASSWORD', 'Κωδικός: ');
+define('_SELECT', 'Επιλογή');
+define('_IMAGE', 'Εικόνα');
+define('_SEND', 'Αποστολή');
+define('_CANCEL', 'Ακύρωση');
+define('_ASCENDING', 'Αύξουσα σειρά');
+define('_DESCENDING', 'Φθίνουσα σειρά');
+define('_BACK', 'Πίσω');
+define('_NOTITLE', 'Χωρίς τίτλο');
 /**
  * Image manager
  */
-define('_MD_ADDIMGCAT', 'Add Category');
-define('_MD_IMGCATNAME', 'Category name');
-define('_MD_IMGCATRGRP', 'Select groups for image manager use');
-define('_MD_IMGCATWGRP', 'Select groups allowed to upload images');
-define('_MD_IMGCATWEIGHT', 'Display order in image manager');
-define('_MD_IMGCATDISPLAY', 'Display');
-define('_MD_IMGCATSTRTYPE', 'Images are uploaded to:');
-define('_MD_STRTYOPENG', 'This can not be changed afterwards!');
-define('_MD_ASFILE', 'Store as files (in uploads directory)');
-define('_MD_INDB', "Store in the database (as binary \"blob\" data)");
-define('_MD_IMGMAIN', 'Category');
-define('_MD_EDITIMGCAT', 'Images Settings');
-define('_IMGMANAGER', 'Image Manager');
-define('_NUMIMAGES', '%s images');
-define('_ADDIMAGE', 'Add Image File');
-define('_IMAGENAME', 'Name:');
-define('_IMGMAXSIZE', 'Max size allowed (bytes):');
-define('_IMGMAXWIDTH', 'Max width allowed (pixels):');
-define('_IMGMAXHEIGHT', 'Max height allowed (pixels):');
-define('_IMAGECAT', 'Category:');
-define('_IMAGEFILE', 'Image file:');
-define('_IMGWEIGHT', 'Display order in image manager:');
-define('_IMGDISPLAY', 'Display this image?');
-define('_IMAGEMIME', 'MIME type:');
-define('_FAILFETCHIMG', 'Could not get uploaded file %s');
-define('_FAILSAVEIMG', 'Failed storing image %s into the database');
-define('_NOCACHE', 'No Cache');
-define('_CLONE', 'Clone');
+define('_MD_ADDIMGCAT', 'Προσθήκη Κατηγορίας');
+define('_MD_IMGCATNAME', 'Όνομα Κατηγορίας');
+define('_MD_IMGCATRGRP', 'Επιλέξτε ομάδες για χρήση του διαχειριστή εικόνων');
+define('_MD_IMGCATWGRP', 'Επιλέξτε ομάδες που επιτρέπεται να ανεβάσουν εικόνες');
+define('_MD_IMGCATWEIGHT', 'Σειρά εμφάνισης στον διαχειριστή εικόνων');
+define('_MD_IMGCATDISPLAY', 'Εμφάνιση');
+define('_MD_IMGCATSTRTYPE', 'Οι εικόνες ανεβαίνουν σε:');
+define('_MD_STRTYOPENG', 'Αυτό δεν μπορεί να αλλάξει αργότερα!');
+define('_MD_ASFILE', 'Αποθήκευση ως αρχεία (στον κατάλογο uploads)');
+define('_MD_INDB', 'Αποθήκευση στη βάση δεδομένων (ως δυαδικά δεδομένα \"blob\")');
+define('_MD_IMGMAIN', 'Κατηγορία');
+define('_MD_EDITIMGCAT', 'Ρυθμίσεις Εικόνων');
+define('_IMGMANAGER', 'Διαχειριστής Εικόνων');
+define('_NUMIMAGES', '%s εικόνες');
+define('_ADDIMAGE', 'Προσθήκη Αρχείου Εικόνας');
+define('_IMAGENAME', 'Όνομα:');
+define('_IMGMAXSIZE', 'Μέγιστο επιτρεπόμενο μέγεθος (bytes):');
+define('_IMGMAXWIDTH', 'Μέγιστο επιτρεπόμενο πλάτος (pixels):');
+define('_IMGMAXHEIGHT', 'Μέγιστο επιτρεπόμενο ύψος (pixels):');
+define('_IMAGECAT', 'Κατηγορία:');
+define('_IMAGEFILE', 'Αρχείο εικόνας:');
+define('_IMGWEIGHT', 'Σειρά εμφάνισης στον διαχειριστή εικόνων:');
+define('_IMGDISPLAY', 'Εμφάνιση αυτής της εικόνας;');
+define('_IMAGEMIME', 'Τύπος MIME:');
+define('_FAILFETCHIMG', 'Δεν ήταν δυνατή η λήψη του ανεβασμένου αρχείου %s');
+define('_FAILSAVEIMG', 'Αποτυχία αποθήκευσης της εικόνας %s στη βάση δεδομένων');
+define('_NOCACHE', 'Χωρίς Cache');
+define('_CLONE', 'Κλωνοποίηση');
 /**
  * fineupload
  */
-define('_UPLOAD', 'Upload');
-define('_SELECTFILES', 'Select files');
-define('_DROPFILESHERE', 'Drop files here');
-define('_RETRY', 'Retry');
-define('_OK', 'Ok');
-define('_FORMATPROGRESS', '{percent}% of {total_size}');
-define('_FAILUPLOAD', 'Upload failed!');
-define('_WAITINGFORRESPONSE', 'Processing...');
-define('_PAUSED', 'Paused');
-define('_PROCESSINGDROPPEDFILES', 'Processing dropped files...');
-define('_TYPEERROR', '{file} has an invalid extension. Valid extension(s): {extensions}!');
-define('_SIZEERROR', '{file} is too large, maximum file size is {sizeLimit}!');
-define('_MINSIZEERROR', '{file} is too small, minimum file size is {minSizeLimit}!');
-define('_EMPTYERROR', '{file} is empty, please select files again without it!');
-define('_NOFILESERROR', 'No files to upload!');
-define('_TOOMANYITEMSERROR', 'Too many items ({netItems}) would be uploaded.  Item limit is {itemLimit}!');
-define('_MAXHEIGHTIMAGEERROR', 'Image is too tall!');
-define('_MAXWIDTHIMAGEERROR', 'Image is too wide!');
-define('_MINHEIGHTIMAGEERROR', 'Image is not tall enough!');
-define('_MINWIDTHIMAGEERROR', 'Image is not wide enough!');
-define('_RETRYFAILTOOMANYITEMS', 'Retry failed - you have reached your file limit!');
-define('_ONLEAVE', 'The files are being uploaded, if you leave now the upload will be canceled!');
-define('_UNSUPPORTEDBROWSERIOS8SAFARI', 'Unrecoverable error - this browser does not permit file uploading of any kind due to serious bugs in iOS8 Safari.  Please use iOS8 Chrome until Apple fixes these issues!');
+define('_UPLOAD', 'Ανέβασμα');
+define('_SELECTFILES', 'Επιλογή αρχείων');
+define('_DROPFILESHERE', 'Αποθέστε τα αρχεία εδώ');
+define('_RETRY', 'Επανάληψη');
+define('_OK', 'Εντάξει');
+define('_FORMATPROGRESS', '{percent}% από {total_size}');
+define('_FAILUPLOAD', 'Το ανέβασμα απέτυχε!');
+define('_WAITINGFORRESPONSE', 'Επεξεργασία...');
+define('_PAUSED', 'Σε παύση');
+define('_PROCESSINGDROPPEDFILES', 'Επεξεργασία αποθεμένων αρχείων...');
+define('_TYPEERROR', 'Το {file} έχει μη έγκυρη επέκταση. Έγκυρες επεκτάσεις: {extensions}!');
+define('_SIZEERROR', 'Το {file} είναι πολύ μεγάλο, το μέγιστο μέγεθος αρχείου είναι {sizeLimit}!');
+define('_MINSIZEERROR', 'Το {file} είναι πολύ μικρό, το ελάχιστο μέγεθος αρχείου είναι {minSizeLimit}!');
+define('_EMPTYERROR', 'Το {file} είναι κενό, παρακαλώ επιλέξτε ξανά αρχεία χωρίς αυτό!');
+define('_NOFILESERROR', 'Δεν υπάρχουν αρχεία για ανέβασμα!');
+define('_TOOMANYITEMSERROR', 'Πάρα πολλά αντικείμενα ({netItems}) θα ανέβαιναν. Το όριο αντικειμένων είναι {itemLimit}!');
+define('_MAXHEIGHTIMAGEERROR', 'Η εικόνα είναι πολύ ψηλή!');
+define('_MAXWIDTHIMAGEERROR', 'Η εικόνα είναι πολύ φαρδιά!');
+define('_MINHEIGHTIMAGEERROR', 'Η εικόνα δεν είναι αρκετά ψηλή!');
+define('_MINWIDTHIMAGEERROR', 'Η εικόνα δεν είναι αρκετά φαρδιά!');
+define('_RETRYFAILTOOMANYITEMS', 'Η επανάληψη απέτυχε - έχετε φτάσει το όριο αρχείων σας!');
+define('_ONLEAVE', 'Τα αρχεία ανεβαίνουν, αν φύγετε τώρα το ανέβασμα θα ακυρωθεί!');
+define('_UNSUPPORTEDBROWSERIOS8SAFARI', 'Ανεπανόρθωτο σφάλμα - αυτός ο περιηγητής δεν επιτρέπει το ανέβασμα αρχείων λόγω σοβαρών σφαλμάτων στο iOS8 Safari. Παρακαλώ χρησιμοποιήστε το iOS8 Chrome μέχρι να διορθώσει η Apple αυτά τα προβλήματα!');
 
 // %%%%%    For xoopsform files %%%%%
-define('_STARTSWITH', 'Starts with');
-define('_ENDSWITH', 'Ends with');
-define('_MATCHES', 'Matches');
-define('_CONTAINS', 'Contains');
-define('_REQUIRED', 'Required');
+define('_STARTSWITH', 'Αρχίζει με');
+define('_ENDSWITH', 'Τελειώνει με');
+define('_MATCHES', 'Ταιριάζει');
+define('_CONTAINS', 'Περιέχει');
+define('_REQUIRED', 'Υποχρεωτικό');
 // %%%%%%    File Name commentform.php     %%%%%
-define('_REGISTER', 'Register');
+define('_REGISTER', 'Εγγραφή');
 // %%%%%%    File Name xoopscodes.php     %%%%%
-define('_SIZE', 'Size'); // font size
-define('_FONT', 'Font'); // font family
-define('_COLOR', 'Color'); // font color
-define('_EXAMPLE', 'SAMPLE');
-define('_ENTERURL', 'Enter the URL of the link you want to add:');
-define('_ENTERWEBTITLE', 'Enter the web site title:');
-define('_ENTERIMGURL', 'Enter the URL of the image you want to add.');
-define('_ENTERIMGPOS', 'Now, enter the position of the image.');
-define('_IMGPOSRORL', '\'R\' or \'r\' for right, \'L\' or \'l\' for left, or leave it blank.');
-define('_ERRORIMGPOS', 'ERROR! Enter the position of the image.');
-define('_ENTEREMAIL', 'Enter the email address you want to add.');
-define('_ENTERCODE', 'Enter the codes that you want to add.');
-define('_ENTERQUOTE', 'Enter the text that you want to be quoted.');
-define('_ENTERTEXTBOX', 'Please input text into the textbox.');
-define('_ALLOWEDCHAR', 'Allowed max chars length: ');
-define('_CURRCHAR', 'Current chars length: ');
-define('_PLZCOMPLETE', 'Please complete the subject and message fields.');
-define('_MESSAGETOOLONG', 'Your message is too long.');
+define('_SIZE', 'Μέγεθος'); // μέγεθος γραμματοσειράς
+define('_FONT', 'Γραμματοσειρά'); // οικογένεια γραμματοσειράς
+define('_COLOR', 'Χρώμα'); // χρώμα γραμματοσειράς
+define('_EXAMPLE', 'ΔΕΙΓΜΑ');
+define('_ENTERURL', 'Εισαγάγετε το URL του συνδέσμου που θέλετε να προσθέσετε:');
+define('_ENTERWEBTITLE', 'Εισαγάγετε τον τίτλο της ιστοσελίδας:');
+define('_ENTERIMGURL', 'Εισαγάγετε το URL της εικόνας που θέλετε να προσθέσετε.');
+define('_ENTERIMGPOS', 'Τώρα, εισαγάγετε τη θέση της εικόνας.');
+define('_IMGPOSRORL', '\'R\' ή \'r\' για δεξιά, \'L\' ή \'l\' για αριστερά, ή αφήστε το κενό.');
+define('_ERRORIMGPOS', 'ΣΦΑΛΜΑ! Εισαγάγετε τη θέση της εικόνας.');
+define('_ENTEREMAIL', 'Εισαγάγετε τη διεύθυνση email που θέλετε να προσθέσετε.');
+define('_ENTERCODE', 'Εισαγάγετε τους κωδικούς που θέλετε να προσθέσετε.');
+define('_ENTERQUOTE', 'Εισαγάγετε το κείμενο που θέλετε να παραθέσετε.');
+define('_ENTERTEXTBOX', 'Παρακαλώ εισαγάγετε κείμενο στο πλαίσιο κειμένου.');
+define('_ALLOWEDCHAR', 'Επιτρεπόμενο μέγιστο μήκος χαρακτήρων: ');
+define('_CURRCHAR', 'Τρέχον μήκος χαρακτήρων: ');
+define('_PLZCOMPLETE', 'Παρακαλώ συμπληρώστε τα πεδία θέματος και μηνύματος.');
+define('_MESSAGETOOLONG', 'Το μήνυμά σας είναι πολύ μακρύ.');
 /**
  * xoops smilie
  */
-define('_AM_ADDSMILE', ' Add a new smilie');
-define('_AM_SMILECODE', 'Code');
-define('_AM_SMILEEMOTION', 'Description');
-define('_AM_DISPLAYF', 'Display in the form');
+define('_AM_ADDSMILE', 'Προσθήκη νέου smilie');
+define('_AM_SMILECODE', 'Κωδικός');
+define('_AM_SMILEEMOTION', 'Περιγραφή');
+define('_AM_DISPLAYF', 'Εμφάνιση στη φόρμα');
 // %%%%%        TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 second');
-define('_SECONDS', '%s seconds');
-define('_MINUTE', '1 minute');
-define('_MINUTES', '%s minutes');
-define('_HOUR', '1 hour');
-define('_HOURS', '%s hours');
-define('_DAY', '1 day');
-define('_DAYS', '%s days');
-define('_WEEK', '1 week');
-define('_MONTH', '1 month');
+define('_SECOND', '1 δευτερόλεπτο');
+define('_SECONDS', '%s δευτερόλεπτα');
+define('_MINUTE', '1 λεπτό');
+define('_MINUTES', '%s λεπτά');
+define('_HOUR', '1 ώρα');
+define('_HOURS', '%s ώρες');
+define('_DAY', '1 ημέρα');
+define('_DAYS', '%s ημέρες');
+define('_WEEK', '1 εβδομάδα');
+define('_MONTH', '1 μήνας');
 define('_DATESTRING', 'Y/n/j G:i:s');
-//define('_MEDIUMDATESTRING', 'Y/n/j G:i');
 define('_MEDIUMDATESTRING', 'm/d/Y G:i');
-//define('_SHORTDATESTRING','n/j/Y');
 define('_SHORTDATESTRING', 'm/d/Y');
 /**
  * The following characters are recognized in the format string:
- * a - 'am' or 'pm'
- * A - 'AM' or 'PM'
- * d - day of the month, 2 digits with leading zeros; i.e. '01' to '31'
- * D - day of the week, textual, 3 letters; i.e. 'Fri'
- * F - month, textual, long; i.e. 'January'
- * h - hour, 12-hour format; i.e. '01' to '12'
- * H - hour, 24-hour format; i.e. '00' to '23'
- * g - hour, 12-hour format without leading zeros; i.e. '1' to '12'
- * G - hour, 24-hour format without leading zeros; i.e. '0' to '23'
- * i - minutes; i.e. '00' to '59'
- * j - day of the month without leading zeros; i.e. '1' to '31'
- * l (lowercase 'L') - day of the week, textual, long; i.e. 'Friday'
- * L - boolean for whether it is a leap year; i.e. '0' or '1'
- * m - month; i.e. '01' to '12'
- * n - month without leading zeros; i.e. '1' to '12'
- * M - month, textual, 3 letters; i.e. 'Jan'
- * s - seconds; i.e. '00' to '59'
- * S - English ordinal suffix, textual, 2 characters; i.e. 'th','nd'
- * t - number of days in the given month; i.e. '28' to '31'
- * T - Timezone setting of this machine; i.e. 'MDT'
- * U - seconds since the epoch
- * w - day of the week, numeric, i.e. '0' (Sunday) to '6' (Saturday)
- * Y - year, 4 digits; i.e. '1999'
- * y - year, 2 digits; i.e. '99'
- * z - day of the year; i.e. '0' to '365'
- * Z - timezone offset in seconds (i.e. '-43200' to '43200')
+ * a - 'am' ή 'pm'
+ * A - 'AM' ή 'PM'
+ * d - ημέρα του μήνα, 2 ψηφία με αρχικά μηδενικά; π.χ. '01' έως '31'
+ * D - ημέρα της εβδομάδας, κειμενική, 3 γράμματα; π.χ. 'Παρ'
+ * F - μήνας, κειμενικός, μακρύς; π.χ. 'Ιανουάριος'
+ * h - ώρα, μορφή 12 ωρών; π.χ. '01' έως '12'
+ * H - ώρα, μορφή 24 ωρών; π.χ. '00' έως '23'
+ * g - ώρα, μορφή 12 ωρών χωρίς αρχικά μηδενικά; π.χ. '1' έως '12'
+ * G - ώρα, μορφή 24 ωρών χωρίς αρχικά μηδενικά; π.χ. '0' έως '23'
+ * i - λεπτά; π.χ. '00' έως '59'
+ * j - ημέρα του μήνα χωρίς αρχικά μηδενικά; π.χ. '1' έως '31'
+ * l (πεζό 'L') - ημέρα της εβδομάδας, κειμενική, μακρά; π.χ. 'Παρασκευή'
+ * L - boolean για το αν είναι δίσεκτο έτος; π.χ. '0' ή '1'
+ * m - μήνας; π.χ. '01' έως '12'
+ * n - μήνας χωρίς αρχικά μηδενικά; π.χ. '1' έως '12'
+ * M - μήνας, κειμενικός, 3 γράμματα; π.χ. 'Ιαν'
+ * s - δευτερόλεπτα; π.χ. '00' έως '59'
+ * S - Αγγλική κατάληξη τάξης, κειμενική, 2 χαρακτήρες; π.χ. 'th', 'nd'
+ * t - αριθμός ημερών στον δοσμένο μήνα; π.χ. '28' έως '31'
+ * T - Ρύθμιση ζώνης ώρας αυτής της μηχανής; π.χ. 'MDT'
+ * U - δευτερόλεπτα από την εποχή
+ * w - ημέρα της εβδομάδας, αριθμητική, π.χ. '0' (Κυριακή) έως '6' (Σάββατο)
+ * Y - έτος, 4 ψηφία; π.χ. '1999'
+ * y - έτος, 2 ψηφία; π.χ. '99'
+ * z - ημέρα του έτους; π.χ. '0' έως '365'
+ * Z - μετατόπιση ζώνης ώρας σε δευτερόλεπτα (π.χ. '-43200' έως '43200')
  */
 // %%%%%        LANGUAGE SPECIFIC SETTINGS   %%%%%
 define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'en');
-// change 0 to 1 if this language is a multi-bytes language
-define('XOOPS_USE_MULTIBYTES', '0');
+define('_LANGCODE', 'el');
+// αλλαγή 0 σε 1 αν αυτή η γλώσσα είναι γλώσσα πολλαπλών bytes
+define('XOOPS_USE_MULTIBYTES', '1');
 /**
- * Additions to 2.4.0
+ * Προσθήκες στο 2.4.0
  **/
-define('_RESET', 'Reset');
-define('_RE', 'Re:');
+define('_RESET', 'Επαναφορά');
+define('_RE', 'Απ:');
 /**
- * Additions to 2.5.5
+ * Προσθήκες στο 2.5.5
  **/
 define('_DBDATESTRING', 'Y-m-d');
 define('_DBTIMESTRING', 'H:i:s');
 define('_DBTIMESTAMPSTRING', 'Y-m-d H:i:s');
 
 //2.5.8
-
-//define('_XOBJ_ERR_INVALID_EMAIL', 'Invalid Email');
-//define('_XOBJ_ERR_INVALID_ENUMERATION', 'Invalid Enumeration');
+//define('_XOBJ_ERR_INVALID_EMAIL', 'Μη έγκυρο Email');
+//define('_XOBJ_ERR_INVALID_ENUMERATION', 'Μη έγκυρη Απαρίθμηση');
 
 //XOOPS 2.5.9
-define('_AM_MODULEADMIN_MISSING','Error: The ModuleAdmin class is missing. Please install the ModuleAdmin Class into /Frameworks (see /docs/readme.txt)');
-define('_MD_MESSAGEC', 'Message:');
-
+define('_AM_MODULEADMIN_MISSING', 'Σφάλμα: Η κλάση ModuleAdmin λείπει. Παρακαλώ εγκαταστήστε την κλάση ModuleAdmin στον φάκελο /Frameworks (δείτε το /docs/readme.txt)');
+define('_MD_MESSAGEC', 'Μήνυμα:');
 
 //XOOPS 2.5.11
-define('_PRINT', 'Print');
+define('_PRINT', 'Εκτύπωση');
 define('_PDF', 'PDF');
-define('_OFF', 'Off');
-define('_DB_QUERY_ERROR', 'Query Failed! SQL: %s - Error: ');
+define('_OFF', 'Ανενεργό');
+define('_DB_QUERY_ERROR', 'Η εκτέλεση του ερωτήματος απέτυχε! SQL: %s - Σφάλμα: ');

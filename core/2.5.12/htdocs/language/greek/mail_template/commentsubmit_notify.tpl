@@ -1,20 +1,20 @@
-Hello {X_UNAME},
+Γειά σας {X_UNAME},
 
-A comment has been submitted (but not yet approved) to the {X_ITEM_TYPE} "{X_ITEM_NAME}" you are monitoring in the {X_MODULE} module at our site.
+Έχει υποβληθεί ένα σχόλιο (αλλά δεν έχει εγκριθεί ακόμα) στο {X_ITEM_TYPE} "{X_ITEM_NAME}" που παρακολουθείτε στο {X_MODULE} module στον ιστότοπό μας.
 
-You can view the comment here (if you have permission):
+Μπορείτε να δείτε το σχόλιο εδώ (αν έχετε άδεια):
 {X_COMMENT_URL}
 
 -----------
 
-You are receiving this message because you selected to be notified when comments are submitted to this {X_ITEM_TYPE}.
+Λαμβάνετε αυτό το μήνυμα επειδή επιλέξατε να ειδοποιείστε όταν υποβάλλονται σχόλια σε αυτό το {X_ITEM_TYPE}.
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+Αν αυτό είναι λάθος ή δεν επιθυμείτε να λαμβάνετε περαιτέρω τέτοιες ειδοποιήσεις, παρακαλούμε ενημερώστε τις συνδρομές σας επισκεπτόμενοι τον παρακάτω σύνδεσμο:
 {X_UNSUBSCRIBE_URL}
 
-Please do not reply to this message.
+Παρακαλούμε μην απαντήσετε σε αυτό το μήνυμα.
 
 -----------
-{X_SITENAME} ({X_SITEURL}) 
-webmaster
+{X_SITENAME} ({X_SITEURL})
+διαχειριστής
 {X_ADMINMAIL}

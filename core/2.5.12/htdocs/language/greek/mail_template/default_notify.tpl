@@ -1,20 +1,20 @@
-Hello {X_UNAME},
+Γειά σας {X_UNAME},
 
-The event {X_NOTIFY_EVENT} has occurred to the {X_ITEM_TYPE} "{X_ITEM_NAME}" you are monitoring in the {X_MODULE} module at our site.
+Το γεγονός {X_NOTIFY_EVENT} συνέβη στο {X_ITEM_TYPE} "{X_ITEM_NAME}" που παρακολουθείτε στο {X_MODULE} module στον ιστότοπό μας.
 
-You can view the {X_ITEM_TYPE} here:
+Μπορείτε να δείτε το {X_ITEM_TYPE} εδώ:
 {X_ITEM_URL}
 
 -----------
 
-You have subscribed to receive notifications of this sort.
+Έχετε εγγραφεί για να λαμβάνετε ειδοποιήσεις αυτού του τύπου.
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+Αν αυτό είναι λάθος ή δεν επιθυμείτε να λαμβάνετε περαιτέρω τέτοιες ειδοποιήσεις, παρακαλούμε ενημερώστε τις συνδρομές σας επισκεπτόμενοι τον παρακάτω σύνδεσμο:
 {X_UNSUBSCRIBE_URL}
 
-Please do not reply to this message.
+Παρακαλούμε μην απαντήσετε σε αυτό το μήνυμα.
 
 -----------
-{X_SITENAME} ({X_SITEURL}) 
-webmaster
+{X_SITENAME} ({X_SITEURL})
+διαχειριστής
 {X_ADMINMAIL}

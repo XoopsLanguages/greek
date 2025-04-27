@@ -1,3 +1,3 @@
-tinyMCE.addI18n('en.xoopsquote',{
-    quote_desc:"Insert quote"
+tinyMCE.addI18n('el.xoopsquote',{
+    quote_desc:"Εισαγωγή παραθέματος"
 });

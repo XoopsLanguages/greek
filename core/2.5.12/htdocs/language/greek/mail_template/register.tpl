@@ -1,21 +1,21 @@
-Hello {X_UNAME},
+Γειά σας {X_UNAME},
 
-Thank you for registering as a member of {SITENAME}. As a registered member your can:
-- Send private messages among members
-- Participate in discussion boards
-- Get the latest news
-- Submit content
-- Much, much more....
+Ευχαριστούμε που εγγραφήκατε ως μέλος του {SITENAME}. Ως εγγεγραμμένο μέλος, μπορείτε να:
+- Στέλνετε ιδιωτικά μηνύματα μεταξύ των μελών
+- Συμμετέχετε σε φόρουμ συζητήσεων
+- Λαμβάνετε τα τελευταία νέα
+- Υποβάλλετε περιεχόμενο
+- Πολύ, πολύ περισσότερα....
 
-The email address ({X_UEMAIL}) has been used to create a user profile for you.
+Η διεύθυνση email ({X_UEMAIL}) χρησιμοποιήθηκε για τη δημιουργία προφίλ χρήστη για εσάς.
 
-To become a member of {SITENAME}, please confirm your
-request by clicking on the link below:
+Για να γίνετε μέλος του {SITENAME}, παρακαλούμε επιβεβαιώστε το
+αίτημά σας κάνοντας κλικ στον παρακάτω σύνδεσμο:
 
 {X_UACTLINK}
 
 -----------
-Best Regards
+Με εκτίμηση
 {SITENAME}
-({SITEURL}) 
+({SITEURL})
 {ADMINMAIL}

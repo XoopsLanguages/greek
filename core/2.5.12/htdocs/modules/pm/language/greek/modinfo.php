@@ -3,22 +3,22 @@
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_PM_MI_NAME', 'Private Messaging');
-define('_PM_MI_DESC', 'Module for private messaging between users');
-define('_PM_MI_INDEX', 'Home');
-define('_PM_MI_PRUNE', 'Prune Messages');
-define('_PM_MI_LINK_TITLE', 'PM Link');
-define('_PM_MI_LINK_DESCRIPTION', 'Shows a link to send a private message to the user');
-define('_PM_MI_MESSAGE', 'Write a message to');
-define('_PM_MI_PRUNESUBJECT', 'Prune PM subject line');
-define('_PM_MI_PRUNESUBJECT_DESC', 'This will be the subject of the PM to the user, received after a PM prune');
-define('_PM_MI_PRUNEMESSAGE', 'Prune PM body message');
-define('_PM_MI_PRUNEMESSAGE_DESC', "This message will be in the body of the message to users after one or more of their messages have been removed from their inbox during a PM prune. Use {PM_COUNT} in the text to be replaced with the number of messages removed from this user's inbox");
-define('_PM_MI_PRUNESUBJECTDEFAULT', 'Messages deleted during cleanup');
-define('_PM_MI_PRUNEMESSAGEDEFAULT', 'During a cleanup of the Private Messaging, XOOPS has deleted {PM_COUNT} messages from your inbox to save space and resources');
-define('_PM_MI_MAXSAVE', 'Maximum items in savebox');
+define('_PM_MI_NAME', 'Προσωπικά Μηνύματα');
+define('_PM_MI_DESC', 'Ενότητα για την ιδιωτική ανταλλαγή μηνυμάτων μεταξύ των χρηστών');
+define('_PM_MI_INDEX', 'Αρχική');
+define('_PM_MI_PRUNE', 'Εκκαθάριση Μηνυμάτων');
+define('_PM_MI_LINK_TITLE', 'Σύνδεσμος ΠΜ');
+define('_PM_MI_LINK_DESCRIPTION', 'Εμφανίζει έναν σύνδεσμο για την αποστολή ενός προσωπικού μηνύματος στον χρήστη');
+define('_PM_MI_MESSAGE', 'Σύνταξη μηνύματος προς');
+define('_PM_MI_PRUNESUBJECT', 'Θέμα μηνύματος εκκαθάρισης ΠΜ');
+define('_PM_MI_PRUNESUBJECT_DESC', 'Αυτό θα είναι το θέμα του ΠΜ που θα λάβει ο χρήστης μετά από μια εκκαθάριση ΠΜ');
+define('_PM_MI_PRUNEMESSAGE', 'Κείμενο μηνύματος εκκαθάρισης ΠΜ');
+define('_PM_MI_PRUNEMESSAGE_DESC', "Αυτό το μήνυμα θα είναι στο σώμα του μηνύματος προς τους χρήστες αφού ένα ή περισσότερα από τα μηνύματά τους έχουν αφαιρεθεί από τα εισερχόμενά τους κατά τη διάρκεια μιας εκκαθάρισης ΠΜ. Χρησιμοποιήστε το {PM_COUNT} στο κείμενο για να αντικατασταθεί με τον αριθμό των μηνυμάτων που αφαιρέθηκαν από τα εισερχόμενα αυτού του χρήστη");
+define('_PM_MI_PRUNESUBJECTDEFAULT', 'Μηνύματα που διαγράφηκαν κατά τον καθαρισμό');
+define('_PM_MI_PRUNEMESSAGEDEFAULT', 'Κατά τη διάρκεια ενός καθαρισμού των Προσωπικών Μηνυμάτων, το XOOPS διέγραψε {PM_COUNT} μηνύματα από τα εισερχόμενά σας για εξοικονόμηση χώρου και πόρων');
+define('_PM_MI_MAXSAVE', 'Μέγιστος αριθμός στοιχείων στην θυρίδα αποθήκευσης');
 define('_PM_MI_MAXSAVE_DESC', '');
-define('_PM_MI_PERPAGE', 'Messages per page');
+define('_PM_MI_PERPAGE', 'Μηνύματα ανά σελίδα');
 define('_PM_MI_PERPAGE_DESC', '');
 //1.07
-define('_PM_MI_ABOUT', 'About');
+define('_PM_MI_ABOUT', 'Σχετικά');
