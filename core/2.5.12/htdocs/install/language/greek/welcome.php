@@ -20,7 +20,7 @@ $content = '
 <h3>Απαιτήσεις</h3>
 <ul>
     <li>Διακομιστής WWW (<a href="https://www.apache.org/" rel="external">Apache</a>, <a href="https://www.nginx.com/" rel="external">NGINX</a>, IIS, κ.λπ.)</li>
-    <li><a href="https://www.php.net/" rel="external">PHP</a> 5.6.0 ή νεότερη, συνιστάται 7.3+</li>
+    <li><a href="https://www.php.net/" rel="external">PHP</a> 7.4 ή νεότερη, συνιστάται 7.3+</li>
     <li><a href="https://www.mysql.com/" rel="external">MySQL</a> 5.5 ή νεότερη, συνιστάται 5.7+</li>
 </ul>
 <h3>Πριν την εγκατάσταση</h3>
