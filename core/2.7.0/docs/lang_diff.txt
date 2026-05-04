@@ -1,0 +1,662 @@
+ΓΛΩΣΣΙΚΕΣ ΔΙΑΦΟΡΕΣ
+=====================
+
+Ακολουθούν οι διαφορές γλώσσας από μια έκδοση στην επόμενη έκδοση.
+
+================================
+30/03/2025: Έκδοση 2.7.0-Betas (προηγουμένως κυκλοφορούσε ως 2.5.12-Betas)
+================================
+/htdocs/modules/system/language/english/admin.php
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS', 'Μενού');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_DESC', 'Διαχείριση μενού πλοήγησης ιστότοπου');
+
+/htdocs/modules/system/language/english/modinfo.php
+- προστέθηκε ορισμός('_MI_SYSTEM_MENUS_ACTIVE', 'Ενεργοποίηση συστήματος μενού');
+- προστέθηκε define('_MI_SYSTEM_MENUS_ACTIVE_DESC', 'Ενεργοποίηση του ενσωματωμένου συστήματος διαχείρισης μενού για πλοήγηση στον ιστότοπο');
+
+/htdocs/modules/system/language/english/admin/menus.php (ΝΕΟ ΑΡΧΕΙΟ)
+- ​​προστέθηκε ορισμός('_AM_SYSTEM_MENUS_NAV_MAIN', 'Διαχείριση μενού');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_NAV_BACK', 'Επιστροφή στη λίστα μενού');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_NAV_CATEGORY', 'Προβολή κατηγορίας');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_NAV_TIPS', '<strong>Συμβουλές:</strong><ul>...');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ACTIVE', 'Ενεργό');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ACTIVE_YES', 'Ενεργοποιημένο');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ACTIVE_NO', 'Απενεργοποιημένο');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_SAVED', 'Αποθηκεύτηκε με επιτυχία');
+- ​​προστέθηκε ορισμός('_AM_SYSTEM_MENUS_DELETED', 'Διαγράφηκε επιτυχώς');
+- προστέθηκε define('_AM_SYSTEM_MENUS_ORDER_SAVED', 'Η παραγγελία αποθηκεύτηκε');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_LISTCAT', 'Κατηγορίες λίστας');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_LISTITEM', 'Στοιχεία λίστας');
+- ​​προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ADDCAT', 'Προσθήκη κατηγορίας');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_EDITCAT', 'Επεξεργασία κατηγορίας');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_DELCAT', 'Διαγραφή κατηγορίας');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_CATTITLE', 'Τίτλος κατηγορίας');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_CATTITLE_DESC', 'Ένα όνομα σταθεράς γλώσσας (π.χ. MENUS_HOME) μπορεί να χρησιμοποιηθεί εδώ, ώστε η ετικέτα να μπορεί να μεταφραστεί.');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_CATPREFIX', 'Πρόθεμα (HTML)');
+- ​​προστέθηκε define('_AM_SYSTEM_MENUS_CATPREFIX_DESC', 'Προαιρετική σήμανση πριν από τον τίτλο της κατηγορίας, όπως ένα εικονίδιο Font Awesome.');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_CATSUFFIX', 'Επίθημα (HTML)');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_CATSUFFIX_DESC', 'Προαιρετική σήμανση μετά τον τίτλο της κατηγορίας.');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_CATURL', 'URL');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_CATURL_DESC', 'Σύνδεσμος για την ίδια την κατηγορία, όπως "index.php" ή μια απόλυτη διεύθυνση URL.');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_CATTARGET', 'Στόχος σύνδεσης');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_CATPOSITION', 'Θέση');
+- προστέθηκε define('_AM_SYSTEM_MENUS_DELCAT_CONFIRM', 'Είστε βέβαιοι ότι θέλετε να διαγράψετε την κατηγορία "%s" και όλα τα στοιχεία της;');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ADDITEM', 'Προσθήκη στοιχείου');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_EDITITEM', 'Επεξεργασία στοιχείου');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_DELITEM', 'Διαγραφή αντικειμένου');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ITEMTITLE', 'Τίτλος στοιχείου');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ITEMTITLE_DESC', 'Εδώ μπορεί να χρησιμοποιηθεί ένα όνομα σταθεράς γλώσσας, ώστε η ετικέτα να είναι μεταφράσιμη.');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ITEMPREFIX', 'Πρόθεμα (HTML)');
+- προστέθηκε define('_AM_SYSTEM_MENUS_ITEMPREFIX_DESC', 'Προαιρετική σήμανση πριν από τον τίτλο του στοιχείου, όπως ένα εικονίδιο Font Awesome.');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ITEMSUFFIX', 'Επίθημα (HTML)');
+- προστέθηκε define('_AM_SYSTEM_MENUS_ITEMSUFFIX_DESC', 'Προαιρετική σήμανση μετά τον τίτλο του στοιχείου. Υποστηρίζει το σύμβολο κράτησης θέσης <{xoInboxCount}>.');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ITEMURL', 'URL');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ITEMTARGET', 'Στόχος συνδέσμου');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ITEMPOSITION', 'Θέση');
+- ​​προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ITEMPARENT', 'Γονικό στοιχείο');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ITEMCATEGORY', 'Κατηγορία');
+- προστέθηκε define('_AM_SYSTEM_MENUS_DELITEM_CONFIRM', 'Είστε βέβαιοι ότι θέλετε να διαγράψετε το στοιχείο "%s" και τα δευτερεύοντα στοιχεία του;');
+- ​​προστέθηκε ορισμός('_AM_SYSTEM_MENUS_TARGET_SELF', 'Ίδιο παράθυρο');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_TARGET_BLANK', 'Νέο παράθυρο');
+- προστέθηκε define('_AM_SYSTEM_MENUS_PERMISSION_VIEW_CATEGORY', 'Ομάδες που μπορούν να δουν αυτήν την κατηγορία');
+- προστέθηκε define('_AM_SYSTEM_MENUS_PERMISSION_VIEW_CATEGORY_DESC', 'Οι χρήστες πρέπει να έχουν πρόσβαση κατηγορίας προτού γίνει ορατό οποιοδήποτε από τα στοιχεία της.');
+- προστέθηκε define('_AM_SYSTEM_MENUS_PERMISSION_VIEW_ITEM', 'Ομάδες που μπορούν να δουν αυτό το στοιχείο');
+- προστέθηκε define('_AM_SYSTEM_MENUS_PERMISSION_VIEW_ITEM_DESC', 'Τα δικαιώματα των στοιχείων ελέγχονται μετά την άδεια γονικής κατηγορίας.');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ERROR_CATNOTFOUND', 'Η κατηγορία δεν βρέθηκε');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ERROR_CATPROTECTED', 'Δεν είναι δυνατή η διαγραφή μιας προστατευμένης κατηγορίας');
+- προστέθηκε define('_AM_SYSTEM_MENUS_ERROR_CATINACTIVE', 'Δεν είναι δυνατή η ενεργοποίηση: η κατηγορία είναι ανενεργή');
+- ​​προστέθηκε define('_AM_SYSTEM_MENUS_ERROR_ITEMNOTFOUND', 'Το στοιχείο δεν βρέθηκε');
+- προστέθηκε define('_AM_SYSTEM_MENUS_ERROR_ITEMPROTECTED', 'Δεν είναι δυνατή η διαγραφή ενός προστατευμένου στοιχείου');
+- προστέθηκε ορισμός('_AM_SYSTEM_MENUS_ERROR_ITEMPARENT', 'Επιλέχτηκε μη έγκυρο γονικό στοιχείο');
+- προστέθηκε define('_AM_SYSTEM_MENUS_ERROR_ITEMCYCLE', 'Δεν είναι δυνατός ο ορισμός γονέα: θα δημιουργούσε μια κυκλική αναφορά');
+- προστέθηκε define('_AM_SYSTEM_MENUS_ERROR_ITEMDEPTH', 'Υπέρβαση του μέγιστου βάθους ένθεσης (3 επίπεδα)');
+- προστέθηκε define('_AM_SYSTEM_MENUS_ERROR_PARENTINACTIVE', 'Δεν είναι δυνατή η ενεργοποίηση: το γονικό στοιχείο είναι ανενεργό');
+- προστέθηκε define('_AM_SYSTEM_MENUS_ERROR_NOITEMS', 'Δεν υπάρχουν στοιχεία υπομενού σε αυτήν την κατηγορία.');
+- προστέθηκε define('_AM_SYSTEM_MENUS_ERROR_ITEMEDIT', 'Ενεργοποιήστε αυτό το στοιχείο πριν το επεξεργαστείτε');
+- ​​προστέθηκε define('_AM_SYSTEM_MENUS_ERROR_ITEMDISABLE', 'Ενεργοποιήστε αυτό το στοιχείο πριν το διαγράψετε');
+- προστέθηκε define('MENUS_HOME', 'Home');
+- προστέθηκε ορισμός('MENUS_ADMIN', 'Διαχείριση');
+- προστέθηκε define('MENUS_ACCOUNT', 'Account');
+- προστέθηκε ορισμός('MENUS_ACCOUNT_EDIT', 'Επεξεργασία λογαριασμού');
+- προστέθηκε define('MENUS_ACCOUNT_LOGIN', 'Login');
+- προστέθηκε ορισμός('MENUS_ACCOUNT_LOGOUT', 'Αποσύνδεση');
+- προστέθηκε define('MENUS_ACCOUNT_REGISTER', 'Sign Up');
+- προστέθηκε define('MENUS_ACCOUNT_MESSAGES', 'Messages');
+- προστέθηκε ορισμός('MENUS_ACCOUNT_NOTIFICATIONS', 'Ειδοποιήσεις');
+- προστέθηκε ορισμός('MENUS_ACCOUNT_TOOLBAR', 'Γραμμή εργαλείων');
+
+/htdocs/modules/system/constants.php
+- προστέθηκε ορισμός('XOOPS_SYSTEM_MENUS', 19);
+
+/htdocs/modules/system/language/english/blocks.php
+-added define('_MB_SYSTEM_WAITING_CONTENT_DEPRECATED', "Ο αποκλεισμός "Περιεχόμενα αναμονής" έχει καταργηθεί από το XOOPS 2.5.11, χρησιμοποιήστε τη μονάδα Αναμονής");
+
+/htdocs/install/language/english/welcome.php
+- ενημερωμένες εκδόσεις PHP & MySQL
+
+/htdocs/modules/pm/language/english/main.php
+- ενημερώθηκε define('_PM_EMAIL_DESC', 'Αγαπητέ %s, αυτό είναι ένα μήνυμα που μεταφέρθηκε από τον λογαριασμό σας στο ' . $GLOBALS['xoopsConfig']['sitename']);
+- ενημερώθηκε define('_PM_EMAIL_DESC', 'Αγαπητέ %s, αυτό είναι ένα μήνυμα που μεταφέρθηκε από τον λογαριασμό σας στο ' . $GLOBALS['xoopsConfig']['sitename']);
+
+/htdocs/language/english/user.php
+- ενημερώθηκε define('_US_SORRYNOTFOUND', 'Λυπούμαστε, δεν βρέθηκαν αντίστοιχα στοιχεία χρήστη.');
+- ενημερώθηκε define('_US_SORRYNOTFOUND', 'Εάν ένας λογαριασμός ταιριάζει με τις παρεχόμενες πληροφορίες, θα επεξεργαστούμε το αίτημά σας. Εάν δεν λάβετε σύντομα μήνυμα ηλεκτρονικού ταχυδρομείου, ελέγξτε τον φάκελο ανεπιθύμητης αλληλογραφίας ή επικοινωνήστε με τον διαχειριστή του ιστότοπου.');
+
+- ενημερώθηκε define('_US_PWDMAILED', 'Ο κωδικός πρόσβασης για %s ταχυδρομήθηκε.');
+- ενημερώθηκε define('_US_PWDMAILED', 'Εάν υπάρχει λογαριασμός για αυτό το email, θα λάβετε οδηγίες επαναφοράς κωδικού πρόσβασης. Ελέγξτε τον φάκελο ανεπιθύμητης αλληλογραφίας εάν χρειάζεται ή επικοινωνήστε με τον διαχειριστή του ιστότοπου.');
+
+- ενημερώθηκε define('_US_CONFMAIL', 'Email επιβεβαίωσης για %s ταχυδρομήθηκε.');
+- ενημερώθηκε define('_US_CONFMAIL', 'Εάν υπάρχει λογαριασμός για αυτό το email, θα λάβετε οδηγίες επαναφοράς κωδικού πρόσβασης. Ελέγξτε τον φάκελο ανεπιθύμητης αλληλογραφίας εάν χρειάζεται ή επικοινωνήστε με τον διαχειριστή του ιστότοπου.');
+
+/htdocs/class/xoopseditor/tinymce5/language/english.php
+- μετονομάστηκε _XOOPS_EDITOR_TINYMCE_LANGUAGE5 σε _XOOPS_EDITOR_TINYMCE5_LANGUAGE
+
+/htdocs/modules/system/themes/transition/language/english/admin.php
+- μετονομάστηκε _OXYGEN_Server_API σε _OXYGEN_SERVER_API
+
+/htdocs/modules/system/language/english/admin/preferences.php.
+- προστέθηκε ορισμός('_MD_AM_SENDMAIL_NOT_FOUND', 'Δεν βρέθηκε το δυαδικό αρχείο αποστολής. Ελέγξτε τη διαμόρφωση του διακομιστή σας.');
+- προστέθηκε define('_MD_AM_SENDMAIL_HELP_MISSING_BIN', 'Δεν εντοπίστηκε έγκυρο δυαδικό αρχείο συμβατό με sendmail. Εγκαταστήστε ένα MTA (π.χ. Postfix, msmtp) ή μεταβείτε σε SMTP στις Προτιμήσεις.');
+
+/htdocs/modules/system/language/english/admin/users.php
+- προστέθηκε ορισμός('_AM_SYSTEM_USERS_UNKNOWN_GROUP', 'Άγνωστη ομάδα');
+
+/htdocs/modules/system/language/english/comment.php
+- προστέθηκε define('_CM_ADDCOMMENT', 'Add Comment');
+
+
+/htdocs/install/language/english/install.php
+- προστέθηκε ορισμός('_WEBSITE_NAME', 'Ιστότοπος XOOPS');
+- προστέθηκε define('_WEBSITE_SLOGAN', 'Απλά χρησιμοποιήστε το!');
+- ​​προστέθηκε ορισμός('_WEBSITE_META_KEYWORDS', 'xoops, πλαίσιο εφαρμογών ιστού, cms, σύστημα διαχείρισης περιεχομένου');
+- προστέθηκε define('_WEBSITE_FOOTER', "Με την υποστήριξη του XOOPS © 2001-{X_YEAR} <a href='https://xoops.org' rel='external' title='The XOOPS Project'>The XOOPS Project</a>");
+- προστέθηκε ορισμός('_WEBSITE_COPYRIGHT', 'Πνευματικά δικαιώματα © 2001-{X_YEAR}');
+- ​​προστέθηκε define('_WEBSITE_DESCRIPTION', 'Το XOOPS είναι ένα δυναμικό σενάριο πύλης ανοιχτού κώδικα βασισμένο σε αντικειμενοστραφή και γραμμένο σε PHP.');
+- προστέθηκε ορισμός('_WEBSITE_CENSOR_REPLACE', 'OOPS');
+
+
+================================
+2023/10/01: Έκδοση 2.5.11-Τελικό
+================================
+/language/english/uploader.php
+-added define('_ER_UP_MODE_NOT_CHANGED', 'Το αρχείο μεταφορτώθηκε, αλλά δεν ήταν δυνατή η αλλαγή της λειτουργίας');
+
+================================
+2023/10/01: Έκδοση 2.5.11-RC3
+================================
+
+ΑΛΛΑΓΜΕΝΑ ΑΡΧΕΙΑ:
+upgrade/language/english/upgrade.php
+upgrade/language/english/smarty3.php
+
+htdocs/class/xoopseditor/tinymce/language/english.php
+- προστέθηκε define('_FAILGETIMG', 'Αποτυχία λήψης εικόνας %s');
+
+/htdocs/modules/system/language/english/modinfo.php
+- προστέθηκε ορισμός('_MI_DEFAULT_NOTIFICATION_METHOD_DISABLE', 'Προσωρινά απενεργοποίηση');
+- ​​προστέθηκε ορισμός('_MI_DEFAULT_NOTIFICATION_METHOD_EMAIL', 'Email');
+- προστέθηκε define('_MI_DEFAULT_NOTIFICATION_METHOD_PM', 'Ιδιωτικό μήνυμα');
+
+/htdocs/modules/system/language/english/admin/preferences.php
+- προστέθηκε define('_MD_AM_DEFAULT_NOTIFICATION_METHOD', 'Προεπιλεγμένη μέθοδος ειδοποίησης');
+- προστέθηκε define('_MD_AM_DEFAULT_NOTIFICATION_METHOD_DESC', 'Για νέους χρήστες όταν εγγράφονται σε ειδοποιήσεις από, π.χ., φόρουμ.');
+- προστέθηκε ορισμός('_MD_AM_MODULEPREF',
+
+
+================================
+2023/03/19: Έκδοση 2.5.11-RC1
+================================
+
+ΑΛΛΑΓΜΕΝΑ ΑΡΧΕΙΑ:
+htdocs/language/english/global.php
+- ​​προστέθηκε define('_DB_QUERY_ERROR', 'Το ερώτημα απέτυχε! SQL: %s - Σφάλμα: ');
+- προστέθηκε define('_PRINT', 'Print');
+- ​​προστέθηκε define('_PDF', 'PDF');
+- προστέθηκε define('_OFF', 'Off');
+
+================================
+2021/09/02: Έκδοση 2.5.11-Betas
+================================
+
+ΑΛΛΑΓΜΕΝΑ ΑΡΧΕΙΑ:
+htdocs/language/english/admin.php
+- προστέθηκε define('_AD_WARNING_NO_XML', 'Η επέκταση PHP XML απαιτείται για αυτήν τη λειτουργία.');
+
+htdocs/xoops_lib/modules/protector/language/english/admin.php
+- προστέθηκε ορισμός('_AM_ADMINSTATS_LAST_MONTH', 'Τελευταίος μήνας');
+- προστέθηκε ορισμός('_AM_ADMINSTATS_LAST_WEEK', 'Τελευταία εβδομάδα');
+- προστέθηκε ορισμός('_AM_ADMINSTATS_LAST_DAY', 'Τελευταία ημέρα');
+- προστέθηκε ορισμός('_AM_ADMINSTATS_LAST_HOUR', 'Τελευταία ώρα');
+
+htdocs/language/english/global.php
+- προστέθηκε define('_PRINT', 'Print');
+- ​​προστέθηκε define('_PDF', 'PDF');
+- προστέθηκε define('_OFF', 'Off');
+- άλλαξε ορισμό('_ON', 'On'); //από το 'επ'
+
+htdocs/language/english/global.php
+- άλλαξε τον ορισμό ('_SIZE', 'Size'); // μέγεθος γραμματοσειράς
+- άλλαξε τον ορισμό ('_FONT', 'Font'); // οικογένεια γραμματοσειρών
+- άλλαξε ορισμό('_COLOR', 'Color'); // χρώμα γραμματοσειράς
+
+htdocs/install/language/english/install.php
+- προστέθηκε define('ERR_COPY_CONFIG_FILE', 'Δεν ήταν δυνατή η αντιγραφή του αρχείου διαμόρφωσης %s');
+
+htdocs/install/language/english/welcome.php
+- άλλαξε τις προτεινόμενες εκδόσεις PHP και MySQL, οι σύνδεσμοι άλλαξαν σε "https:"
+
+htdocs/modules/system/language/english/admin/preferences.php
+- άλλαξε ορισμό('_MD_AM_SMTPHOSTDESC', 'Είτε ένα όνομα κεντρικού υπολογιστή είτε πολλά ονόματα κεντρικού υπολογιστή οριοθετημένα με ερωτηματικό.<br>Μπορείτε επίσης να καθορίσετε μια διαφορετική θύρα για κάθε κεντρικό υπολογιστή χρησιμοποιώντας αυτήν τη μορφή: [hostname:port] (π. τύπος κρυπτογράφησης, για παράδειγμα: (π.χ. "tls://smtp1.example.com:587;ssl://smtp2.example.com:465").<br>Οι κεντρικοί υπολογιστές θα δοκιμαστούν με τη σειρά.');
+
+htdocs/modules/system/language/english/help/blocksadmin.html
+
+htdocs/modules/system/language/english/admin/modulesadmin.php
+- άλλαξε ορισμό('_AM_SYSTEM_MODULES_ADMIN', 'Διαχείριση μονάδας XOOPS');
+
+ΝΕΑ ΑΡΧΕΙΑ:
+htdocs/themes/xswatch4/language/english/main.php
+Ξεκίνησε ως αντίγραφο του xswatch/language/english/main.php και στη συνέχεια:
+- προστέθηκε define('THEME_TOOLBAR_DEBUGMODE', 'Λειτουργία εντοπισμού σφαλμάτων');
+- προστέθηκε define('THEME_TOOLBAR_THIS_MODULE', 'Αυτή η ενότητα');
+- προστέθηκε ορισμός('THEME_PERMISSIONS_LEGEND', 'Δικαιώματα &amp; Legend');
+- προστέθηκε define('THEME_INBOX_ALERT', 'PM Alert');
+- προστέθηκε define('THEME_INBOX_LINK', 'Κάντε κλικ εδώ για να δείτε τα Εισερχόμενά σας!');
+- προστέθηκε ορισμός('THEME_EVENT_DOWNLOADS', 'Λήψεις εκδηλώσεων');
+- προστέθηκε define('THEME_FILE_NAME', 'Αρχείο');
+- προστέθηκε define('THEME_FILE_SIZE', 'Size');
+- προστέθηκε ορισμός('THEME_CONTROL_NEXT', 'Επόμενο');
+- προστέθηκε ορισμός('THEME_CONTROL_PREVIOUS', 'Προηγούμενο');
+
+htdocs/language/english/user.php
+- προστέθηκε define('_US_DESCRIPTIONMIN', 'Ελάχιστο απαιτούμενο μήκος: %s');
+- ​​προστέθηκε define('_US_DESCRIPTIONMAX', 'Μέγιστο μήκος: %s');
+
+htdocs/modules/system/language/english/admin/mailusers.php
+- προστέθηκε ορισμός('_AM_SYSTEM_MAILUSERS_MAILTAGS5', '{X_NAME} θα εκτυπώσει το όνομα ή το όνομα αν είναι κενό');
+
+htdocs/modules/system/language/english/admin/images.php
+- προστέθηκε define("_AM_SYSTEM_IMAGES_SCATDELNG","Δεν είναι δυνατή η διαγραφή αυτής της κατηγορίας");
+
+htdocs/modules/system/language/english/admin/modulesadmin.php
+- προστέθηκε ορισμός('_AM_SYSTEM_MODULES_INSTALL_THISMODULE', 'Αυτός ο Διαχειριστής Ενότητας');
+
+ΔΙΑΓΡΑΜΜΕΝΑ ΑΡΧΕΙΑ:
+htdocs/modules/system/language/english/admin/users.php
+- deleted define('_AM_SYSTEM_USERS_MODIFYUSER', 'Τροποποίηση χρήστη');
+- deleted define('_AM_SYSTEM_USERS_DELUSER', 'Delete User');
+- deleted define('_AM_SYSTEM_USERS_GO', 'Go!');
+
+================================
+29/04/2019: Τελική έκδοση 2.5.10
+================================
+ΠΡΟΣΘΗΚΗ/ΔΙΑΓΡΑΦΗ ΟΡΙΣΕΙ:
+htdocs/xoops_lib/modules/protector/language/english/admin.php
+- προστέθηκε define('_AM_LABEL_BAN_BY_IP', 'Αποκλεισμός των IP σε επιλεγμένες εγγραφές:');
+- ​​προστέθηκε ορισμός('_AM_BUTTON_BAN_BY_IP', 'Απαγόρευση IP!');
+- προστέθηκε ορισμός('_AM_JS_BANCONFIRM', 'ΟΚ απαγορεύσεις IP;');
+- προστέθηκε define('_AM_MSG_BANNEDIP', 'Οι IP είναι αποκλεισμένες');
+- προστέθηκε ορισμός('_AM_ADMINSTATS_TITLE', 'Σύνοψη αρχείου καταγραφής προστασίας');
+
+htdocs/xoops_lib/modules/protector/language/english/modinfo.php
+- προστέθηκε define($constpref . '_ADMINSTATS', 'Επισκόπηση');
+- προστέθηκε define($constpref . '_BANIP_TIME0DSC', 'Χρόνος αναστολής σε δευτερόλεπτα για αυτόματες απαγορεύσεις IP');
+
+htdocs/language/english/uploader.php
+- προστέθηκε define('_ER_UP_INDEXNOTSET', 'Προσπάθεια ανάκτησης πολλαπλών αρχείων, πρέπει να οριστεί ευρετήριο.');
+
+htdocs/language/english/admin.php
+- προστέθηκε define('_AD_WARNING_OLD_PHP', 'ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Εξετάστε το ενδεχόμενο αναβάθμισης σε νεότερη έκδοση της PHP. Η έκδοση %s ή νεότερη συνιστάται και θα απαιτείται σε μελλοντικές εκδόσεις XOOPS.');
+
+ΑΛΛΑΞΕ ΟΡΙΣΜΟΙ
+htdocs/xoops_lib/modules/protector/language/english/admin.php
+- define('_AM_TXT_HOWTOCHANGEDB',"If you want to change prefix,<br> edit %s/data/secure.php manually.<br><br>define('XOOPS_DB_PREFIX', '<b>%s</b>');");
+
+htdocs/install/english/welcome.php
+- άλλαξε την προτεινόμενη έκδοση PHP, προστέθηκε ενότητα Ειδικές Σημειώσεις για το SELinux
+
+/home/richard/sites/x258i/htdocs/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+- στον ορισμό του '_AM_MODULEADMIN_ADMIN_FOOTER', άλλαξε τους συνδέσμους XOOPS σε 'https://xoops.org'
+
+ΝΕΑ ΑΡΧΕΙΑ:
+α/α
+
+===============================
+2017/08/01: Έκδοση 2.5.9 Τελική
+===============================
+ΠΡΟΣΘΗΚΗ/ΔΙΑΓΡΑΦΗ ΟΡΙΣΕΙ
+
+htdocs/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+- προστέθηκε ορισμός('_AM_MODULEADMIN_ABOUT_AMOUNT', 'Ποσό');
+- προστέθηκε ορισμός('_AM_MODULEADMIN_ABOUT_AMOUNT_TTL', 'Παρακαλώ εισάγετε το ποσό σε USD π.χ. 25,00 $');
+- προστέθηκε ορισμός('_AM_MODULEADMIN_ABOUT_AMOUNT_CURRENCY', 'USD');
+- προστέθηκε ορισμός('_AM_MODULEADMIN_ABOUT_AMOUNT_SUGGESTED', '25,00');
+- προστέθηκε ορισμός('_AM_MODULEADMIN_ABOUT_AMOUNT_PATTERN', '\\$?[0-9]+(,[0-9]{3})*(\\.[0-9]{0,2})?$');
+- προστέθηκε ορισμός('_AM_MODULEADMIN_ABOUT_DONATE_IMG_ALT', 'Δωρεά χρησιμοποιώντας PayPal ή μια κύρια πιστωτική κάρτα στο διαδίκτυο!');
+
+htdocs/install/language/english/install.php
+*ΣΗΜΕΙΩΣΗ* Το πρόγραμμα εγκατάστασης άλλαξε σημαντικά, επομένως αυτό το αρχείο θα πρέπει να εξεταστεί προσεκτικά
+- προστέθηκε ορισμός ("CURL_HTTP", "Βιβλιοθήκη διευθύνσεων URL πελάτη (cURL)");
+- προστέθηκε ορισμός('XOOPS_COOKIE_DOMAIN_LABEL', 'Τομέας cookie για τον ιστότοπο');
+- προστέθηκε define('XOOPS_COOKIE_DOMAIN_HELP', 'Τομέας για ορισμό cookie. Μπορεί να είναι κενός, ο πλήρης κεντρικός υπολογιστής από τη διεύθυνση URL (www.example.com) ή ο καταχωρημένος τομέας χωρίς υποτομείς (example.com) για κοινή χρήση σε υποτομείς (www.example.com και blog.com).example.
+- προστέθηκε ορισμός('INTL_SUPPORT', 'Συναρτήσεις διεθνοποίησης');
+- προστέθηκε ορισμός('XOOPS_SOURCE_CODE', "XOOPS στο GitHub");
+- προστέθηκε define('XOOPS_INSTALLING', 'Installing');
+- προστέθηκε ορισμός('XOOPS_ERROR_ENCOUNTERED', 'Σφάλμα');
+- προστέθηκε ορισμός('XOOPS_ERROR_SEE_BELOW', 'Δείτε παρακάτω για μηνύματα.');
+- ​​προστέθηκε define('MODULES_AVAILABLE', 'Available Modules');
+- προστέθηκε define('INSTALL_THIS_MODULE', 'Add %s');
+
+htdocs/install/language/english/finish.php
+- αλλαγή για να παραπέμπουν νέους χρήστες στο xoops.org για πληροφορίες σχετικά με ενότητες και θέματα
+
+htdocs/language/english/global.php
+- προστέθηκε define('_UPLOAD', 'Upload');
+- προστέθηκε define('_SELECTFILES', 'Select files');
+- προστέθηκε define('_DROPFILESHERE', 'Αποθέστε αρχεία εδώ');
+- προστέθηκε define('_RETRY', 'Retry');
+- προστέθηκε define('_OK', 'Ok');
+- προστέθηκε define('_FORMATPROGRESS', '{percent}% of {total_size}');
+- προστέθηκε define('_FAILUPLOAD', 'Η μεταφόρτωση απέτυχε!');
+- προστέθηκε define('_WAITINGFORRESPONSE', 'Επεξεργασία...');
+- προστέθηκε define('_PAUSED', 'Paused');
+- προστέθηκε define('_PROCESSINGDROPPEDFILES', 'Επεξεργασία απορριπτόμενων αρχείων...');
+- προστέθηκε define('_TYPEERROR', 'Το {file} έχει μη έγκυρη επέκταση. Έγκυρες επεκτάσεις: {extensions}!');
+- προστέθηκε define('_SIZEERROR', '{file} είναι πολύ μεγάλο, το μέγιστο μέγεθος αρχείου είναι {sizeLimit}!');
+- προστέθηκε define('_MINSIZEERROR', 'Το {file} είναι πολύ μικρό, το ελάχιστο μέγεθος αρχείου είναι {minSizeLimit}!');
+- ​​προστέθηκε define('_EMPTYERROR', '{file} είναι κενό, επιλέξτε ξανά αρχεία χωρίς αυτό!');
+- προστέθηκε define('_NOFILESERROR', 'Δεν υπάρχουν αρχεία για μεταφόρτωση!');
+- προστέθηκε define('_TOOMANYITEMSERROR', 'Θα μεταφορτωθούν πάρα πολλά στοιχεία ({netItems}). Το όριο στοιχείων είναι {itemLimit}!');
+- προστέθηκε define('_MAXHEIGHTIMAGEERROR', 'Η εικόνα είναι πολύ ψηλή!');
+- προστέθηκε define('_MAXWIDTHIMAGEERROR', 'Η εικόνα είναι πολύ μεγάλη!');
+- προστέθηκε define('_MINHEIGHTIMAGEERROR', 'Η εικόνα δεν είναι αρκετά ψηλή!');
+- προστέθηκε define('_MINWIDTHIMAGEERROR', 'Η εικόνα δεν είναι αρκετά ευρεία!');
+- προστέθηκε define('_RETRYFAILTOOMANYITEMS', 'Η επανάληψη απέτυχε - έχετε φτάσει το όριο του αρχείου σας!');
+- προστέθηκε define('_ONLEAVE', 'Τα αρχεία μεταφορτώνονται, αν φύγετε τώρα η μεταφόρτωση θα ακυρωθεί!');
+- προστέθηκε define('_UNSUPPORTEDBROWSERIOS8SAFARI', 'Μη ανακτήσιμο σφάλμα - αυτό το πρόγραμμα περιήγησης δεν επιτρέπει τη μεταφόρτωση αρχείων οποιουδήποτε είδους λόγω σοβαρών σφαλμάτων στο iOS8 Safari. Χρησιμοποιήστε το iOS8 Chrome έως ότου η Apple διορθώσει αυτά τα προβλήματα!');
+
+htdocs/language/english/uploader.php
+- προστέθηκε define('_ER_UP_INISIZE', 'Το μεταφορτωμένο αρχείο υπερβαίνει την οδηγία upload_max_filesize στο php.ini');
+- προστέθηκε define('_ER_UP_FORMSIZE', 'Το μεταφορτωμένο αρχείο υπερβαίνει την οδηγία MAX_FILE_SIZE που καθορίστηκε στη φόρμα HTML');
+- προστέθηκε define('_ER_UP_PARTIAL', 'Το μεταφορτωμένο αρχείο μεταφορτώθηκε μόνο εν μέρει');
+- προστέθηκε define('_ER_UP_NOFILE', 'Δεν μεταφορτώθηκε αρχείο');
+- προστέθηκε define('_ER_UP_NOTMPDIR', 'Λείπει ένας προσωρινός φάκελος');
+- προστέθηκε define('_ER_UP_CANTWRITE', 'Αποτυχία εγγραφής αρχείου στο δίσκο');
+- προστέθηκε define('_ER_UP_EXTENSION', 'Η μεταφόρτωση αρχείου σταμάτησε με επέκταση. Προβολή phpinfo()');
+- προστέθηκε ορισμός('_ER_UP_UNKNOWN', 'Άγνωστο σφάλμα μεταφόρτωσης');
+
+htdocs/language/english/user.php
+- deleted define('_US_USECOOKIE', 'Αποθήκευση του ονόματος χρήστη μου σε ένα cookie για 1 έτος');
+
+htdocs/modules/profile/language/english/admin.php
+- προστέθηκε define('_PROFILE_AM_CANNOTDEACTIVATEWEBMASTERS', 'Δεν μπορείτε να απενεργοποιήσετε τον λογαριασμό Webmaster');
+
+htdocs/modules/system/language/english/admin/comments.php
+- προστέθηκε define('_MP_DELETECOUNT', 'Ο αριθμός των μελών στην ομάδα είναι πολύ μεγάλος ( > 4.000) ');
+
+htdocs/modules/system/language/english/admin/userrank.php
+- προστέθηκε ορισμός('_AM_SYSTEM_USERRANK_ERROR', 'Σφάλματα');
+
+upgrade/language/english/upgrade.php
+- προστέθηκε define('_LANGUAGE', 'Language');
+- προστέθηκε define('_SUPPORT', 'Support');
+- προστέθηκε ορισμός('_XOOPS_SOURCE_CODE', 'XOOPS στο GitHub');
+- προστέθηκε define('_PATCH_COUNT', 'Σετ επιδιορθώσεων');
+- προστέθηκε ορισμός('_USERNAME_PLACEHOLDER', 'Το όνομα χρήστη σας');
+- προστέθηκε define('_PASSWORD_PLACEHOLDER', 'Ο κωδικός πρόσβασής σας');
+- προστέθηκε define('_CONTINUE', 'Continue');
+- προστέθηκε ορισμός('XOOPS_ERROR_ENCOUNTERED', 'Σφάλμα');
+- προστέθηκε ορισμός('XOOPS_ERROR_SEE_BELOW', 'Δείτε παρακάτω για μηνύματα.');
+
+htdocs/themes/xbootstrap/language/english/main.php
+- προστέθηκε define("THEME_USER_WELCOME", "Welcome");
+
+ΝΕΑ ΑΡΧΕΙΑ:
+- htdocs/modules/system/themes/transition/language/english/admin.php
+- htdocs/modules/system/themes/transition/language/english/localsupport.php
+
+- αναβάθμιση/γλώσσα/αγγλικά/
+*ΣΗΜΕΙΩΣΗ* Ο κωδικός αναβάθμισης άλλαξε σημαντικά, επομένως αυτά τα αρχεία θα πρέπει να εξεταστούν προσεκτικά
+- μετακινήθηκαν όλα τα αρχεία γλώσσας ανά ενημερωμένη έκδοση κώδικα από τους καταλόγους ενημερώσεων κώδικα σε αναβάθμιση/γλώσσα/*
+  , δηλαδή η αναβάθμιση/upd-2.0.18-to-2.3.0/language/english.php έγινε
+  αναβάθμιση/γλώσσα/αγγλικά/upd-2.0.18-to-2.3.0.php
+
+- upgrade/language/english/support.php (όπως και το htdocs/install/language/english/support.php)
+- αναβάθμιση/γλώσσα/αγγλικά/welcome.php
+
+===============================
+27/05/2016: Έκδοση 2.5.8
+===============================
+ΠΡΟΣΘΗΚΗ/ΔΙΑΓΡΑΦΗ ΟΡΙΣΕΙ
+
+/install/language/english/install.php
+/modules/system/language/english/admin/modulesadmin.php
+- προστέθηκε ορισμός('_AM_SYSTEM_MODULES_INSTALL_MORE'"Εγκατάσταση περισσότερων λειτουργικών μονάδων");
+
+/modules/system/language/english/admin/users.php
+define('_AM_SYSTEM_USERS_ACTIVATE', 'Ενεργοποίηση χρήστη');
+
+/modules/system/language/english/blocks.php
+define('_MB_SYSTEM_BLOCK_HEIGHT',"Ύψος μπλοκ (γραμμές)");
+
+install/language/english/install.php
+define('CHMOD_CHGRP_REPEAT', 'Επανάληψη');
+define('CHMOD_CHGRP_IGNORE', 'Use Anyway');
+define('CHMOD_CHGRP_ERROR', 'Το πρόγραμμα εγκατάστασης ενδέχεται να μην μπορεί να γράψει το αρχείο διαμόρφωσης %1$s.<p>Η PHP εγγράφει αρχεία κάτω από τον χρήστη %2$s και την ομάδα %3$s.<p>Το τρομερό
+
+ΑΛΛΑΞΕ ΟΡΙΣΜΟΙ
+xoops_lib/modules/protector/language/english/modinfo.php
+ορίστε($constpref . '_HIJACK_TOPBITDSC', ...
+
+/modules/system/themes/default/language/english/admin.php
+define('_OXYGEN_CODESVN', 'Αποθήκη Κώδικα');
+
+install/language/english/install.php
+define('SAVED_MAINFILE', 'Οι ρυθμίσεις αποθηκεύτηκαν');
+define('ERR_NEED_WRITE_ACCESS', 'Ο διακομιστής πρέπει να έχει πρόσβαση εγγραφής στα ακόλουθα αρχεία και φακέλους<br />(δηλαδή <em>chmod 775 directory_name</em> σε διακομιστή UNIX/LINUX)<br />Εάν δεν είναι διαθέσιμα ή δεν έχουν δημιουργηθεί σωστά, δημιουργήστε και ορίστε proper χειροκίνητα.');
+define('ERR_COPY_MAINFILE', 'Δεν ήταν δυνατή η αντιγραφή του αρχείου διανομής στο %s');
+define('ERR_WRITE_MAINFILE', 'Δεν ήταν δυνατή η εγγραφή στο %s. Ελέγξτε την άδεια του αρχείου και δοκιμάστε ξανά.');
+define('ERR_READ_MAINFILE', 'Δεν ήταν δυνατό να ανοίξει το %s για ανάγνωση');
+
+/modules/system/themes/zetadigme/language/english/admin.php
+define('_MD_CODESVN', 'Αποθήκη Κώδικα');
+
+ΝΕΑ ΑΡΧΕΙΑ:
+/language/αγγλικά/stopwords.php
+/language/english/xmf.php
+
+ΕΝΗΜΕΡΩΜΕΝΟ Παράδειγμα κλάσης XoopsMailerLocal:
+htdocs/language/english/xoopsmailerlocal.php
+
+===============================
+2014/06/14: Έκδοση 2.5.7 Τελική
+===============================
+ΠΡΟΣΘΗΚΗ/ΔΙΑΓΡΑΦΗ ΟΡΙΣΕΙ
+
+/install/language/english/install.php
+- ​​προστέθηκε ορισμός('WRITTEN_LICENSE',"Γραπτό κλειδί άδειας χρήσης XOOPS %s: <strong>%s</strong>");
+
+===============================
+2014/03/18: Έκδοση 2.5.7 RC1
+===============================
+ΠΡΟΣΘΗΚΗ/ΔΙΑΓΡΑΦΗ ΟΡΙΣΕΙ
+
+/modules/system/language/english/admin.php
+- ​​προστέθηκε ορισμός('_AM_SYSTEM_USAGE'"Χρήση");
+- προστέθηκε define('_AM_SYSTEM_ACTIVE',"Ενεργό");
+
+
+===============================
+2012/04/15: Έκδοση 2.5.5
+===============================
+ΠΡΟΣΘΗΚΗ/ΔΙΑΓΡΑΦΗ ΟΡΙΣΕΙ
+
+/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+- προστέθηκε define("_AM_MODULEADMIN_HOME", "Home");
+- προστέθηκε define("_AM_MODULEADMIN_DASHBOARD", "Dashboard");
+- προστέθηκε define("_AM_MODULEADMIN_ABOUT", "About");
+- προστέθηκε define("_AM_MODULEADMIN_PERMISSIONS", "Δικαιώματα");
+- προστέθηκε define("_AM_MODULEADMIN_ABOUT_RELEASEDATE","Κυκλοφορήθηκε: ");
+- προστέθηκε define("_AM_MODULEADMIN_ABOUT_AUTHOR","Συγγραφέας: ");
+- προστέθηκε define("_AM_MODULEADMIN_ABOUT_CREDITS","Credits: ");
+- προστέθηκε define("_AM_MODULEADMIN_ABOUT_LICENSE","Άδεια: ");
+- προστέθηκε define("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Όνομα συγγραφέα: ");
+- προστέθηκε define("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Στοιχεία συγγραφέα");
+- προστέθηκε define("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italic pad5'>Αυτή η λειτουργική μονάδα διατηρείται από την <a class='tooltip' rel='external' href='http://xoops.org/' title='Visit XOOPS Community'>XOOPS Community'>XOOPS</a>");
+
+/language/english/calendar.php
+- προστέθηκε define("_CAL_FORMAT","Y-m-d");
+
+/xoops_lib/modules/protector/language/english/modinfo.php
+
+- προστέθηκε define($constpref."_ADMINHOME","Αρχική σελίδα");
+- προστέθηκε define($constpref."_ADMINABOUT","About");
+- προστέθηκε ορισμός($constpref.'_STOPFORUMSPAM_ACTION','Διακοπή ανεπιθύμητου φόρουμ');
+- προστέθηκε define($constpref.'_STOPFORUMSPAM_ACTIONDSC','Ελέγχει τα δεδομένα POST έναντι των spammer που είναι εγγεγραμμένοι στη βάση δεδομένων www.stopforumspam.com. Απαιτεί php CURL lib.');
+
+
+/install/language/english/install.php
+- προστέθηκε define( "FILTER_FUNCTIONS", "Filter functions");
+
+/language/english/global.php
+- προστέθηκε define('_DBDATESTRING', 'Y-m-d');
+- προστέθηκε define('_DBTIMESTRING', 'H:i:s');
+- προστέθηκε define('_DBTIMESTAMPSTRING', 'Y-m-d H:i:s');
+
+/language/english/pmsg.php
+- προστέθηκε define('_PM_READ', 'Already Read');
+
+/modules/system/language/english/admin.php
+- προστέθηκε define("_AM_SYSTEM_UNINSTALL","Κατάργηση εγκατάστασης");
+
+ΔΕΙΤΕ ΕΠΙΣΗΣ:
+/modules/profile/docs/lang_diff.txt
+
+===============================
+2011/11/17: Έκδοση 2.5.4
+===============================
+
+/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+_AM_MODULEADMIN_CONFIG_DB
+_AM_MODULEADMIN_CONFIG_ADMIN
+
+===============================
+2011/10/10: Έκδοση 2.5.4 RC
+===============================
+
+ΝΕΑ ΑΡΧΕΙΑ:
+modules/pm/language/english/help/help.html
+modules/profile/language/english/help/help.html
+modules/protector/language/english/help/help.html
+
+ΠΡΟΣΘΗΚΗ/ΔΙΑΓΡΑΦΗ ΟΡΙΣΕΙ
+
+/language/english/pmsg.php
+delete define('_PM_READ', 'Already Read');
+
+/language/english/user.php
+- προστέθηκε define('_US_SKYPE', 'Skype');
+- προστέθηκε define('_US_FACEBOOK', 'Facebook');
+
+/modules/pm/language/english/main.php
+- διαγράφηκε define("_PM_RECEIVE","RECEIVE");
+- διαγράφηκε define("_PM_POST","POST");
+- ​​διαγράφηκε define("_PM_READBOX","READBOX");
+- διαγράφηκε define("_PM_RSAVEBOX","Receive_SAVEBOX");
+- διαγράφηκε define("_PM_SENTBOX","SENTBOX");
+- διαγράφηκε define("_PM_PSAVEBOX","Post_SAVEBOX");
+- διαγράφηκε define("_PM_SAVED","Αποθηκεύτηκε με επιτυχία");
+- διαγράφηκε define("_PM_TOC","From: ");
+- διαγράφηκε define("_PM_UID","Αναγνωριστικό αποστολέα");
+
+/language/english/findusers.php
+- προστέθηκε ορισμός('_MA_USER_FACEBOOK', 'Σύνδεσμος Facebook'); //ΝΑ ΚΑΝΕΙΣ
+- προστέθηκε ορισμός ('_MA_USER_SKYPE', 'Σύνδεσμος Skype');//ΠΡΟΣΕΚΤΙΚΑ
+
+/modules/pm/language/english/modinfo.php
+- προστέθηκε define("_PM_MI_ABOUT", "About");
+
+/modules/profile/language/english/admin.php
+- προστέθηκε define('_PROFILE_AM_ACTION', 'Action');
+
+/modules/profile/language/english/modinfo.php
+- προστέθηκε define("_PROFILE_MI_ABOUT", "About");
+- προστέθηκε define("_PROFILE_MI_HOME", "Home");
+
+
+/modules/system/language/english/admin/preferences.php
+- διαγράφηκε define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_GENERAL","Γενικές ρυθμίσεις");
+- διαγράφηκε define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_USERSSETTINGS","Ρυθμίσεις πληροφοριών χρήστη");
+- deleted define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_METAFOOTER","Meta Tags και Footer");
+- διαγράφηκε define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_CENSOR","Επιλογές λογοκρισίας λέξεων");
+- διαγράφηκε define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_SEARCH","Επιλογές αναζήτησης");
+- διαγράφηκε define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_MAILER","Ρύθμιση email");
+- deleted define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_AUTHENTICATION","Επιλογές ελέγχου ταυτότητας");*/
+- ​​deleted define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_GENERAL","A faire");
+- διαγράφηκε define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_USERSSETTINGS","A faire");
+- deleted define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_METAFOOTER","A faire");
+- deleted define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_CENSOR","A faire");
+- deleted define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_SEARCH","A faire");
+- deleted define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_MAILER","A faire");
+- deleted define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_AUTHENTICATION","A faire");
+- διαγράφηκε define("_MD_AM_LOADINGIMG", "Εμφάνιση φόρτωσης... εικόνας?");
+- deleted define("_MD_AM_CHNGUTHEME", "Change all users' theme");
+
+/modules/system/language/english/admin/users.php
+- προστέθηκε define("_AM_SYSTEM_USERS_ACCEPT_EMAIL","Αποδοχή email από διαχειριστή");
+
+- deleted define("_AM_SYSTEM_USERS_NAV_MANAGER","Users Manager");
+- διαγράφηκε define("_AM_SYSTEM_USERS_USERPOST","Αναρτήσεις χρήστη");
+- διαγράφηκε define("_AM_SYSTEM_USERS_STORIES","Ιστορίες");
+- διαγράφηκε define("_AM_SYSTEM_USERS_COMMENTS","Σχόλια");
+- διαγράφηκε.
+- deleted define("_AM_SYSTEM_USERS_CNGTCOM","Δεν ήταν δυνατή η λήψη συνολικών σχολίων");
+- ​​deleted define("_AM_SYSTEM_USERS_CNGTST","Δεν ήταν δυνατή η λήψη συνολικών ιστοριών");
+- διαγράφηκε define("_AM_SYSTEM_USERS_LIST","List");
+- διαγράφηκε define("_AM_SYSTEM_USERS_USERPOST","Αναρτήσεις χρήστη");
+- διαγράφηκε define("_AM_SYSTEM_USERS_STORIES","Ιστορίες");
+- διαγράφηκε define("_AM_SYSTEM_USERS_COMMENTS","Σχόλια");
+- διαγράφηκε.
+- διαγράφηκε define("_AM_SYSTEM_USERS_CNGTCOM","Δεν ήταν δυνατή η λήψη όλων των σχολίων");
+- deleted define("_AM_SYSTEM_USERS_CNGTST","Δεν ήταν δυνατή η λήψη όλων των ιστοριών");
+- διαγράφηκε define("_AM_SYSTEM_USERS_LIST","List");
+
+xoops_lib/modules/protector/language/english/admin.php
+- προστέθηκε define("_AM_ADV_REGISTERGLOBALS2","και τοποθετήστε σε αυτό την παρακάτω γραμμή:");
+
+ΑΛΛΑΓΜΕΝΑ ΑΡΧΕΙΑ:
+
+/modules/system/language/english/admin/users.php (Mamba)/
+/language/english/mail_template/activated.tpl
+/language/english/mail_template/adminactivate.tpl
+/language/english/mail_template/lostpass1.tpl
+/language/english/mail_template/lostpass2.tpl
+/language/english/mail_template/register.tpl
+/language/english/mail_template/welcome.tpl
+/modules/system/language/english/admin/avatars.php
+/modules/system/language/english/admin/banners.php
+/modules/system/language/english/admin/blocksadmin.php
+/modules/system/language/english/admin/comments.php
+/modules/system/language/english/admin/preferences.php
+/modules/system/language/english/admin/userrank.php
+/modules/system/language/english/admin/users.php
+/modules/system/language/english/help/mailusers.html
+/modules/system/language/english/help/preferences.html
+/modules/system/language/english/admin.php
+/modules/system/language/english/blocks.php
+/modules/system/language/english/modinfo.php
+/modules/system/themes/default/language/english/admin.php
+/modules/system/themes/zetadigme/language/english/admin.php
+/themes/suico/language/english/main.php
+/themes/zetagenesis/language/english/main.php
+
+
+===============================
+2011/10/05: Έκδοση 2.5.4 Beta
+===============================
+- ενημερώθηκαν αρκετές αγγλικές μεταφράσεις (DCrussader/Mamba)
+- διαγραμμένη γλώσσα/αγγλικά/calendar.php _CAL_DEF_DATE_FORMAT
+- διαγραμμένη γλώσσα/αγγλικά/calendar.php _CAL_TT_DATE_FORMAT
+- διαγραμμένα modules/system/language/english/admin/users.php _AM_SYSTEM_USERS_NAV_MANAGER
+- διαγραμμένα modules/system/language/english/admin/preferences.php _MD_AM_LOADINGIMG
+- διαγραμμένα modules/system/language/english/admin/preferences.php _MD_AM_CHNGUTHEME
+- διαγραμμένες ενότητες/pm/language/english/admin/main.php _PM_RECEIVE, _PM_POST, _PM_READBOX, _PM_RSAVEBOX, _PM_SENTBOX, _PM_PSAVEBOX, _PM_SAVED, _PM_TOC
+- προστέθηκε /modules/profile/language/english/admin.php _PROFILE_AM_ACTION
+- προστέθηκε /modules/profile/language/english/main.php _PROFILE_MI_ABOUT
+- προστέθηκε /modules/profile/language/english/main.php _PROFILE_MI_HOME
+- προστέθηκε /modules/pm/language/english/modinfo.php _PM_MI_ABOUT
+- προστέθηκαν modules/system/language/english/admin/users.php _AM_SYSTEM_USERS_FACEBOOK, _AM_SYSTEM_USERS_SKYPE
+- προστέθηκε γλώσσα/αγγλικά/user.php _US_SKYPE, _US_FACEBOOK
+
+xoops_lib/modules/protector/language/english/modinfo.php
+- προστέθηκε ορισμός($constpref.'_STOPFORUMSPAM_ACTION','Διακοπή ανεπιθύμητου φόρουμ');
+- προστέθηκε define($constpref.'_STOPFORUMSPAM_ACTIONDSC','Ελέγχει τα δεδομένα POST έναντι των spammer που είναι εγγεγραμμένοι στη βάση δεδομένων www.stopforumspam.com. Απαιτεί php CURL lib.');
+
+
+
+===============================
+2011/09/06: Έκδοση 2.5.2 RC
+===============================
+ - προστέθηκε γλώσσα/αγγλικά/misc.php _MSC_CLICK_TO_OPEN_IMAGE, _MSC_RESIZED_IMAGE, _MSC_ORIGINAL_IMAGE
+ - προστέθηκε γλώσσα/αγγλικά/pmsg.php _PM_SURE_TO_DELETE, _PM_READ
+ - προστέθηκαν ενότητες/pm/language/english/admin/main.php _PM_READ, _PM_SUBJECT_ICONS
+ - modules\system/language/english/admin/tplsets.php _AM_SYSTEM_TEMPLATES_SET
+ - αφαιρέθηκαν modules/system/themes/default/language/english/admin/admin.php _OXYGEN_XOOPSENGINE
+ - αφαιρέθηκαν modules/system/language/english/admin/blocksadmin.php _AM_SYSTEM_BLOCKS_SAVE
+ - προστέθηκε γλώσσα/αγγλικά/calendar.php _CAL_DEF_DATE_FORMAT
+ - προστέθηκε γλώσσα/αγγλικά/calendar.php _CAL_TT_DATE_FORMAT
+
+===============================
+2011/03/15: Έκδοση 2.5.1 RC
+===============================
+
+Προστέθηκαν σταθερές γλώσσας:
+  modules/system/language/english/admin/images.php _AM_SYSTEM_IMAGES_URL
+  modules/system/themes/default/language/english/admin/admin.php _OXYGEN_XOOPSENGINE
+
+Τροποποιημένες σταθερές γλώσσας:
+  modules/system/themes/default/language/english/admin/admin.php _OXYGEN_ABOUT_TEXT, _OXYGEN_WEBSITE
+  modules/system/language/english/helper/help_center.html, modulesadmin.html
+
+Καταργήθηκαν σταθερές γλώσσας:
+  modules/system/themes/default/language/english/admin/admin.php _OXYGEN_XGIFTSHOP, _OXYGEN_XDONATIONS, _OXYGEN_XDONATIONS_TEXT, _OXYGEN_XDONATIONS_TEXT, _OXYGEN_KEY, _OXYGEN_XDONATIONS_TEXT, _OXYGEN_KEY, _OXYGEN_XDONATIONS_LIT _OXYGEN_POWERED_BY
+  modules/system/themes/default/language/english/admin/admin.php _OXYGEN_XGIFTSHOP, _OXYGEN_XDONATIONS, _OXYGEN_XDONATIONS_TEXT, _OXYGEN_XDONATIONS_TEXT, _OXYGEN_KEY, _OXYGEN_XDONATIONS_TEXT, _OXYGEN_KEY, _OXYGEN_XDONATIONS_LIT _OXYGEN_POWERED_BY

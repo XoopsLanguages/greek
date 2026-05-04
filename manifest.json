@@ -1,0 +1,31 @@
+{
+  "language": "greek",
+  "code": "el",
+  "name": "Greek",
+  "nativeName": "Ελληνικά",
+  "rtl": false,
+  "maintainers": [
+    "XoopsLanguages Team"
+  ],
+  "core": {
+    "2.0.16-utf8": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/greek/releases/download/latest/greek-core-2.0.16-utf8.zip"
+    },
+    "2.3.2_Missing": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/greek/releases/download/latest/greek-core-2.3.2_Missing.zip"
+    },
+    "2.7.0": {
+      "lifecycle": "active",
+      "coverage": 99.9,
+      "provided": 3094,
+      "required": 3098,
+      "updated": "2026-05-04",
+      "download": "https://github.com/XoopsLanguages/greek/releases/download/latest/greek-core-2.7.0.zip",
+      "manifest_url": "https://raw.githubusercontent.com/XoopsLanguages/greek/master/manifest.json"
+    }
+  },
+  "modules": {},
+  "themes": {}
+}
